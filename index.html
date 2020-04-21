@@ -2,8 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=false,initial-scale=1.0"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/sandstone/bootstrap.min.css"
@@ -16,51 +25,118 @@
     <title>Wanderlust</title>
   </head>
   <body>
-    <header class="container-fluid">
-      <div class="row">
-        <!--Logo-->
-        <div id="logo">
-          <h4></h4>
-        </div>
-        <!--Navigation-->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Wanderlust</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#welcome">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Reads</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tunes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nooks</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-      </div>
-    </header>
+    
+      <!--Logo-->
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
     <!--Page 1 section 1 Motto-->
-    <section id="motto">
-      <div class="container-fluid">
-        <h4>Read, Hear, Experience The World</h4>
+
+    <section class="container" style="max-width: 100%;">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+          <h1 class="display-4">Wanderlust</h1>
+          <p class="lead">Read, Hear, Experience your Journey</p>
+        </div>
       </div>
     </section>
 
-    <!--Page 1 section 2-->
-    <!--Page 1 section 3-->
-    <!--Page 1 section 4-->
+    <!--Page 1 section 2 What this website is about-->
+    <section class="container" style="max-width: 100%;">
+      <div class="card-deck">
+        <div class="card col-sm-12 col-md-4">
+          <img
+            class="card-img-top"
+            src="assets/bookshelf.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Reads</h5>
+            <p class="card-text">
+              Updated monthly our subscribers' picks for books that really wake
+              up your wanderlust, that desire to wander off the beaten track.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="assets/recordshelf.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tunes</h5>
+            <p class="card-text">
+              Wonderful tunes that really set the soundtrack to whatever route
+              you choose. Pick the coutry and submerge yourself in local tunes.
+              Selection updated every month.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="assets/bubble.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nooks</h5>
+            <p class="card-text">
+              When you are ready to book that dream destination, inspired by
+              reads and tunes, we have a selection of cozy and unique nooks for
+              you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--Page 1 section 3 Little bit about us-->
+
+    
+
+    <!--Page 1 section 4 Share us with your friends-->
+
+   
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
   </body>
 </html>
