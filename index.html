@@ -15,50 +15,59 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/sandstone/bootstrap.min.css"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Wanderlust</title>
+    <title>Vagabonds</title>
   </head>
   <body>
-    
-      <!--Logo-->
+    <!--Logo-->
 
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="sign-up"><button type="button" class="btn btn-info sign-in">Sign In / Sign Up</button></div>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reads</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tunes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nooks</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!--Page 1 section 1 Motto-->
 
-    <section class="container" style="max-width: 100%;">
+    <section class="container-fluid" style="max-width: 100%;">
       <div class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
-          <h1 class="display-4">Wanderlust</h1>
-          <p class="lead">Read, Hear, Experience your Journey</p>
+          <h1 class="display-4 text-center">Vagabonds</h1>
+          <hr class="medium-line" />
+          <p class="lead">read, hear, experience your Journey</p>
         </div>
       </div>
     </section>
@@ -66,7 +75,7 @@
     <!--Page 1 section 2 What this website is about-->
     <section class="container" style="max-width: 100%;">
       <div class="card-deck">
-        <div class="card col-sm-12 col-md-4">
+        <div class="card">
           <img
             class="card-img-top"
             src="assets/bookshelf.jpg"
@@ -74,6 +83,7 @@
           />
           <div class="card-body">
             <h5 class="card-title">Reads</h5>
+            <hr />
             <p class="card-text">
               Updated monthly our subscribers' picks for books that really wake
               up your wanderlust, that desire to wander off the beaten track.
@@ -88,6 +98,7 @@
           />
           <div class="card-body">
             <h5 class="card-title">Tunes</h5>
+            <hr />
             <p class="card-text">
               Wonderful tunes that really set the soundtrack to whatever route
               you choose. Pick the coutry and submerge yourself in local tunes.
@@ -103,6 +114,7 @@
           />
           <div class="card-body">
             <h5 class="card-title">Nooks</h5>
+            <hr />
             <p class="card-text">
               When you are ready to book that dream destination, inspired by
               reads and tunes, we have a selection of cozy and unique nooks for
@@ -113,15 +125,75 @@
       </div>
     </section>
 
-    <!--Page 1 section 3 Little bit about us-->
-
-    
-
     <!--Page 1 section 4 Share us with your friends-->
 
-   
+    <section class="for-sharing">
+      <div class="card mb-3">
+        <h4 class="share">Sharing is caring</h4>
+        <div class="card-body">
+          <div class="box-right text-center">
+            <ul class="socials">
+              <li>
+                <a target="_blank" href="#"
+                  ><i
+                    class="fab fa-facebook-square fa-3x"
+                    style="color: pink;"
+                  ></i></a
+                ><!--Format to square, add border radius, change to outline-->
+              </li>
+              <li>
+                <a target="_blank" href="#"
+                  ><i class="fab fa-twitter fa-3x" style="color: pink;"></i></a
+                ><!--MOVE INLINE STYLING TO CSS!!!-->
+              </li>
+              <li>
+                <a target="_blank" href="#"
+                  ><i class="fab fa-instagram fa-3x" style="color: pink;"></i
+                ></a>
+              </li>
+              <li>
+                <a target="_blank" href="#"
+                  ><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i
+                ></a>
+              </li>
+              <li>
+                <a target="_blank" href="#"
+                  ><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i
+                ></a>
+              </li>
+              <li>
+                <a target="_blank" href="#"
+                  ><i class="fab fa-pinterest fa-3x" style="color: pink;"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
+    <!--Footer-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm col-6 col-sm-3">
+            About
+          </div>
+          <div class="vl"></div>
+          <div class="col-sm col-6 col-sm-3">
+            Terms
+          </div>
+          <div class="vl"></div>
+          <div class="col-sm col-6 col-sm-3">
+            Privacy
+          </div>
+          <div class="vl"></div>
+          <div class="col-sm col-6 col-sm-3">
+            Contact Us
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -137,6 +209,5 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-
   </body>
 </html>

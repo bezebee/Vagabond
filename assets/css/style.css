@@ -1,5 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Peta|Beth+Ellen|Open+Sans&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body{
-    margin:0;
-    padding:0;
-    
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+/*Navigation styling*/
+
+ul li, .card-title{
+    font-family: "Lexend Peta";
+    font-size:17px;
+    text-transform: lowercase;
+}
+
+.sign-in{
+  font-family: "Lexend Peta";
+    font-size:15px;
+    text-transform: lowercase;  
+}
+
+/*Wanderlust Jumbotron*/
+section.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.display-4 {
+  font-family: "Lexend Peta";
+  text-transform: lowercase;
+  letter-spacing: 7px;
+  margin-bottom:3px;
+}
+
+.medium-line {
+  width: 40%;
+  margin: auto;
+}
+.lead {
+font-family: "Beth Ellen";
+  text-align: center;
+  font-size: 25px;
+  margin-top:3px;
+}
+
+/*Footer*/
+
+.share {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.socials {
+  padding-left: 0;
+}
+.socials li {
+  display: inline-block;
+  padding: 50px;
+}
+
+.vl {
+ 
+  height: 70px;
+  
+}
+
+.col-sm {
+  text-align: center;
+  margin-top:10px;
+}
+
+/*Media*/
+
+@media only screen and (max-width: 600px) {
+  /*Jumbotron paragraph and main title to fit within the jumbotron*/
+  .display-4 {
+    font-family: "Lexend Peta";
+    text-transform: lowercase;
+    letter-spacing: 7px;
+    font-size: 130%;
+  }
+
+  .medium-line {
+    width: 80%;
+    margin: auto;
+  }
+
+  .lead {
+    font-size: 68%;
+  }
+
+  /*Ensuring Social Media links display nicely and centered*/
+  .socials {
+    text-align: center;
+    padding-left: 0;
+  }
+  /*For mobile website reduced size of the social icons*/
+  .socials li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 50%;
+  }
+
+  .sign-in{
+  margin-top:10px; 
+}
 }
