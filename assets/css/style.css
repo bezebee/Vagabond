@@ -30,11 +30,13 @@ ul li,
 
 .sign-in:hover {
   background-color: rgb(117, 33, 33);
-
   color: pink;
 }
 
+
+
 /*Wanderlust Jumbotron*/
+
 section.container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -48,11 +50,12 @@ section.container-fluid {
   color: rgb(117, 33, 33);
 }
 
-.medium-line {
+hr.medium-line {
   width: 40%;
   margin: auto;
   color: rgb(117, 33, 33);
 }
+
 .lead {
   font-family: "Beth Ellen";
   text-align: center;
@@ -70,11 +73,14 @@ section.container-fluid {
 .share {
   text-align: center;
   margin-top: 45px;
+  margin-bottom:20px;
   font-size: 17px;
   text-transform: lowercase;
   font-family: "Lexend Peta";
   color: rgb(117, 33, 33);
 }
+
+
 
 .socials {
   padding-left: 0;
@@ -105,16 +111,55 @@ a:hover {
   color: rgb(117, 33, 33);
 }
 
-.copyright{
-    font-family: p22-hopper-edward, sans-serif;
-	font-weight: 500;
-	font-style: normal;
-    font-size:130%;
-      color: rgb(117, 33, 33);
-     
-	
+.copyright {
+  font-family: p22-hopper-edward, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 130%;
+}
+/*links decoration removal*/
+.display-4 a:link {
+  text-decoration: none;
+  color: rgb(117, 33, 33) !important;
 }
 
+.display-4 a:visited {
+  color: rgb(117, 33, 33) !important;
+  text-decoration: none;
+}
+.card-title a:link {
+  text-decoration: none;
+  color: rgb(117, 33, 33) !important;
+}
+
+.card-title a:visited {
+  color: rgb(117, 33, 33) !important;
+  text-decoration: none;
+}
+.col-sm a:link {
+  text-decoration: none;
+  color: rgb(117, 33, 33) !important;
+}
+
+.col-sm a:visited {
+  color: rgb(117, 33, 33) !important;
+  text-decoration: none;
+}
+.copyright a:link {
+  text-decoration: none;
+  color: rgb(117, 33, 33) !important;
+}
+
+.copyright a:visited {
+  color: rgb(117, 33, 33) !important;
+  text-decoration: none;
+}
+
+/*Removing borders*/
+
+.card{
+    border:0;
+}
 /*Media*/
 
 @media only screen and (max-width: 600px) {
