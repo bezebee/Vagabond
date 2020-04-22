@@ -16,22 +16,22 @@ ul li,
   font-family: "Lexend Peta";
   font-size: 17px;
   text-transform: lowercase;
-  color:rgb(117, 33, 33);
+  color: rgb(117, 33, 33);
 }
 
 .sign-in {
   font-family: "Lexend Peta";
   font-size: 15px;
   text-transform: lowercase;
-  background-color:rgb(117, 33, 33, 0.1);
+  background-color: rgb(117, 33, 33, 0.1);
   border: 1px solid rgb(117, 33, 33);
   color: rgb(117, 33, 33);
 }
 
-.sign-in:hover{
-  background-color:rgb(117, 33, 33);
+.sign-in:hover {
+  background-color: rgb(117, 33, 33);
 
-  color:pink;  
+  color: pink;
 }
 
 /*Wanderlust Jumbotron*/
@@ -45,24 +45,24 @@ section.container-fluid {
   text-transform: lowercase;
   letter-spacing: 7px;
   margin-bottom: 3px;
-  color:rgb(117, 33, 33);
+  color: rgb(117, 33, 33);
 }
 
 .medium-line {
   width: 40%;
   margin: auto;
-  color:rgb(117, 33, 33);
+  color: rgb(117, 33, 33);
 }
 .lead {
   font-family: "Beth Ellen";
   text-align: center;
   font-size: 25px;
   margin-top: 3px;
-  color:rgb(117, 33, 33);
+  color: rgb(117, 33, 33);
 }
 
-.jumbotron{
-    background-color: pink;
+.jumbotron {
+  background-color: pink;
 }
 
 /*Footer*/
@@ -73,7 +73,7 @@ section.container-fluid {
   font-size: 17px;
   text-transform: lowercase;
   font-family: "Lexend Peta";
-  color:rgb(117, 33, 33);
+  color: rgb(117, 33, 33);
 }
 
 .socials {
@@ -84,12 +84,12 @@ section.container-fluid {
   padding: 50px;
 }
 
-.socials li:hover{
-   text-shadow: 2px 3px 4px brown;  
+.socials li:hover {
+  text-shadow: 2px 3px 4px brown;
 }
 
-a:hover{
-     text-shadow: 2px 3px 4px brown; 
+a:hover {
+  text-shadow: 2px 3px 4px brown;
 }
 
 .vl {
@@ -102,7 +102,17 @@ a:hover{
   font-family: "Lexend Peta";
   font-size: 17px;
   text-transform: lowercase;
-  color:rgb(117, 33, 33);
+  color: rgb(117, 33, 33);
+}
+
+.copyright{
+    font-family: p22-hopper-edward, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    font-size:130%;
+      color: rgb(117, 33, 33);
+     
+	
 }
 
 /*Media*/
