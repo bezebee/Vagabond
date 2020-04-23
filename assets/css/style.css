@@ -9,6 +9,13 @@ body {
   font-family: "Open Sans";
   font-size: 20px;
 }
+
+/*Cursor*/
+
+i, li{
+            cursor: pointer;
+        }
+
 /*Navigation styling*/
 
 ul li,
@@ -157,11 +164,30 @@ a:hover {
 
 /*Removing borders*/
 
-.card{
-    border:0;
-}
 
 /*Reads*/
+
+.card{
+    margin-bottom:15px;
+    width: 286px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.card-body{
+    padding-top:0;
+}
+
+.card-title{
+    padding-top:15px;
+}
+
+.summary{
+    margin-top:0;
+    margin-bottom:9px;
+}
+
+
 
 
 
