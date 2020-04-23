@@ -187,6 +187,13 @@ a:hover {
     margin-bottom:9px;
 }
 
+/*Map*/
+
+div#map {
+        min-height: 360px;
+      }
+      
+
 
 
 
