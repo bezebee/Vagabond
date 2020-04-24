@@ -13,5 +13,6 @@
       "**/CVS": true,
       "**/.DS_Store": true,
       "**/.theia": true,
-   }
+},
+"python.pythonPath": "/home/gitpod/.pyenv/shims/python"
 }
