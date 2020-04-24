@@ -443,8 +443,32 @@
             />
             <div class="card-body">
               <h5 class="card-title">
-                Russia <i class="fas fa-map-marker-alt"></i>
+                Russia <i class="fas fa-map-marker-alt russia" data-toggle="modal" data-target="#Russia"
+                  data-lat="60.1282" data-long="18.6435"></i>
               </h5>
+<!--Russia modal-->
+              <div class="modal fade" id="Russia" tabindex="-1" role="dialog" aria-labelledby="RussiaLabel"
+                aria-hidden="true" data-lat="60.1282" data-long="18.6435">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="RussiaLabel">
+                        See, where the book will take you</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div id="russia"></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn sign-in save" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -481,8 +505,32 @@
             />
             <div class="card-body">
               <h5 class="card-title">
-                China <i class="fas fa-map-marker-alt"></i>
+                China <i class="fas fa-map-marker-alt china" data-toggle="modal" data-target="#China"
+                  data-lat="35.8617" data-long="104.1954"></i>
               </h5>
+<!--China modal-->
+              <div class="modal fade" id="China" tabindex="-1" role="dialog" aria-labelledby="ChinaLabel"
+                aria-hidden="true" data-lat="35.8617" data-long="104.1954">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ChinaLabel">
+                        See, where the book will take you</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div id="china"></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn sign-in save" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -536,7 +584,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <div id="map"></div>
+                      <div id="sweden"></div>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn sign-in save" data-dismiss="modal">
