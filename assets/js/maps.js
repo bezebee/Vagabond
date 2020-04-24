@@ -244,7 +244,6 @@ function initMap5() {
 
 //Iceland map
 
-
 var markers6 = [
   {
     Coord1: 64.1335484,
@@ -301,7 +300,7 @@ var markers7 = [
 ];
 
 function initMap7() {
-  var latlng = new google.maps.LatLng(53.3244431, -6.3857857); 
+  var latlng = new google.maps.LatLng(53.3244431, -6.3857857);
   var myOptions = {
     zoom: 4,
     center: latlng,
@@ -348,7 +347,7 @@ var markers8 = [
 ];
 
 function initMap8() {
-  var latlng = new google.maps.LatLng(35.6684415, 139.6007843); 
+  var latlng = new google.maps.LatLng(35.6684415, 139.6007843);
   var myOptions = {
     zoom: 4,
     center: latlng,
@@ -395,7 +394,7 @@ var markers9 = [
 ];
 
 function initMap9() {
-  var latlng = new google.maps.LatLng(-5.7379831, -64.1876637); 
+  var latlng = new google.maps.LatLng(-5.7379831, -64.1876637);
   var myOptions = {
     zoom: 4,
     center: latlng,
@@ -403,7 +402,10 @@ function initMap9() {
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("latinamerica"), myOptions);
+  var map = new google.maps.Map(
+    document.getElementById("latinamerica"),
+    myOptions
+  );
   var infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
@@ -442,7 +444,7 @@ var markers10 = [
 ];
 
 function initMap10() {
-  var latlng = new google.maps.LatLng(40.6971494,-74.2598655); 
+  var latlng = new google.maps.LatLng(40.6971494, -74.2598655);
   var myOptions = {
     zoom: 4,
     center: latlng,
@@ -478,8 +480,6 @@ function initMap10() {
   }
 }
 
-
-
 //Russia
 
 var markers11 = [
@@ -491,7 +491,7 @@ var markers11 = [
 ];
 
 function initMap11() {
-  var latlng = new google.maps.LatLng(55.5815245,36.8251381); 
+  var latlng = new google.maps.LatLng(55.5815245, 36.8251381);
   var myOptions = {
     zoom: 4,
     center: latlng,
@@ -527,7 +527,6 @@ function initMap11() {
   }
 }
 
-
 //China
 
 var markers12 = [
@@ -539,7 +538,7 @@ var markers12 = [
 ];
 
 function initMap12() {
-  var latlng = new google.maps.LatLng(39.9390731,116.1172782); 
+  var latlng = new google.maps.LatLng(39.9390731, 116.1172782);
   var myOptions = {
     zoom: 4,
     center: latlng,
@@ -575,7 +574,6 @@ function initMap12() {
   }
 }
 
-
 //Sweden
 
 var markers13 = [
@@ -587,7 +585,7 @@ var markers13 = [
 ];
 
 function initMap13() {
-  var latlng = new google.maps.LatLng(59.326242,17.8419717); 
+  var latlng = new google.maps.LatLng(59.326242, 17.8419717);
   var myOptions = {
     zoom: 4,
     center: latlng,
@@ -621,4 +619,4 @@ function initMap13() {
       }.bind(marker)
     );
   }
-}           
+}
