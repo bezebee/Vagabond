@@ -23,11 +23,12 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Vagabonds</title>
   </head>
+
   <body>
     <!--Logo-->
 
     <!-- ??? -->
-    <!--Navigation-->
+    <!-----------------------------------------Navigation-------------------------------------------------->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <button
@@ -42,10 +43,53 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
+        <!--Sign up button to modal-->
         <div class="sign-up">
-          <button type="button" class="btn sign-in">
+          <button
+            type="button"
+            class="btn sign-in register"
+            data-toggle="modal"
+            data-target="#myModal"
+          >
             Register
           </button>
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header-register">
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                </div>
+                <div class="modal-body">
+                 <!---Register for weekly updates--> 
+
+
+
+<form action="/action_page.php" class="text-center register-form">
+  <div class="container">
+    <h4>Subscribe to our Newsletter</h4>
+    <p>We only send updates once a week, when a new selection of books, tunes and unique nooks are picked</p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    
+  </div>
+
+  <div class="container" >
+    <input type="submit" value="Subscribe" >
+  </div>
+</form>
+
+                <!--End of registration form-->
+
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -66,7 +110,7 @@
       </div>
     </nav>
 
-    <!--Motto-->
+    <!-----------------------------------------------Motto------------------------------------------------>
 
     <section class="container-fluid" style="max-width: 100%;">
       <div class="jumbotron jumbotron-fluid">
@@ -81,11 +125,11 @@
       </div>
     </section>
 
-    <!--Recommendations selection-->
+    <!---------------------------------------------Recommendations selection---------------------------------------------->
     <section class="books">
-      <!--Row 1-->
+      <!-------------Row 1----------------------------------->
       <div class="row">
-        <!--Afganistan-->
+        <!-----------------------------Afganistan---------------------------------------->
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -97,14 +141,17 @@
               <h5 class="card-title">
                 Afganistan
                 <i
-                  class="fas fa-map-marker-alt afganistan"
+                  class="fas fa-globe-americas afganistan"
                   data-toggle="modal"
                   data-target="#Afganistan"
                   data-lat="33.9391"
                   data-long="67.7100"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--Afganistan modal-->
+              <!----------------Afganistan modal---------------------->
               <div
                 class="modal fade"
                 id="Afganistan"
@@ -139,6 +186,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/afghanistan');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -150,24 +209,27 @@
                 </div>
               </div>
               <p class="card-text">
-                A gripping and emotional story of betrayal and redemption, The
-                Kite Runner had me thrilled and moved, both at the same time.
+                "A gripping and emotional story of betrayal and redemption, The
+                Kite Runner had me thrilled and moved, both at the same time."
               </p>
+              <p><small>The Guardian</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
+            <div
+              class="card-body card-body d-flex align-items-center justify-content-center buttons"
+            >
               <div class="sign-up">
-                <button type="button" class="btn sign-in summary">
-                  <a
-                    href="https://www.theguardian.com/childrens-books-site/2014/jul/30/review-khaled-hosseini-the-kite-runner"
-                    target="_blank"
-                  >
-                    Read full review</a
-                  >
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.theguardian.com/childrens-books-site/2014/jul/30/review-khaled-hosseini-the-kite-runner');"
+                >
+                  Read full review
                 </button>
               </div>
               <a
-                href="false"
+                href="https://www.amazon.co.uk/Kite-Runner-Khaled-Hosseini-ebook/dp/B00B0CR0O6"
                 target="_blank"
                 class="kindle"
                 rel="noopener noreferrer"
@@ -178,7 +240,7 @@
             </div>
           </div>
         </div>
-        <!--Colombia-->
+        <!----------------------------------------------Colombia------------------------------------------------------->
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -190,14 +252,17 @@
               <h5 class="card-title">
                 Colombia
                 <i
-                  class="fas fa-map-marker-alt colombia"
+                  class="fas fa-globe-americas colombia"
                   data-toggle="modal"
                   data-target="#Colombia"
                   data-lat="4.6482837"
                   data-long="-74.2478945"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--Colombia modal-->
+              <!----------------Colombia modal-------------------->
               <div
                 class="modal fade"
                 id="Colombia"
@@ -232,6 +297,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/colombia');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -243,37 +320,38 @@
                 </div>
               </div>
               <p class="card-text">
-                It is a fully mature novel in scope and perspective, flawlessly
-                translated, as rich in ideas as in humanity.
+                "It is a fully mature novel in scope and perspective, flawlessly
+                translated, as rich in ideas as in humanity."
               </p>
+              <p><small>Publishers Weekly</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    <a
-                      href="https://www.publishersweekly.com/978-0-394-56161-5"
-                      target="_blank"
-                    >
-                      Read full review</a
-                    >
-                  </button>
-                </div>
-                <a
-                  href="false"
-                  target="_blank"
-                  class="kindle"
-                  rel="noopener noreferrer"
-                  style="border: none; text-decoration: none;"
-                  ><img
-                    src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                /></a>
+            <div
+              class="card-body card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.publishersweekly.com/978-0-394-56161-5');"
+                >
+                  Read full review
+                </button>
               </div>
+              <a
+                href="https://www.amazon.co.uk/Love-Time-Cholera-Marquez-2014-ebook/dp/B00HVPSXQA"
+                target="_blank"
+                class="kindle"
+                rel="noopener noreferrer"
+                style="border: none; text-decoration: none;"
+                ><img
+                  src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+              /></a>
             </div>
           </div>
         </div>
-        <!--Germany and France-->
+        <!-----------------------------------------Germany and France------------------------------------------------->
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -285,23 +363,29 @@
               <h5 class="card-title">
                 Germany
                 <i
-                  class="fas fa-map-marker-alt germany"
+                  class="fas fa-globe-americas germany"
                   data-toggle="modal"
                   data-target="#Germany"
                   data-lat="51.1657"
                   data-long="10.4515"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
                 <br />France
                 <i
-                  class="fas fa-map-marker-alt france"
+                  class="fas fa-globe-americas france"
                   data-toggle="modal"
                   data-target="#France"
                   data-lat="48.8589507"
                   data-long="2.2770204"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
 
-              <!--Germany modal-->
+              <!---------------------Germany modal---------------------->
               <div
                 class="modal fade"
                 id="Germany"
@@ -336,6 +420,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/germany');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -346,7 +442,7 @@
                   </div>
                 </div>
               </div>
-              <!--France modal-->
+              <!----------------------------France modal-------------------->
               <div
                 class="modal fade"
                 id="France"
@@ -381,6 +477,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/france');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -392,38 +500,39 @@
                 </div>
               </div>
               <p class="card-text">
-                I must blame Anthony Doerr for lost sleep, because once I
+                "I must blame Anthony Doerr for lost sleep, because once I
                 started reading his new novel, “All the Light We Cannot See,”
-                there was no putting it down.
+                there was no putting it down."
               </p>
+              <p><small>The New York Times</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    <a
-                      href="https://www.nytimes.com/2014/05/11/books/review/all-the-light-we-cannot-see-by-anthony-doerr.html"
-                      target="_blank"
-                    >
-                      Read full review</a
-                    >
-                  </button>
-                </div>
-                <a
-                  href="false"
-                  target="_blank"
-                  class="kindle"
-                  rel="noopener noreferrer"
-                  style="border: none; text-decoration: none;"
-                  ><img
-                    src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                /></a>
+            <div
+              class="card-body card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.nytimes.com/2014/05/11/books/review/all-the-light-we-cannot-see-by-anthony-doerr.html');"
+                >
+                  Read full review
+                </button>
               </div>
+              <a
+                href="https://www.amazon.co.uk/All-Light-We-Cannot-See-ebook/dp/B00G1TOJ7Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+                target="_blank"
+                class="kindle"
+                rel="noopener noreferrer"
+                style="border: none; text-decoration: none;"
+                ><img
+                  src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+              /></a>
             </div>
           </div>
         </div>
-        <!--Ghana-->
+        <!--------------------------------------------------Ghana------------------------------------------------>
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -435,14 +544,17 @@
               <h5 class="card-title">
                 Ghana
                 <i
-                  class="fas fa-map-marker-alt ghana"
+                  class="fas fa-globe-americas ghana"
                   data-toggle="modal"
                   data-target="#Ghana"
                   data-lat="6.690251"
                   data-long="-1.6861462"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--Ghana modal-->
+              <!----------------Ghana modal------------------------>
               <div
                 class="modal fade"
                 id="Ghana"
@@ -477,6 +589,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/ghana');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -488,28 +612,35 @@
                 </div>
               </div>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                "This ambitious form and Gyasi’s determination to scrutinize the
+                participation of West Africans in the Atlantic slave trade are
+                the novel’s chief strengths."
               </p>
+              <p><small>The New Yorker</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    Summary
-                  </button>
-                </div>
-                <a
-                  href="false"
-                  target="_blank"
-                  class="kindle"
-                  rel="noopener noreferrer"
-                  style="border: none; text-decoration: none;"
-                  ><img
-                    src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                /></a>
+            <div
+              class="card-body card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.newyorker.com/magazine/2016/05/30/yaa-gyasis-homegoing');"
+                >
+                  read full review
+                </button>
               </div>
+              <a
+                href="https://www.amazon.co.uk/Homegoing-Yaa-Gyasi-ebook/dp/B019GF5YH8"
+                target="_blank"
+                class="kindle"
+                rel="noopener noreferrer"
+                style="border: none; text-decoration: none;"
+                ><img
+                  src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+              /></a>
             </div>
           </div>
         </div>
@@ -517,7 +648,7 @@
 
       <!--Row 2-->
       <div class="row">
-        <!--Iceland-->
+        <!--------------------------------------------------------Iceland---------------------------------------------->
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -529,14 +660,17 @@
               <h5 class="card-title">
                 Iceland
                 <i
-                  class="fas fa-map-marker-alt iceland"
+                  class="fas fa-globe-americas iceland"
                   data-toggle="modal"
                   data-target="#Iceland"
                   data-lat="64.1335484,"
                   data-long="-21.9224813,"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--Iceland modal-->
+              <!-------------------Iceland modal------------------------>
               <div
                 class="modal fade"
                 id="Iceland"
@@ -571,6 +705,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/iceland');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -582,32 +728,40 @@
                 </div>
               </div>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                "The distinction between "Icelander" and "foreigner" is very
+                clear in Icelanders' minds. Though the title mentions the sea,
+                the book is a refreshing antidote to
+                wrestling-with-the-landscape travel writing."
               </p>
+              <p><small>The Guardian</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    Summary
-                  </button>
-                </div>
-                <a
-                  href="false"
-                  target="_blank"
-                  class="kindle"
-                  rel="noopener noreferrer"
-                  style="border: none; text-decoration: none;"
-                  ><img
-                    src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                /></a>
+            <div
+              class="card-body card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.theguardian.com/books/2012/nov/02/sea-iceland-sarah-moss-review');"
+                >
+                  read full review
+                </button>
               </div>
+              <a
+                href="https://www.amazon.co.uk/Names-Sea-Strangers-Sarah-Moss-ebook/dp/B008F8GF3U"
+                target="_blank"
+                class="kindle"
+                rel="noopener noreferrer"
+                style="border: none; text-decoration: none;"
+                ><img
+                  src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+              /></a>
             </div>
           </div>
         </div>
-        <!--Ireland-->
+        <!-------------------------------------------Ireland----------------------------------------------------->
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -619,14 +773,17 @@
               <h5 class="card-title">
                 Ireland
                 <i
-                  class="fas fa-map-marker-alt ireland"
+                  class="fas fa-globe-americas ireland"
                   data-toggle="modal"
                   data-target="#Ireland"
                   data-lat="53.3244431"
                   data-long="-6.3857857"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--Ireland modal-->
+              <!----------------------Ireland modal-------------->
               <div
                 class="modal fade"
                 id="Ireland"
@@ -661,6 +818,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/ireland');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -672,32 +841,40 @@
                 </div>
               </div>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                "Over the course of its 150-odd pages, Donal Ryan’s first novel
+                introduces us to no fewer than 21 narrators living in or around
+                the same small town in the west of Ireland. One by one, they
+                reflect on their lives, past and present."
               </p>
+              <p><small>Spectator</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    Summary
-                  </button>
-                </div>
-                <a
-                  href="false"
-                  target="_blank"
-                  class="kindle"
-                  rel="noopener noreferrer"
-                  style="border: none; text-decoration: none;"
-                  ><img
-                    src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                /></a>
+            <div
+              class="card-body card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.spectator.co.uk/article/the-spinning-heart-by-donal-ryan---review');"
+                >
+                  read full review
+                </button>
               </div>
+              <a
+                href="https://www.amazon.co.uk/Spinning-Heart-Donal-Ryan-ebook/dp/B009NH74EG/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+                target="_blank"
+                class="kindle"
+                rel="noopener noreferrer"
+                style="border: none; text-decoration: none;"
+                ><img
+                  src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+              /></a>
             </div>
           </div>
         </div>
-        <!--Japan-->
+        <!-----------------------------------------------Japan---------------------------------------------------->
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -709,14 +886,17 @@
               <h5 class="card-title">
                 Japan
                 <i
-                  class="fas fa-map-marker-alt japan"
+                  class="fas fa-globe-americas japan"
                   data-toggle="modal"
                   data-target="#Japan"
                   data-lat="35.6684415"
                   data-long="139.6007843"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--Japan modal-->
+              <!--------------Japan modal-------------------->
               <div
                 class="modal fade"
                 id="Japan"
@@ -751,6 +931,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/japan');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -762,32 +954,40 @@
                 </div>
               </div>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                "The fictional Sayuri, based on Golden's voluminous researc,
+                presents an illuminating portrait of a culture too often
+                mistakenly considered synonymous with prostitution by
+                outsiders."
               </p>
+              <p><small>BookPage</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    Summary
-                  </button>
-                </div>
-                <a
-                  href="false"
-                  target="_blank"
-                  class="kindle"
-                  rel="noopener noreferrer"
-                  style="border: none; text-decoration: none;"
-                  ><img
-                    src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                /></a>
+            <div
+              class="card-body card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://bookpage.com/reviews/18611-arthur-golden-channeling-another-voice-provocative-debut-fiction#.XqQeQmhKiUk');"
+                >
+                  read full review
+                </button>
               </div>
+              <a
+                href="https://www.amazon.co.uk/Memoirs-Geisha-Vintage-Anniv-Editions-ebook/dp/B0031RSAJC"
+                target="_blank"
+                class="kindle"
+                rel="noopener noreferrer"
+                style="border: none; text-decoration: none;"
+                ><img
+                  src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+              /></a>
             </div>
           </div>
         </div>
-        <!--Latin America-->
+        <!------------------------------------------Latin America------------------------------------------------>
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -799,14 +999,17 @@
               <h5 class="card-title">
                 Latin America
                 <i
-                  class="fas fa-map-marker-alt latin-america"
+                  class="fas fa-globe-americas latin-america"
                   data-toggle="modal"
                   data-target="#latin-america"
                   data-lat="-5.7379831"
                   data-long="-64.1876637"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--Latin America modal-->
+              <!-----------------------Latin America modal--------------------------->
               <div
                 class="modal fade"
                 id="latin-america"
@@ -841,6 +1044,19 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/south-america');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        />
+                      </button>
+                      <button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -852,28 +1068,35 @@
                 </div>
               </div>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                "Reading Che’s memories made me realise travelling changes us
+                more than we think. It helps make us better people and more
+                tolerant of others"
               </p>
+              <p><small>The Travel Magazine</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    Summary
-                  </button>
-                </div>
-                <a
-                  href="false"
-                  target="_blank"
-                  class="kindle"
-                  rel="noopener noreferrer"
-                  style="border: none; text-decoration: none;"
-                  ><img
-                    src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                /></a>
+            <div
+              class="card-body card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.thetravelmagazine.net/book-review-motorcycle-diaries-by-che-guevara.html');"
+                >
+                  read full review
+                </button>
               </div>
+              <a
+                href="https://www.amazon.co.uk/Motorcycle-Diaries-Notes-American-Journey-ebook/dp/B006T3MBPY/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+                target="_blank"
+                class="kindle"
+                rel="noopener noreferrer"
+                style="border: none; text-decoration: none;"
+                ><img
+                  src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+              /></a>
             </div>
           </div>
         </div>
@@ -881,7 +1104,7 @@
       <!--Row 3-->
 
       <div class="row">
-        <!--New York-->
+        <!-----------------------------------------------------New York------------------------------------------>
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -889,18 +1112,21 @@
               src="assets/books/newyork.jpg"
               alt="Card image cap"
             />
-            <div class="card-body">
+            <div class="card-body" style="height: 100%;">
               <h5 class="card-title">
                 New York
                 <i
-                  class="fas fa-map-marker-alt newyork"
+                  class="fas fa-globe-americas newyork"
                   data-toggle="modal"
                   data-target="#NewYork"
                   data-lat="40.6971494"
                   data-long="-74.2598655"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--NewYork modal-->
+              <!----------------------New York modal-------------------->
               <div
                 class="modal fade"
                 id="NewYork"
@@ -935,6 +1161,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/usa/new-york-city');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -946,32 +1184,38 @@
                 </div>
               </div>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                "Plot and character and fine prose can take you far – but a
+                novel this good makes you want to go even further. "
               </p>
+              <p><small>The Guardian</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    Summary
-                  </button>
-                </div>
-                <a
-                  href="false"
-                  target="_blank"
-                  class="kindle"
-                  rel="noopener noreferrer"
-                  style="border: none; text-decoration: none;"
-                  ><img
-                    src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                /></a>
+            <div
+              class="card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.theguardian.com/books/2013/oct/17/goldfinch-donna-tartt-review');"
+                >
+                  read full review
+                </button>
               </div>
+              <a
+                href="https://www.amazon.co.uk/Goldfinch-Donna-Tartt-ebook/dp/B00C74SHRK"
+                target="_blank"
+                class="kindle"
+                rel="noopener noreferrer"
+                style="border: none; text-decoration: none;"
+                ><img
+                  src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+              /></a>
             </div>
           </div>
         </div>
-        <!--Russia-->
+        <!------------------------------------------------Russia----------------------------------------------------------->
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -979,18 +1223,21 @@
               src="assets/books/russia.jpg"
               alt="Card image cap"
             />
-            <div class="card-body">
+            <div class="card-body" style="height: 100%;">
               <h5 class="card-title">
                 Russia
                 <i
-                  class="fas fa-map-marker-alt russia"
+                  class="fas fa-globe-americas russia"
                   data-toggle="modal"
                   data-target="#Russia"
                   data-lat="55.5815245"
                   data-long="36.8251381"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--Russia modal-->
+              <!----------------Russia modal----------->
               <div
                 class="modal fade"
                 id="Russia"
@@ -1025,6 +1272,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/russia');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -1036,32 +1295,37 @@
                 </div>
               </div>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                "To Tolstoy the city is a static, artificial place..."
               </p>
+              <p><small>The Guardian</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    Summary
-                  </button>
-                </div>
-                <a
-                  href="false"
-                  target="_blank"
-                  class="kindle"
-                  rel="noopener noreferrer"
-                  style="border: none; text-decoration: none;"
-                  ><img
-                    src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                /></a>
+            <div
+              class="card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.theguardian.com/books/2012/aug/31/rereading-anna-karenina-james-meek');"
+                >
+                  read full review
+                </button>
               </div>
+              <a
+                href="https://www.amazon.co.uk/Anna-Karenina-Leo-Tolstoy-ebook/dp/B008HSEEKO"
+                target="_blank"
+                class="kindle"
+                rel="noopener noreferrer"
+                style="border: none; text-decoration: none;"
+                ><img
+                  src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+              /></a>
             </div>
           </div>
         </div>
-        <!--China-->
+        <!-----------------------------------------------------------China-------------------------------------------------->
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -1069,18 +1333,21 @@
               src="assets/books/china.jpg"
               alt="Card image cap"
             />
-            <div class="card-body">
+            <div class="card-body" style="height: 100%;">
               <h5 class="card-title">
                 China
                 <i
-                  class="fas fa-map-marker-alt china"
+                  class="fas fa-globe-americas china"
                   data-toggle="modal"
                   data-target="#China"
                   data-lat="39.9390731"
                   data-long="116.1172782"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--China modal-->
+              <!---------------China modal----------------->
               <div
                 class="modal fade"
                 id="China"
@@ -1115,6 +1382,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/china');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -1126,32 +1405,38 @@
                 </div>
               </div>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                "...this novel has bestseller potential and should become a
+                reading group favorite as well."
               </p>
+              <p><small>Publishers Weekly</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    Summary
-                  </button>
-                </div>
-                <a
-                  href="false"
-                  target="_blank"
-                  class="kindle"
-                  rel="noopener noreferrer"
-                  style="border: none; text-decoration: none;"
-                  ><img
-                    src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                /></a>
+            <div
+              class="card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.publishersweekly.com/978-1-4000-6028-3');"
+                >
+                  read full review
+                </button>
               </div>
+              <a
+                href="https://www.amazon.co.uk/Snow-Flower-Secret-Fan-Lisa-ebook/dp/B003E20ZO2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+                target="_blank"
+                class="kindle"
+                rel="noopener noreferrer"
+                style="border: none; text-decoration: none;"
+                ><img
+                  src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+              /></a>
             </div>
           </div>
         </div>
-        <!--Sweden-->
+        <!----------------------------------------------------Sweden---------------------------------------------------->
         <div class="col d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img
@@ -1159,18 +1444,21 @@
               src="assets/books/sweden.jpg"
               alt="Card image cap"
             />
-            <div class="card-body">
+            <div class="card-body" style="height: 100%;">
               <h5 class="card-title">
                 sweden
                 <i
-                  class="fas fa-map-marker-alt sweden"
+                  class="fas fa-globe-americas sweden"
                   data-toggle="modal"
                   data-target="#Sweden"
                   data-lat="59.326242"
                   data-long="17.8419717"
-                ></i>
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
               </h5>
-              <!--Sweden modal-->
+              <!-------------------------Sweden modal--------------------->
               <div
                 class="modal fade"
                 id="Sweden"
@@ -1205,6 +1493,18 @@
                     </div>
                     <div class="modal-footer">
                       <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/sweden');"
+                      >
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
                         type="button"
                         class="btn sign-in save"
                         data-dismiss="modal"
@@ -1217,20 +1517,27 @@
               </div>
 
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                "We get a taste of urban Swedish life, in this novel..."
               </p>
+              <p><small>Wordfest</small></p>
+              <br /><br />
             </div>
 
-            <div class="card-body">
-              <div class="card-body">
-                <div class="sign-up">
-                  <button type="button" class="btn sign-in summary">
-                    Summary
-                  </button>
-                </div>
+            <div
+              class="card-body d-flex align-items-center justify-content-center buttons"
+            >
+              <div class="sign-up">
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://wordfest.com/news/review-of-a-man-called-ove-by-fredrik-backman/');"
+                >
+                  read full review
+                </button>
+              </div>
+              <div class="kindle">
                 <a
-                  href="false"
+                  href="https://www.amazon.co.uk/Man-Called-Ove-life-affirming-bestseller-ebook/dp/B00IORP664"
                   target="_blank"
                   class="kindle"
                   rel="noopener noreferrer"
@@ -1245,7 +1552,7 @@
       </div>
     </section>
 
-    <!--Share us with your friends-->
+    <!-----------------------------Share us with your friends------------------------------>
 
     <section class="for-sharing">
       <h4 class="share">Sharing is caring</h4>
@@ -1254,35 +1561,43 @@
       <div class="box-right text-center">
         <ul class="socials">
           <li>
-            <a target="_blank" href="#"
-              ><i
-                class="fab fa-facebook-square fa-3x"
-                style="color: pink;"
-              ></i></a
-            ><!--Format to square, add border radius, change to outline-->
+            <a
+              target="_blank"
+              href="https://www.facebook.com/sharer/sharer.php?u=https%3A//bezebee.github.io/Beeing-About/"
+            >
+              <i class="fab fa-facebook-square fa-3x" style="color: pink;"></i
+            ></a>
           </li>
           <li>
-            <a target="_blank" href="#"
+            <a
+              target="_blank"
+              href="https://twitter.com/intent/tweet?text=https%3A//bezebee.github.io/Beeing-About/"
               ><i class="fab fa-twitter fa-3x" style="color: pink;"></i
             ></a>
           </li>
           <li>
-            <a target="_blank" href="#"
+            <a target="_blank" href="https://www.instagram.com/beeing_about/"
               ><i class="fab fa-instagram fa-3x" style="color: pink;"></i
             ></a>
           </li>
           <li>
-            <a target="_blank" href="#"
+            <a
+              target="_blank"
+              href="http://reddit.com/submit?url=bezebee.github.io%2FBeeing-About"
               ><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i
             ></a>
           </li>
           <li>
-            <a target="_blank" href="#"
+            <a
+              target="_blank"
+              href="http://www.stumbleupon.com/submit?url=bezebee.github.io%2FBeeing-About"
               ><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i
             ></a>
           </li>
           <li>
-            <a target="_blank" href="#"
+            <a
+              target="_blank"
+              href="https://pinterest.com/pin/create/bookmarklet/?url=bezebee.github.io%2FBeeing-About"
               ><i class="fab fa-pinterest fa-3x" style="color: pink;"></i
             ></a>
           </li>
@@ -1290,7 +1605,7 @@
       </div>
     </section>
 
-    <!--Footer-->
+    <!------------------------------------------Footer----------------------------------------------->
     <footer>
       <div class="container">
         <div class="row">
@@ -1330,7 +1645,7 @@
     ></script>
 
     <script src="assets/js/maps.js"></script>
-
+    <script src="assets/js/main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

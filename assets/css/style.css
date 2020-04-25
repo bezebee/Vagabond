@@ -12,9 +12,10 @@ body {
 
 /*Cursor*/
 
-i, li{
-            cursor: pointer;
-        }
+i,
+li {
+  cursor: pointer;
+}
 
 /*Navigation styling*/
 
@@ -40,7 +41,67 @@ ul li,
   color: pink;
 }
 
+/*Sign up for weekly newsletter - adapted from w3school*/
 
+
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: "Lexend Peta";
+  text-transform: lowercase;
+}
+
+.container {
+  padding: 10px;
+  
+  width:80%;
+  margin-left: auto;
+  margin-right:auto;
+  
+}
+
+input[type=text], input[type=submit] {
+  width: 90%;
+  padding: 8px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: rgb(117, 33, 33);
+  color: pink;
+ 
+  font-family: "Lexend Peta";
+  text-transform: lowercase;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+/*Modal style*/
+
+.modal-header-register{
+    padding-top:0px;
+    padding-bottom:0px;
+    border-bottom-width:0px;
+}
+
+.register-form p{
+    margin-top:20px;
+}
+
+button.close{
+    padding:10px 20px 0 20px;
+}
+/*End of form*/
 
 /*Wanderlust Jumbotron*/
 
@@ -48,6 +109,7 @@ section.container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
+
 
 .display-4 {
   font-family: "Lexend Peta";
@@ -80,14 +142,12 @@ hr.medium-line {
 .share {
   text-align: center;
   margin-top: 45px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   font-size: 17px;
   text-transform: lowercase;
   font-family: "Lexend Peta";
   color: rgb(117, 33, 33);
 }
-
-
 
 .socials {
   padding-left: 0;
@@ -134,6 +194,16 @@ a:hover {
   color: rgb(117, 33, 33) !important;
   text-decoration: none;
 }
+
+.card-body a:link {
+  text-decoration: none;
+  color: rgb(117, 33, 33) !important;
+}
+
+.card-body a:visited {
+  color: rgb(117, 33, 33) !important;
+  text-decoration: none;
+}
 .card-title a:link {
   text-decoration: none;
   color: rgb(117, 33, 33) !important;
@@ -164,38 +234,87 @@ a:hover {
 
 /*Removing borders*/
 
-
 /*Reads*/
 
-.card{
-    margin-bottom:15px;
-    width: 286px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.card {
+  margin-bottom: 15px;
+  width: 286px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 }
 
-.card-body{
-    padding-top:0;
+.card-body {
+  padding-top: 0;
 }
 
-.card-title{
-    padding-top:15px;
+.card-body.buttons {
+  position: absolute;
+  bottom: 0;
 }
 
-.summary{
-    margin-top:0;
-    margin-bottom:9px;
+.card-title {
+  padding-top: 15px;
 }
 
-/*Map*/
+.summary {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+.kindle img{
+    width: 60px;
+    height:60px;
+    
+}
 
 
-      
+/*Tooltip on mark marker hover*/
+.fa-globe-americas {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted rgb(117, 33, 33, 0.5);
+}
+
+
+.fa-globe-americas .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(117, 33, 33, 0.5);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 0;
+  margin-left: 10px;
+  margin-top: -10px;
+  font-size: 15px;
+  font-family: "Open Sans";
+  text-decoration: none!important;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
 
 
 
 
+.fa-globe-americas:hover .tooltiptext {
+  visibility: visible;
+}
 
+
+
+/*Map modal*/
+
+.lp {
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.lp:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /*Media*/
 
@@ -228,8 +347,6 @@ a:hover {
     padding: 5px;
     font-size: 50%;
   }
-
-  .sign-in {
-    margin-top: 10px;
-  }
 }
+
+/*----------------------Scroll to top button adapted from w3schools-----------------------*/
