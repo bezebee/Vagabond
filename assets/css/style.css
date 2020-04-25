@@ -134,6 +134,16 @@ a:hover {
   color: rgb(117, 33, 33) !important;
   text-decoration: none;
 }
+
+.card-body a:link {
+  text-decoration: none;
+  color: rgb(117, 33, 33) !important;
+}
+
+.card-body a:visited {
+  color: rgb(117, 33, 33) !important;
+  text-decoration: none;
+}
 .card-title a:link {
   text-decoration: none;
   color: rgb(117, 33, 33) !important;
@@ -185,6 +195,39 @@ a:hover {
 .summary{
     margin-top:0;
     margin-bottom:9px;
+}
+
+/*.fa-map-marker-alt:hover:after{
+    content: attr(data-hover);
+    font-size:10px;
+    line-height: 15px;
+    font-weight: 200;
+}*/
+
+.fa-map-marker-alt {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted rgb(117, 33, 33, 0.5);
+}
+
+.fa-map-marker-alt .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(117, 33, 33, 0.5);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 0;
+  margin-left:10px;
+  margin-top: -10px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.fa-map-marker-alt:hover .tooltiptext {
+  visibility: visible;
 }
 
 /*Map*/
