@@ -41,6 +41,7 @@ ul li,
   color: pink;
 }
 
+<<<<<<< HEAD
 /*Sign up for weekly newsletter - adapted from w3school*/
 
 
@@ -103,6 +104,8 @@ button.close{
 }
 /*End of form*/
 
+=======
+>>>>>>> b97b682ce3c00d0ab859367d5e17cf7ce6998b09
 /*Wanderlust Jumbotron*/
 
 section.container-fluid {
@@ -260,6 +263,7 @@ a:hover {
   margin-top: 0;
   margin-bottom: 9px;
 }
+<<<<<<< HEAD
 .kindle img{
     width: 60px;
     height:60px;
@@ -273,7 +277,17 @@ a:hover {
   display: inline-block;
   border-bottom: 1px dotted rgb(117, 33, 33, 0.5);
 }
+=======
 
+
+>>>>>>> b97b682ce3c00d0ab859367d5e17cf7ce6998b09
+
+/*Tooltip on mark marker hover*/
+.fa-globe-americas {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted rgb(117, 33, 33, 0.5);
+}
 
 .fa-globe-americas .tooltiptext {
   visibility: hidden;
@@ -295,6 +309,44 @@ a:hover {
 }
 
 
+
+
+.fa-globe-americas:hover .tooltiptext {
+  visibility: visible;
+}
+
+.fa-globe-americas .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(117, 33, 33, 0.5);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 0;
+  margin-left: 10px;
+  margin-top: -10px;
+  font-size: 15px;
+  font-family: "Open Sans";
+  text-decoration: none!important;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+
+/*Map modal*/
+
+.lp {
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.lp:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 .fa-globe-americas:hover .tooltiptext {
