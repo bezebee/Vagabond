@@ -197,20 +197,14 @@ a:hover {
     margin-bottom:9px;
 }
 
-/*.fa-map-marker-alt:hover:after{
-    content: attr(data-hover);
-    font-size:10px;
-    line-height: 15px;
-    font-weight: 200;
-}*/
-
-.fa-map-marker-alt {
+/*Tooltip on mark marker hover*/
+.fa-globe-americas {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted rgb(117, 33, 33, 0.5);
 }
 
-.fa-map-marker-alt .tooltiptext {
+.fa-globe-americas .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: rgb(117, 33, 33, 0.5);
@@ -226,7 +220,7 @@ a:hover {
   z-index: 1;
 }
 
-.fa-map-marker-alt:hover .tooltiptext {
+.fa-globe-americas:hover .tooltiptext {
   visibility: visible;
 }
 
