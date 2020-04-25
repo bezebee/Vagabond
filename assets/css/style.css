@@ -12,9 +12,10 @@ body {
 
 /*Cursor*/
 
-i, li{
-            cursor: pointer;
-        }
+i,
+li {
+  cursor: pointer;
+}
 
 /*Navigation styling*/
 
@@ -39,8 +40,6 @@ ul li,
   background-color: rgb(117, 33, 33);
   color: pink;
 }
-
-
 
 /*Wanderlust Jumbotron*/
 
@@ -80,14 +79,12 @@ hr.medium-line {
 .share {
   text-align: center;
   margin-top: 45px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   font-size: 17px;
   text-transform: lowercase;
   font-family: "Lexend Peta";
   color: rgb(117, 33, 33);
 }
-
-
 
 .socials {
   padding-left: 0;
@@ -174,36 +171,34 @@ a:hover {
 
 /*Removing borders*/
 
-
 /*Reads*/
 
-.card{
-    margin-bottom:15px;
-    width: 286px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.card {
+  margin-bottom: 15px;
+  width: 286px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 }
 
-.card-body{
-    padding-top:0;    
+.card-body {
+  padding-top: 0;
+}
+
+.card-body.buttons {
+  position: absolute;
+  bottom: 0;
+}
+
+.card-title {
+  padding-top: 15px;
+}
+
+.summary {
+  margin-top: 0;
+  margin-bottom: 9px;
 }
 
 
-
-.card-body.buttons{
-    position:absolute;
-    bottom:0;
-    
-}
-
-.card-title{
-    padding-top:15px;
-}
-
-.summary{
-    margin-top:0;
-    margin-bottom:9px;
-}
 
 /*Tooltip on mark marker hover*/
 .fa-globe-americas {
@@ -211,6 +206,7 @@ a:hover {
   display: inline-block;
   border-bottom: 1px dotted rgb(117, 33, 33, 0.5);
 }
+
 
 .fa-globe-americas .tooltiptext {
   visibility: hidden;
@@ -220,27 +216,38 @@ a:hover {
   text-align: center;
   border-radius: 4px;
   padding: 5px 0;
-  margin-left:10px;
+  margin-left: 10px;
   margin-top: -10px;
+  font-size: 15px;
+  font-family: "Open Sans";
+  text-decoration: none!important;
 
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
 }
 
+
+
+
 .fa-globe-americas:hover .tooltiptext {
   visibility: visible;
 }
 
-/*Map*/
 
 
-      
+/*Map modal*/
 
+.lp {
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  outline: none;
+}
 
-
-
-
+.lp:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /*Media*/
 
@@ -272,9 +279,5 @@ a:hover {
     display: inline-block;
     padding: 5px;
     font-size: 50%;
-  }
-
-  .sign-in {
-    margin-top: 10px;
   }
 }
