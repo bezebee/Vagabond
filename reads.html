@@ -49,48 +49,11 @@
             type="button"
             class="btn sign-in subscribe"
             data-toggle="modal"
-            data-target="#myModal"
-          >
-            Subscribe
+            data-target="#myModal">
+<a href="register.html">Subscribe</a>
           </button>
-          <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header-subscribe">
-                  <button type="button" class="close" data-dismiss="modal">
-                    &times;
-                  </button>
-                </div>
-                <div class="modal-body">
-                 <!---subscribe for weekly updates--> 
-
-
-
-<form action="php/sendmail.php" class="text-center subscribe-form">
-  <div class="container">
-    <h4>Subscribe to our Newsletter</h4>
-    <p>We only send updates once a week, when a new selection of books, tunes and unique nooks are picked</p>
-  </div>
-
-  <div class="container" style="background-color:white">
-    <input type="text" placeholder="Name" name="name" required>
-    <input type="text" placeholder="Email address" name="mail" required>
-    
-  </div>
-
-  <div class="container">
-    <input type="submit" value="Subscribe">
-  </div>
-</form>
-
-                <!--End of registration form-->
-
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
@@ -1042,7 +1005,8 @@
                         style="height: 400px; width: 100%;"
                       ></div>
                     </div>
-                     <div class="modal-footer"><button
+                    <div class="modal-footer">
+                      <button
                         class="lp"
                         onclick="window.open(href='https://www.lonelyplanet.com/south-america');"
                       >
@@ -1053,8 +1017,8 @@
                           target="_blank"
                           width="66"
                           height="100%"
-                        /></button
-                      >
+                        />
+                      </button>
                       <button
                         class="lp"
                         onclick="window.open(href='https://www.lonelyplanet.com/south-america');"
@@ -1658,6 +1622,7 @@
 
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
