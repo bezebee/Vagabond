@@ -21,6 +21,12 @@
     />
     <link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Vagabonds</title>
   </head>
   <body>
@@ -40,58 +46,22 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <!--Sign up button to modal-->
+        <!-----------Register button-------------------------------------------->
         <div class="sign-up">
           <button
             type="button"
-            class="btn sign-in subscribe"
+            class="btn sign-in register"
             data-toggle="modal"
             data-target="#myModal"
           >
-            Subscribe
+            <a href="register.html"> Join us!</a>
           </button>
-          <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header-subscribe">
-                  <button type="button" class="close" data-dismiss="modal">
-                    &times;
-                  </button>
-                </div>
-                <div class="modal-body">
-                 <!---subscribe for weekly updates--> 
-
-
-
-<form action="php/sendmail.php" class="text-center subscribe-form">
-  <div class="container">
-    <h4>Subscribe to our Newsletter</h4>
-    <p>We only send updates once a week, when a new selection of books, tunes and unique nooks are picked</p>
-  </div>
-
-  <div class="container" style="background-color:white">
-    <input type="text" placeholder="Name" name="name" required>
-    <input type="text" placeholder="Email address" name="mail" required>
-    
-  </div>
-
-  <div class="container">
-    <input type="submit" value="Subscribe">
-  </div>
-</form>
-
-                <!--End of registration form-->
-
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
+              >Home</a
             >
           </li>
           <li class="nav-item">
@@ -112,109 +82,135 @@
     <section class="container-fluid" style="max-width: 100%;">
       <div class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
-          <h1 class="display-4 text-center"><a href="index.html">Vagabonds</a></h1>
+          <h1 class="display-4 text-center">
+            <a href="index.html">Become a Vagabond</a>
+          </h1>
           <hr class="medium-line" />
-          <p class="lead">read, hear, experience your Journey</p>
+          <p class="lead">Sign up to get monthly updates and take part in competitions!</p>
         </div>
       </div>
     </section>
 
-    <!-----------------------------Terms------------------------------------->
-  
- 
-     <!--Scroll to top button (adapted from w3schools.com)-->
+    <!-----------------------------Register form (adapted from AkashRajpurohit - link to Repo in Readme------------------------------------->
 
+    <div class="container-fluid col-md-6 text-center">
+		
+		<form id="sign-up-form" class="col">
+			<div>
+				<input type="text" id="form_first_name" placeholder="First Name" required>
+				<span class="error_form" id="first_name_error_message"></span>
+					
+			</div>
+			<div>
+				<input type="text" id="form_surname" placeholder="Surname" required>
+				<span class="error_form" id="surname_error_message"></span>
+					
+			</div>
+			<div>
+				<input type="text" id="form_email" placeholder="Email Address" required>
+				<span class="error_form" id="email_error_message"></span>
+				
+			</div>
+			<div>
+				<input type="password" id="form_password" placeholder="Password" required>
+				<span class="error_form" id="password_error_message"></span>
+				
+			</div>
+			<div>
+				<input type="password" id="form_retype_password" placeholder="Re-type Password" required>
+				<span class="error_form" id="retype_password_error_message"></span>
+					
+			</div>
+			<input type="submit" value="Register" style="width:100%" name="">
+		</form>
+	</div>
+	<!--script type="text/javascript">
+      
 
-
-
-    <!--Page 1 section 3 Share us with your friends-->
+    <!--------------------Share us with your friends-->
 
     <section class="for-sharing">
-      
-        <h4 class="share">Sharing is caring</h4>
-        <hr class="medium-line" />
-        
-          <div class="box-right text-center">
-            <ul class="socials">
-              <li>
-                <a target="_blank" href="#"
-                  ><i
-                    class="fab fa-facebook-square fa-3x"
-                    style="color: pink;"
-                  ></i></a
-                >
-              </li>
-              <li>
-                <a target="_blank" href="#"
-                  ><i class="fab fa-twitter fa-3x" style="color: pink;"></i></a
-                >
-              </li>
-              <li>
-                <a target="_blank" href="#"
-                  ><i class="fab fa-instagram fa-3x" style="color: pink;"></i
-                ></a>
-              </li>
-              <li>
-                <a target="_blank" href="#"
-                  ><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i
-                ></a>
-              </li>
-              <li>
-                <a target="_blank" href="#"
-                  ><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i
-                ></a>
-              </li>
-              <li>
-                <a target="_blank" href="#"
-                  ><i class="fab fa-pinterest fa-3x" style="color: pink;"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        
-    
+      <h4 class="share">Sharing is caring</h4>
+      <hr class="medium-line" />
 
-    <!--Footer-->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm col-6 col-sm-3"><a href="about.html">
-            About</a>
-          </div>
-          <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3"><a href="terms.html">
-            Terms</a>
-          </div>
-          <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3"><a href="privacy.html">
-            Privacy</a>
-          </div>
-          <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3"><a href="contact-us.html">
-            Contact Us</a>
+      <div class="box-right text-center">
+        <ul class="socials">
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-facebook-square fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-twitter fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-instagram fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-pinterest fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Footer-->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm col-6 col-sm-3">
+              <a href="about.html"> About</a>
+            </div>
+            <div class="vl"></div>
+            <div class="col-sm col-6 col-sm-3">
+              <a href="terms.html"> Terms</a>
+            </div>
+            <div class="vl"></div>
+            <div class="col-sm col-6 col-sm-3">
+              <a href="privacy.html"> Privacy</a>
+            </div>
+            <div class="vl"></div>
+            <div class="col-sm col-6 col-sm-3">
+              <a href="contact-us.html"> Contact Us</a>
+            </div>
           </div>
         </div>
-      </div>
-      <section><div class="col">
-            <p class="copyright text-center"><a href="https://bezebee.github.io/Beeing-About/" target="_blank">Beeing About  &copy; 2020</a></p>
-          </div></section>
-    </footer>
-    <script src="assets/js/terms.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
+        <section>
+          <div class="col">
+            <p class="copyright text-center">
+              <a href="https://bezebee.github.io/Beeing-About/" target="_blank"
+                >Beeing About &copy; 2020</a
+              >
+            </p>
+          </div>
+        </section>
+      </footer>
+      <script type= "text/javascript" src="assets/js/main.js"></script>
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"
+      ></script>
     </section>
   </body>
 </html>
