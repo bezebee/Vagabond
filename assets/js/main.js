@@ -1,16 +1,16 @@
 $(function() {
-
+//hiding error messages
          $("#first_name_error_message").hide();
          $("#surname_error_message").hide();
          $("#email_error_message").hide();
          $("#password_error_message").hide();
          $("#retype_password_error_message").hide();
 
-         var error_first_name = false;
-         var error_surname = false;
-         var error_email = false;
-         var error_password = false;
-         var error_retype_password = false;
+         let error_first_name = false;
+         let error_surname = false;
+         let error_email = false;
+         let error_password = false;
+         let error_retype_password = false;
 
          $("#form_first_name").focusout(function(){
             check_first_name();
@@ -29,8 +29,8 @@ $(function() {
          });
 
          function check_first_name() {
-            var pattern = /^[a-zA-Z]*$/;
-            var first_name = $("#form_first_name").val();
+            let pattern = /^[a-zA-Z]*$/;
+            let first_name = $("#form_first_name").val();
             if (pattern.test(first_name) && first_name !== '') {
                $("#first_name_error_message").hide();
                $("#form_first_name").css("border-bottom","2px solid #34F458");
@@ -43,8 +43,8 @@ $(function() {
          }
 
          function check_surname() {
-            var pattern = /^[a-zA-Z]*$/;
-            var surname = $("#form_surname").val()
+            let pattern = /^[a-zA-Z]*$/;
+            let surname = $("#form_surname").val()
             if (pattern.test(surname) && surname !== '') {
                $("#surname_error_message").hide();
                $("#form_surname").css("border-bottom","2px solid #34F458");
@@ -57,7 +57,7 @@ $(function() {
          }
 
          function check_password() {
-            var password_length = $("#form_password").val().length;
+            let password_length = $("#form_password").val().length;
             if (password_length < 8) {
                $("#password_error_message").html("Minimum 8 characters");
                $("#password_error_message").show();
@@ -70,8 +70,8 @@ $(function() {
          }
 
          function check_retype_password() {
-            var password = $("#form_password").val();
-            var retype_password = $("#form_retype_password").val();
+            let password = $("#form_password").val();
+            let retype_password = $("#form_retype_password").val();
             if (password !== retype_password) {
                $("#retype_password_error_message").html("Mismatched passwords detected!");
                $("#retype_password_error_message").show();
@@ -84,8 +84,8 @@ $(function() {
          }
 
          function check_email() {
-            var pattern = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-            var email = $("#form_email").val();
+            let pattern = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+            let email = $("#form_email").val();
             if (pattern.test(email) && email !== '') {
                $("#email_error_message").hide();
                $("#form_email").css("border-bottom","2px solid #34F458");

@@ -1,4 +1,4 @@
-var markers = [
+let markers = [
   {
     Coord1: 33.9391,
     Coord2: 67.71,
@@ -23,19 +23,19 @@ function initialize() {
 }
 //Afganistan map
 function initMap() {
-  var latlng = new google.maps.LatLng(33.9391, 67.71);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(33.9391, 67.71);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(
+  let map = new google.maps.Map(
     document.getElementById("afganistan"),
     myOptions
   );
-  var infowindow = new google.maps.InfoWindow(),
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -61,7 +61,7 @@ function initMap() {
   }
 }
 //Colombia map
-var markers2 = [
+let markers2 = [
   {
     Coord1: 4.6482837,
     Coord2: -74.2478945,
@@ -70,16 +70,16 @@ var markers2 = [
 ];
 
 function initMap2() {
-  var latlng = new google.maps.LatLng(4.6482837, -74.2478945);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(4.6482837, -74.2478945);
+  let myOptions = {
     zoom: 2,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("colombia"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("colombia"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -106,7 +106,7 @@ function initMap2() {
   }
 }
 //Germany map
-var markers3 = [
+let markers3 = [
   {
     Coord1: 51.1657,
     Coord2: 10.4515,
@@ -115,16 +115,16 @@ var markers3 = [
 ];
 
 function initMap3() {
-  var latlng = new google.maps.LatLng(51.1657, 10.4515);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(51.1657, 10.4515);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("germany"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("germany"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -151,7 +151,7 @@ function initMap3() {
   }
 }
 //France map
-var markers4 = [
+let markers4 = [
   {
     Coord1: 48.8589507,
     Coord2: 2.2770204,
@@ -160,16 +160,16 @@ var markers4 = [
 ];
 
 function initMap4() {
-  var latlng = new google.maps.LatLng(48.8589507, 2.2770204);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(48.8589507, 2.2770204);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("france"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("france"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -197,7 +197,7 @@ function initMap4() {
 }
 
 //Ghana map
-var markers5 = [
+let markers5 = [
   {
     Coord1: 6.690251,
     Coord2: -1.6861462,
@@ -206,16 +206,16 @@ var markers5 = [
 ];
 
 function initMap5() {
-  var latlng = new google.maps.LatLng(6.690251, -1.6861462);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(6.690251, -1.6861462);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("ghana"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("ghana"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -244,7 +244,7 @@ function initMap5() {
 
 //Iceland map
 
-var markers6 = [
+let markers6 = [
   {
     Coord1: 64.1335484,
     Coord2: -21.9224813,
@@ -253,16 +253,16 @@ var markers6 = [
 ];
 
 function initMap6() {
-  var latlng = new google.maps.LatLng(64.1335484, -21.9224813);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(64.1335484, -21.9224813);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("iceland"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("iceland"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -291,7 +291,7 @@ function initMap6() {
 
 //Ireland
 
-var markers7 = [
+let markers7 = [
   {
     Coord1: 53.3244431,
     Coord2: -6.3857857,
@@ -300,16 +300,16 @@ var markers7 = [
 ];
 
 function initMap7() {
-  var latlng = new google.maps.LatLng(53.3244431, -6.3857857);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(53.3244431, -6.3857857);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("ireland"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("ireland"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -338,7 +338,7 @@ function initMap7() {
 
 //Japan
 
-var markers8 = [
+let markers8 = [
   {
     Coord1: 35.6684415,
     Coord2: 139.6007843,
@@ -347,16 +347,16 @@ var markers8 = [
 ];
 
 function initMap8() {
-  var latlng = new google.maps.LatLng(35.6684415, 139.6007843);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(35.6684415, 139.6007843);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("japan"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("japan"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -385,7 +385,7 @@ function initMap8() {
 
 //Latin America
 
-var markers9 = [
+let markers9 = [
   {
     Coord1: -5.7379831,
     Coord2: -64.1876637,
@@ -394,19 +394,19 @@ var markers9 = [
 ];
 
 function initMap9() {
-  var latlng = new google.maps.LatLng(-5.7379831, -64.1876637);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(-5.7379831, -64.1876637);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(
+  let map = new google.maps.Map(
     document.getElementById("latinamerica"),
     myOptions
   );
-  var infowindow = new google.maps.InfoWindow(),
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -435,7 +435,7 @@ function initMap9() {
 
 //New York
 
-var markers10 = [
+let markers10 = [
   {
     Coord1: 40.6971494,
     Coord2: -74.2598655,
@@ -444,16 +444,16 @@ var markers10 = [
 ];
 
 function initMap10() {
-  var latlng = new google.maps.LatLng(40.6971494, -74.2598655);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(40.6971494, -74.2598655);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("newyork"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("newyork"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -482,7 +482,7 @@ function initMap10() {
 
 //Russia
 
-var markers11 = [
+let markers11 = [
   {
     Coord1: 55.5815245,
     Coord2: 36.8251381,
@@ -491,16 +491,16 @@ var markers11 = [
 ];
 
 function initMap11() {
-  var latlng = new google.maps.LatLng(55.5815245, 36.8251381);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(55.5815245, 36.8251381);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("russia"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("russia"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -529,7 +529,7 @@ function initMap11() {
 
 //China
 
-var markers12 = [
+let markers12 = [
   {
     Coord1: 39.9390731,
     Coord2: 116.1172782,
@@ -538,16 +538,16 @@ var markers12 = [
 ];
 
 function initMap12() {
-  var latlng = new google.maps.LatLng(39.9390731, 116.1172782);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(39.9390731, 116.1172782);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("china"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("china"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
@@ -576,7 +576,7 @@ function initMap12() {
 
 //Sweden
 
-var markers13 = [
+let markers13 = [
   {
     Coord1: 59.326242,
     Coord2: 17.8419717,
@@ -585,16 +585,16 @@ var markers13 = [
 ];
 
 function initMap13() {
-  var latlng = new google.maps.LatLng(59.326242, 17.8419717);
-  var myOptions = {
+  let latlng = new google.maps.LatLng(59.326242, 17.8419717);
+  let myOptions = {
     zoom: 4,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
   };
 
-  var map = new google.maps.Map(document.getElementById("sweden"), myOptions);
-  var infowindow = new google.maps.InfoWindow(),
+  let map = new google.maps.Map(document.getElementById("sweden"), myOptions);
+  let infowindow = new google.maps.InfoWindow(),
     marker,
     lat,
     lng;
