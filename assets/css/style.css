@@ -44,6 +44,8 @@ ul li,
   color: pink;
 }
 
+
+
 /*Registration form*/
 
 
@@ -78,8 +80,8 @@ input {
 }
 
 input {
-  background-color: rgb(117, 33, 33);
-  color: pink;
+  background-color: pink;
+  color: rgb(117, 33, 33);
  
   font-family: "Lexend Peta";
   text-transform: lowercase;
@@ -87,6 +89,8 @@ input {
 
 input:hover {
   opacity: 0.8;
+  background-color: rgb(117, 33, 33);
+  color: pink;
 }
 
 .login{
@@ -180,6 +184,21 @@ a:hover {
   font-size: 130%;
 }
 /*links decoration removal*/
+
+.sign-in a:link {
+  text-decoration: none;
+  color: rgb(117, 33, 33) !important;
+}
+
+.sign-in a:visited {
+  color: rgb(117, 33, 33) !important;
+  text-decoration: none; 
+}
+
+.sign-in a:hover{
+    color:pink!important;
+}
+
 .display-4 a:link {
   text-decoration: none;
   color: rgb(117, 33, 33) !important;
@@ -239,7 +258,6 @@ a:hover {
 
 }
 
-
 .card-body {
   padding-top: 0;
 }
@@ -259,45 +277,8 @@ a:hover {
 }
 .kindle img{
     width: 60px;
-    height:60px;
-    
+    height:60px;   
 }
-
-
-/*Tooltip on mark marker hover*/
-.fa-globe-americas {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted rgb(117, 33, 33, 0.5);
-}
-
-/*Tooltip on mark marker hover*/
-.fa-globe-americas {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted rgb(117, 33, 33, 0.5);
-}
-
-.fa-globe-americas .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: rgb(117, 33, 33, 0.5);
-  color: #fff;
-  text-align: center;
-  border-radius: 4px;
-  padding: 5px 0;
-  margin-left: 10px;
-  margin-top: -10px;
-  font-size: 15px;
-  font-family: "Open Sans";
-  text-decoration: none!important;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-
 
 
 .fa-globe-americas:hover .tooltiptext {
@@ -314,9 +295,11 @@ a:hover {
   padding: 5px 0;
   margin-left: 10px;
   margin-top: -10px;
-  font-size: 15px;
-  font-family: "Open Sans";
-  text-decoration: none!important;
+  font-size: 12px;
+  font-family: "Lexend Peta";
+  font-weight: 200;
+  text-transform: lowercase;
+  
 
   /* Position the tooltip */
   position: absolute;
@@ -337,9 +320,44 @@ a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* Tooltip container */
+.lp {
+  position: relative;
+  display: inline-block;
+  
+}
 
-.fa-globe-americas:hover .tooltiptext {
+/* Tooltip text */
+.lp .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(117, 33, 33, 0.5);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 0;
+  margin-left: 10px;
+  
+  font-size: 10px;
+  font-family: "Lexend Peta";
+  text-transform: lowercase;
+  text-decoration: none!important;
+  
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+
+  
+  top: -5px;
+  right: 105%;
+  
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.lp:hover .tooltiptext {
   visibility: visible;
+  
 }
 
 
