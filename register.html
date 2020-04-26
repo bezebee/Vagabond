@@ -48,21 +48,18 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <!-----------Register button-------------------------------------------->
         <div class="sign-up">
-          <button
-            type="button"
-            class="btn sign-in register"
-            data-toggle="modal"
-            data-target="#myModal"
-          >
+          <button type="button" class="btn sign-in register">
             <a href="register.html"> Join us!</a>
           </button>
         </div>
 
+        <!----------Log in-------->
+
+        <!------------End of log in-->
+
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html"
-              >Home</a
-            >
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="reads.html">Reads</a>
@@ -86,7 +83,9 @@
             <a href="index.html">Become a Vagabond</a>
           </h1>
           <hr class="medium-line" />
-          <p class="lead">Sign up to get monthly updates and take part in competitions!</p>
+          <p class="lead">
+            Sign up to get monthly updates and take part in competitions!
+          </p>
         </div>
       </div>
     </section>
@@ -94,39 +93,76 @@
     <!-----------------------------Register form (adapted from AkashRajpurohit - link to Repo in Readme------------------------------------->
 
     <div class="container-fluid col-md-6 text-center">
-		
-		<form id="sign-up-form" class="col">
-			<div>
-				<input type="text" id="form_first_name" placeholder="First Name" required>
-				<span class="error_form" id="first_name_error_message"></span>
-					
-			</div>
-			<div>
-				<input type="text" id="form_surname" placeholder="Surname" required>
-				<span class="error_form" id="surname_error_message"></span>
-					
-			</div>
-			<div>
-				<input type="text" id="form_email" placeholder="Email Address" required>
-				<span class="error_form" id="email_error_message"></span>
-				
-			</div>
-			<div>
-				<input type="password" id="form_password" placeholder="Password" required>
-				<span class="error_form" id="password_error_message"></span>
-				
-			</div>
-			<div>
-				<input type="password" id="form_retype_password" placeholder="Re-type Password" required>
-				<span class="error_form" id="retype_password_error_message"></span>
-					
-			</div>
-			<input type="submit" value="Register" style="width:100%" name="">
-		</form>
-	</div>
-	<!--script type="text/javascript">
-      
-
+      <form id="sign-up-form" class="col">
+        <div>
+          <input
+            type="text"
+            id="form_first_name"
+            placeholder="First Name"
+            required
+          />
+          <span class="error_form" id="first_name_error_message"></span>
+        </div>
+        <div>
+          <input type="text" id="form_surname" placeholder="Surname" required />
+          <span class="error_form" id="surname_error_message"></span>
+        </div>
+        <div>
+          <input
+            type="text"
+            id="form_email"
+            placeholder="Email Address"
+            required
+          />
+          <span class="error_form" id="email_error_message"></span>
+        </div>
+        <div>
+          <input
+            type="password"
+            id="form_password"
+            placeholder="Password"
+            required
+          />
+          <span class="error_form" id="password_error_message"></span>
+        </div>
+        <div>
+          <input
+            type="password"
+            id="form_retype_password"
+            placeholder="Re-type Password"
+            required
+          />
+          <span class="error_form" id="retype_password_error_message"></span>
+        </div>
+        <input type="submit" value="Register" style="width: 100%;" name="" />
+      </form>
+    </div><br><br>
+    <!---------------------Login here----------------------------------------->
+<div class="container-fluid col-md-6 text-center">
+<h3 class="login"> Already a member? Log in here!</h3>
+      <form id="log-in-form" class="col">
+        <div>
+          <input
+            type="text"
+            id="form_loginemail"
+            placeholder="Email Address"
+            required
+          />
+          <span class="error_form" id="loginemail_error_message"></span>
+        </div>
+        <div>
+          <input
+            type="password"
+            id="form_loginpassword"
+            placeholder="Password"
+            required
+          />
+          <span class="error_form" id="loginpassword_error_message"></span>
+        </div>
+        
+        <input type="submit" value="Log in" style="width: 100%;" name="" />
+      </form>
+    </div>
     <!--------------------Share us with your friends-->
 
     <section class="for-sharing">
@@ -199,7 +235,7 @@
           </div>
         </section>
       </footer>
-      <script type= "text/javascript" src="assets/js/main.js"></script>
+      <script type="text/javascript" src="assets/js/main.js"></script>
 
       <script
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"

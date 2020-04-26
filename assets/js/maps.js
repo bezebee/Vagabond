@@ -2,10 +2,10 @@ let markers = [
   {
     Coord1: 33.9391,
     Coord2: 67.71,
-    clients_address: "afganistan",
+    place_name: "afganistan",
   },
 ];
-//Initializing all of the maps
+//Function initializing multiple maps for this page
 function initialize() {
   initMap();
   initMap2();
@@ -21,6 +21,8 @@ function initialize() {
   initMap12();
   initMap13();
 }
+
+//Storing variables in each of the called earlier map
 //Afganistan map
 function initMap() {
   let latlng = new google.maps.LatLng(33.9391, 67.71);

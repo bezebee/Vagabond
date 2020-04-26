@@ -27,6 +27,9 @@ ul li,
   color: rgb(117, 33, 33);
 }
 
+
+/*Registration button styling*/
+
 .sign-in {
   font-family: "Lexend Peta";
   font-size: 15px;
@@ -41,14 +44,14 @@ ul li,
   color: pink;
 }
 
-/*Sign up for weekly newsletter - adapted from w3school*/
-
+/*Registration form*/
 
 
 form {
   border: 3px solid #f1f1f1;
   font-family: "Lexend Peta";
   text-transform: lowercase;
+  padding:15px;
 }
 
 .container {
@@ -60,7 +63,7 @@ form {
   
 }
 
-input[type=text], input[type=submit] {
+input {
   width: 90%;
   padding: 8px;
   margin: 3px 0;
@@ -70,11 +73,11 @@ input[type=text], input[type=submit] {
 
 }
 
-input[type=checkbox] {
+input {
   margin-top: 16px;
 }
 
-input[type=submit] {
+input {
   background-color: rgb(117, 33, 33);
   color: pink;
  
@@ -82,17 +85,18 @@ input[type=submit] {
   text-transform: lowercase;
 }
 
-input[type=submit]:hover {
+input:hover {
   opacity: 0.8;
 }
 
-/*Modal style*/
+.login{
+    font-family: "Lexend Peta";
+  text-transform: lowercase;
+  font-size:17px;
+  margin-top:10px;
+}
 
-
-
-
-
-/*End of form*/
+/*End of form styling*/
 
 /*Wanderlust Jumbotron*/
 
