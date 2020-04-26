@@ -88,19 +88,10 @@ input[type=submit]:hover {
 
 /*Modal style*/
 
-.modal-header-subscribe{
-    padding-top:0px;
-    padding-bottom:0px;
-    border-bottom-width:0px;
-}
 
-.subscribe-form p{
-    margin-top:20px;
-}
 
-button.close{
-    padding:10px 20px 0 20px;
-}
+
+
 /*End of form*/
 
 /*Wanderlust Jumbotron*/
@@ -393,4 +384,35 @@ a:hover {
   }
 }
 
-/*----------------------Scroll to top button adapted from w3schools-----------------------*/
+/*----------------------form------------*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
