@@ -140,24 +140,26 @@
     <!---------------------Login here----------------------------------------->
 <div class="container-fluid col-md-6 text-center">
 <h3 class="login"> Already a member? Log in here!</h3>
-      <form id="log-in-form" class="col">
+      <form name="Login" action="/submit.php" onsubmit="return validateform()" method="post" id="log-in-form" class="col"  >
         <div>
           <input
             type="text"
             id="form_loginemail"
+            name="email"
             placeholder="Email Address"
             required
           />
-          <span class="error_form" id="loginemail_error_message"></span>
+        
         </div>
         <div>
           <input
             type="password"
             id="form_loginpassword"
+            name="password"
             placeholder="Password"
             required
           />
-          <span class="error_form" id="loginpassword_error_message"></span>
+         
         </div>
         
         <input type="submit" value="Log in" style="width: 100%;" name="" />
@@ -236,6 +238,7 @@
         </section>
       </footer>
       <script type="text/javascript" src="assets/js/main.js"></script>
+      
 
       <script
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
