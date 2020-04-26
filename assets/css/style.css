@@ -88,13 +88,13 @@ input[type=submit]:hover {
 
 /*Modal style*/
 
-.modal-header-register{
+.modal-header-subscribe{
     padding-top:0px;
     padding-bottom:0px;
     border-bottom-width:0px;
 }
 
-.register-form p{
+.subscribe-form p{
     margin-top:20px;
 }
 
