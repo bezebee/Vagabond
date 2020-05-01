@@ -30,7 +30,7 @@ ul li,
 
 /*Registration button styling*/
 
-.sign-in {
+.sign-in,.btn-newsletter {
   font-family: "Lexend Peta";
   font-size: 15px;
   text-transform: lowercase;
@@ -39,7 +39,7 @@ ul li,
   color: rgb(117, 33, 33);
 }
 
-.sign-in:hover {
+.sign-in:hover,.btn-newsletter:hover {
   background-color: rgb(117, 33, 33);
   color: pink;
 }
@@ -135,10 +135,18 @@ hr.medium-line {
 .jumbotron {
   background-color: pink;
 }
+/*vagabond cards styling*/
+
+
+.container.intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
 
 /*Footer*/
 
-.share {
+.share, .newsletter {
   text-align: center;
   margin-top: 45px;
   margin-bottom: 20px;
@@ -146,6 +154,13 @@ hr.medium-line {
   text-transform: lowercase;
   font-family: "Lexend Peta";
   color: rgb(117, 33, 33);
+}
+
+.newsletter-form{
+    border:0;
+    width:50%;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 .socials {
