@@ -144,6 +144,8 @@ hr.medium-line {
   flex-direction: row;
 }
 
+
+
 /*Footer*/
 
 .share, .newsletter {
@@ -447,12 +449,15 @@ input[type=text]:focus, input[type=password]:focus {
 
 .card-container {
     perspective: 700px;
+ 
    
 }
 
 .card-flip, .card-container {
     transform-style: preserve-3d;
     transition: all 0.7s ease;
+    position: relative;
+   margin: auto;
 }
 
 .card-flip div {
@@ -487,6 +492,7 @@ input[type=text]:focus, input[type=password]:focus {
 .card-container {
     display: grid;
     perspective: 700px;
+    
     
 }
 
