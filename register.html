@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -20,7 +20,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
-    <link rel="icon" href="../faviconV.png"> 
+    <link rel="icon" href="../faviconV.png" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -29,6 +29,17 @@
     ></script>
 
     <title>Vagabonds</title>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_cAeBTKRz9cAOzPB86ma5l");
+        emailjs.send("gmail", "subscription_success", {name:"Kasia",notes:"You've got a mail!"});
+      })();
+    </script>
   </head>
   <body>
     <!--Logo-->
@@ -140,11 +151,19 @@
         </div>
         <input type="submit" value="Register" style="width: 100%;" name="" />
       </form>
-    </div><br><br>
+    </div>
+    <br /><br />
     <!---------------------Login here----------------------------------------->
-<div class="container-fluid col-md-6 text-center">
-<h3 class="login"> Already a member? Log in here!</h3>
-      <form name="Login" action="/submit.php" onsubmit="return validateform()" method="post" id="log-in-form" class="col"  >
+    <div class="container-fluid col-md-6 text-center">
+      <h3 class="login">Already a member? Log in here!</h3>
+      <form
+        name="Login"
+        action="/submit.php"
+        onsubmit="return validateform()"
+        method="post"
+        id="log-in-form"
+        class="col"
+      >
         <div>
           <input
             type="text"
@@ -153,7 +172,6 @@
             placeholder="Email Address"
             required
           />
-        
         </div>
         <div>
           <input
@@ -163,9 +181,8 @@
             placeholder="Password"
             required
           />
-         
         </div>
-        
+
         <input type="submit" value="Log in" style="width: 100%;" name="" />
       </form>
     </div>
@@ -209,25 +226,31 @@
           </li>
         </ul>
       </div>
-  <!-----------------------------------------------------------------Newsletter------------------------->
+      <!-----------------------------------------------------------------Newsletter------------------------->
 
-        <section class="newsletter">
-    <h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
-    <hr class="medium-line" />
+      <section class="newsletter">
+        <h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
+        <hr class="medium-line" />
 
-<form class="newsletter-form">
-  <div class="form-group">
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  
-  <button type="submit" class="btn btn-newsletter">Submit</button>
-</form>
+        <form class="newsletter-form">
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
 
-    </section>
+          <button type="submit" class="btn btn-newsletter">Submit</button>
+        </form>
+      </section>
 
-
-    <!---------------------------------------------------------------Footer----------------------------->
+      <!---------------------------------------------------------------Footer----------------------------->
       <footer>
         <div class="container">
           <div class="row">
@@ -259,7 +282,6 @@
         </section>
       </footer>
       <script type="text/javascript" src="assets/js/main.js"></script>
-      
 
       <script
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
