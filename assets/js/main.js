@@ -1,6 +1,3 @@
-
-
-
 $(function() {
 //hiding error messages
          $("#first_name_error_message").hide();
@@ -124,16 +121,3 @@ $(function() {
 
          });
       });
-
-
-      
-
-
-
-
-        
-      
-
-
-      
-
