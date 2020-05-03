@@ -7,7 +7,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            alert("We received your message and will respond soon!!");
+            
         },
         function(error) {
             console.log("FAILED", error);
@@ -15,3 +15,13 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
+
+var modal = document.getElementById("myAlertModal");
+var btn = document.getElementById("myBtn");
+
+btn.onclick = function(){
+    modal.style.display="block";
+}
+
+
+

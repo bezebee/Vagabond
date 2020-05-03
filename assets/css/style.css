@@ -27,10 +27,10 @@ ul li,
   color: rgb(117, 33, 33);
 }
 
-
 /*Registration button styling*/
 
-.sign-in,.btn-newsletter {
+.sign-in,
+.btn-newsletter {
   font-family: "Lexend Peta";
   font-size: 15px;
   text-transform: lowercase;
@@ -39,30 +39,27 @@ ul li,
   color: rgb(117, 33, 33);
 }
 
-.sign-in:hover,.btn-newsletter:hover {
+.sign-in:hover,
+.btn-newsletter:hover {
   background-color: rgb(117, 33, 33);
   color: pink;
 }
 
-
-
 /*Registration form*/
-
 
 form {
   border: 3px solid #f1f1f1;
   font-family: "Lexend Peta";
   text-transform: lowercase;
-  padding:15px;
+  padding: 15px;
 }
 
 .container {
   padding: 10px;
-  
-  width:80%;
+
+  width: 80%;
   margin-left: auto;
-  margin-right:auto;
-  
+  margin-right: auto;
 }
 
 input {
@@ -72,7 +69,6 @@ input {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
-
 }
 
 input {
@@ -82,7 +78,7 @@ input {
 input {
   background-color: pink;
   color: rgb(117, 33, 33);
- 
+
   font-family: "Lexend Peta";
   text-transform: lowercase;
 }
@@ -93,11 +89,11 @@ input:hover {
   color: pink;
 }
 
-.login{
-    font-family: "Lexend Peta";
+.login {
+  font-family: "Lexend Peta";
   text-transform: lowercase;
-  font-size:17px;
-  margin-top:10px;
+  font-size: 17px;
+  margin-top: 10px;
 }
 
 /*End of form styling*/
@@ -108,7 +104,6 @@ section.container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
-
 
 .display-4 {
   font-family: "Lexend Peta";
@@ -137,18 +132,16 @@ hr.medium-line {
 }
 /*vagabond cards styling*/
 
-
 .container.intro {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
-
-
 /*Footer*/
 
-.share, .newsletter {
+.share,
+.newsletter {
   text-align: center;
   margin-top: 45px;
   margin-bottom: 20px;
@@ -158,11 +151,11 @@ hr.medium-line {
   color: rgb(117, 33, 33);
 }
 
-.newsletter-form{
-    border:0;
-    width:50%;
-    margin-left: auto;
-    margin-right:auto;
+.newsletter-form {
+  border: 0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .socials {
@@ -209,11 +202,11 @@ a:hover {
 
 .sign-in a:visited {
   color: rgb(117, 33, 33) !important;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.sign-in a:hover{
-    color:pink!important;
+.sign-in a:hover {
+  color: pink !important;
 }
 
 .display-4 a:link {
@@ -272,7 +265,6 @@ a:hover {
   width: 286px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-
 }
 
 .card-body {
@@ -292,11 +284,10 @@ a:hover {
   margin-top: 0;
   margin-bottom: 9px;
 }
-.kindle img{
-    width: 60px;
-    height:60px;   
+.kindle img {
+  width: 60px;
+  height: 60px;
 }
-
 
 .fa-globe-americas:hover .tooltiptext {
   visibility: visible;
@@ -316,13 +307,11 @@ a:hover {
   font-family: "Lexend Peta";
   font-weight: 200;
   text-transform: lowercase;
-  
 
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
 }
-
 
 /*Map modal*/
 
@@ -341,7 +330,6 @@ a:hover {
 .lp {
   position: relative;
   display: inline-block;
-  
 }
 
 /* Tooltip text */
@@ -354,30 +342,24 @@ a:hover {
   border-radius: 4px;
   padding: 5px 0;
   margin-left: 10px;
-  
+
   font-size: 10px;
   font-family: "Lexend Peta";
   text-transform: lowercase;
-  text-decoration: none!important;
-  
- 
+  text-decoration: none !important;
+
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 
-  
   top: -5px;
   right: 105%;
-  
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .lp:hover .tooltiptext {
   visibility: visible;
-  
 }
-
-
 
 /*Map modal*/
 
@@ -426,11 +408,16 @@ a:hover {
 }
 
 /*----------------------form------------*/
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -440,7 +427,8 @@ input[type=text], input[type=password] {
 }
 
 /* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
+input[type="text"]:focus,
+input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -448,125 +436,83 @@ input[type=text]:focus, input[type=password]:focus {
 /*------------------------Tunes-----------------*/
 
 .card-container {
-    perspective: 700px;
- 
-   
+  perspective: 700px;
 }
 
-.card-flip, .card-container {
-    transform-style: preserve-3d;
-    transition: all 0.7s ease;
-    position: relative;
-   margin: auto;
+.card-flip,
+.card-container {
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+  position: relative;
+  margin: auto;
 }
 
 .card-flip div {
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 .back {
-    transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
 }
 
 .card-container:hover .card-flip {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .card-flip {
-    display: grid; grid-template: 1fr / 1fr;
-    grid-template-areas: "frontAndBack";
-    transform-style: preserve-3d;
-    transition: all 0.7s ease;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas: "frontAndBack";
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
 }
 
 .front {
-    grid-area: frontAndBack;
+  grid-area: frontAndBack;
 }
 
 .back {
-    grid-area: frontAndBack;
-    transform: rotateY(-180deg);
+  grid-area: frontAndBack;
+  transform: rotateY(-180deg);
 }
 
 .card-container {
-    display: grid;
-    perspective: 700px;
-    
-    
+  display: grid;
+  perspective: 700px;
 }
 
 /*front and back same size*/
 
 .front,
-.back{
-    width:300px;
-    height:300px;
+.back {
+  width: 300px;
+  height: 300px;
 }
 
 /*------Icon Bar---------*/
 
-
 .icon-bar {
-  width: 100%; 
-  background-color:pink; 
+  width: 100%;
+  background-color: pink;
   overflow: hidden;
 }
 
 .icon-bar a {
-  
-  text-align: center; 
-  width: 25%; 
-  transition: all 0.3s ease; 
-  color: white; 
-  
+  text-align: center;
+  width: 25%;
+  transition: all 0.3s ease;
+  color: white;
 }
 
 .card-link a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding:0;
+  padding: 0;
 }
 
 /*---------------------------Contact Us-----------------------*/
 
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 40%; /* Full width */
-  height: 40%; /* Full height */
-  overflow: hidden; /* Enable scroll if needed */
-  background-color: rgb(255, 192 ,203); /* Fallback color */
-  background-color: rgb(117, 33, 33, 0.1); /* Purple w/ opacity */
+.modalbtn{
+    color:rgb(117, 33, 33);
+    background-image:url('assets/video/fire.gif');
 }
-
-/* Modal Content */
-.modal-content {
-  background-color: rgb(255, 192 ,203);
-  margin: auto;
-  padding: 20px;
-  border: 1px solid rgb(117, 33, 33);
-  width: 80%;
-}
-
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-
