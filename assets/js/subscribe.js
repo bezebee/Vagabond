@@ -1,13 +1,11 @@
-function sendMail(contactForm) {
-  emailjs
-    .send("gmail", "contact_form", {
-      from_name: contactForm.name.value,
-      from_email: contactForm.email_address.value,
-      message: contactForm.message.value,
+ function sendMail(Newsletter) {
+  emailjs.send("gmail", "subscription_success", {
+      "email": Newsletter.email.value
     })
     .then(
       function (response) {
         console.log("SUCCESS", response);
+        alert(subscribed)
       },
       function (error) {
         console.log("FAILED", error);
@@ -15,6 +13,3 @@ function sendMail(contactForm) {
     );
   return false; // To block from loading a new page
 }
-
-
-  
