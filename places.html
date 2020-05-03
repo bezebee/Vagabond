@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_cAeBTKRz9cAOzPB86ma5l");
+      })();
+    </script>
+
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -20,7 +30,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
-    <link rel="icon" href="../faviconV.png"> 
+    <link rel="icon" href="../faviconV.png" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Vagabonds</title>
   </head>
@@ -40,7 +50,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-           <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <!-----------Sign up/Sign in button------------->
         <div class="sign-up">
           <button
@@ -55,9 +65,7 @@
 
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html"
-              >Home</a
-            >
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="reads.html">Reads</a>
@@ -66,7 +74,9 @@
             <a class="nav-link" href="tunes.html">Tunes</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="places.html">Places<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="places.html"
+              >Places<span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="go.html">Go!</a>
@@ -82,8 +92,10 @@
         <div class="container-fluid">
           <h1 class="display-4 text-center"><a href="index.html">places</a></h1>
           <hr class="medium-line" />
-          <p class="lead">Sometimes you just need time away alone<br>
-          in a beautiful place to figure things out.</p>
+          <p class="lead">
+            Sometimes you just need time away alone<br />
+            in a beautiful place to figure things out.
+          </p>
         </div>
       </div>
     </section>
@@ -144,93 +156,111 @@
     <!--Page 1 section 3 Share us with your friends-->
 
     <section class="for-sharing">
-      
-        <h4 class="share">Sharing is caring</h4>
-        <hr class="medium-line" />
-        
-          <div class="box-right text-center">
-            <ul class="socials">
-              <li>
-                <a target="_blank" href="#"
-                  ><i
-                    class="fab fa-facebook-square fa-3x"
-                    style="color: pink;"
-                  ></i></a
-                ><!--Format to square, add border radius, change to outline-->
-              </li>
-              <li>
-                <a target="_blank" href="#"
-                  ><i class="fab fa-twitter fa-3x" style="color: pink;"></i></a
-                >
-              </li>
-              <li>
-                <a target="_blank" href="#"
-                  ><i class="fab fa-instagram fa-3x" style="color: pink;"></i
-                ></a>
-              </li>
-              <li>
-                <a target="_blank" href="#"
-                  ><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i
-                ></a>
-              </li>
-              <li>
-                <a target="_blank" href="#"
-                  ><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i
-                ></a>
-              </li>
-              <li>
-                <a target="_blank" href="#"
-                  ><i class="fab fa-pinterest fa-3x" style="color: pink;"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        
+      <h4 class="share">Sharing is caring</h4>
+      <hr class="medium-line" />
+
+      <div class="box-right text-center">
+        <ul class="socials">
+          <li>
+            <a target="_blank" href="#"
+              ><i
+                class="fab fa-facebook-square fa-3x"
+                style="color: pink;"
+              ></i></a
+            ><!--Format to square, add border radius, change to outline-->
+          </li>
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-twitter fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-instagram fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="#"
+              ><i class="fab fa-pinterest fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!-----------------------------------------------------------------Newsletter------------------------->
 
-        <section class="newsletter">
-    <h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
-    <hr class="medium-line" />
+    <section class="newsletter">
+      <h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
+      <hr class="medium-line" />
 
-<form class="newsletter-form">
-  <div class="form-group">
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  
-  <button type="submit" class="btn btn-newsletter">Submit</button>
-</form>
+      <form
+        onsubmit="return sendMail(this);"
+        class="Newsletter"
+        id="newsletterForm"
+      >
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+            name="email"
+            required
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
 
+        <button type="submit" class="btn btn-newsletter">Submit</button>
+      </form>
     </section>
-
 
     <!---------------------------------------------------------------Footer----------------------------->
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-sm col-6 col-sm-3"><a href="about.html">
-            About</a>
+          <div class="col-sm col-6 col-sm-3">
+            <a href="about.html"> About</a>
           </div>
           <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3"><a href="terms.html">
-            Terms</a>
+          <div class="col-sm col-6 col-sm-3">
+            <a href="terms.html"> Terms</a>
           </div>
           <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3"><a href="privacy.html">
-            Privacy</a>
+          <div class="col-sm col-6 col-sm-3">
+            <a href="privacy.html"> Privacy</a>
           </div>
           <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3"><a href="contact-us.html">
-            Contact Us</a>
+          <div class="col-sm col-6 col-sm-3">
+            <a href="contact-us.html"> Contact Us</a>
           </div>
         </div>
       </div>
-      <section><div class="col">
-            <p class="copyright text-center"><a href="https://bezebee.github.io/Beeing-About/" target="_blank">Beeing About  &copy; 2020</a></p>
-          </div></section>
+      <section>
+        <div class="col">
+          <p class="copyright text-center">
+            <a href="https://bezebee.github.io/Beeing-About/" target="_blank"
+              >Beeing About &copy; 2020</a
+            >
+          </p>
+        </div>
+      </section>
     </footer>
+    <script src="assets/js/subscribe.js"></script>
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

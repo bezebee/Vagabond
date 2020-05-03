@@ -110,7 +110,8 @@ $(function() {
             check_password();
             check_retype_password();
 
-            if (error_first_name === false && error_surname === false && error_email === false && error_password === false && error_retype_password === false) {
+            if (error_first_name === false && error_surname === false && error_email === 
+                false && error_password === false && error_retype_password === false) {
                alert("You're officially a Vagabond!");
                return true;
             } else {
