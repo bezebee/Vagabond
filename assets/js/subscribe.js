@@ -5,7 +5,7 @@
     .then(
       function (response) {
         console.log("SUCCESS", response);
-        alert(subscribed)
+        alert("subscribed")
       },
       function (error) {
         console.log("FAILED", error);
