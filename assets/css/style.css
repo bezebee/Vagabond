@@ -512,7 +512,13 @@ input[type="password"]:focus {
 
 /*---------------------------Contact Us-----------------------*/
 
-.modalbtn{
-    color:rgb(117, 33, 33);
-    background-image:url('assets/video/fire.gif');
+.modal-content{
+    background-color:rgb(255, 255, 255);
+    border:solid 1px rgb(117, 33, 33);
+    border-radius: 4%;
+}
+
+.modalBtn{
+    color:rgb(255, 192, 203);
+    background-color:rgb(117, 33, 33);   
 }
