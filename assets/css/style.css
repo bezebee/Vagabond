@@ -527,7 +527,46 @@ input[type=text]:focus, input[type=password]:focus {
   padding:0;
 }
 
+/*---------------------------Contact Us-----------------------*/
 
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 40%; /* Full width */
+  height: 40%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(255, 192 ,203); /* Fallback color */
+  background-color: rgb(117, 33, 33, 0.1); /* Purple w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: rgb(255, 192 ,203);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(117, 33, 33);
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 

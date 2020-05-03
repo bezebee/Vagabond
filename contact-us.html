@@ -9,6 +9,8 @@
    })();
 	</script>
 
+
+
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=false,initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -19,6 +21,7 @@
 	<link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
 	<link rel="icon" href="../faviconV.png">
 	<link rel="stylesheet" href="assets/css/style.css" />
+
 
 
 
@@ -94,7 +97,7 @@
 					<hr class="heading-line">
 					<h2 class="heading text-center">Contact</h2>
 					<hr class="heading-line">
-					<form onsubmit="return sendMail(this);" class="contactForm">
+					<form onsubmit="return sendMail(this);" class="contactForm" id="contact-form">
 						<div class="row">
 							<div class="form-group col-lg-4">
 								<label for="name">Name</label>
@@ -110,8 +113,8 @@
 							</div>
 
 										<div class="form-group col-lg-12">
-											<label style="padding-top:4%">Message (optional)</label>
-											<textarea class="form-control" rows="7" placeholder="How can we help?" name="message"></textarea>
+											<label style="padding-top:4%">Message</label>
+											<textarea class="form-control" rows="7" placeholder="How can we help?" name="message" required></textarea>
 										</div>
 										<div class="form-group col-lg-12">
 											<button type="submit" class="btn btn-success btn-lg">Submit</button>
