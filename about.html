@@ -166,7 +166,7 @@
                 class="fab fa-facebook-square fa-3x"
                 style="color: pink;"
               ></i></a
-            ><!--Format to square, add border radius, change to outline-->
+            >
           </li>
           <li>
             <a target="_blank" href="#"
@@ -215,14 +215,38 @@
             aria-describedby="emailHelp"
             placeholder="Enter email"
             name="email"
-            required
+            required=""
           />
           <small id="emailHelp" class="form-text text-muted"
             >We'll never share your email with anyone else.</small
           >
         </div>
 
-        <button type="submit" class="btn btn-newsletter">Submit</button>
+        <button type="submit" class="btn btn-newsletter" data-toggle="modal" data-target="#subscriptionModal">Submit</button>
+
+<div class="modal fade" id="subscriptionModal" tabindex="-1" role="dialog" aria-labelledby="subscriptionModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="subscriptionModalLabel">Message from the Vagabonds</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        You are now subscribed to updates
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-newsletter" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
       </form>
     </section>
 
@@ -258,6 +282,8 @@
       </section>
     </footer>
     <script src="assets/js/subscribe.js"></script>
+
+
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
