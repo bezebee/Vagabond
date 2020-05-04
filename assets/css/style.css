@@ -522,3 +522,98 @@ input[type="password"]:focus {
     color:rgb(255, 192, 203);
     background-color:rgb(117, 33, 33);   
 }
+
+/*------------------Go--------------------*/
+
+.card.api{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left:0;
+    padding-right:0;
+    padding-top:0;
+    position:relative;
+}
+
+img.card-img-top-api{
+    height:75px;
+}
+
+ul.currencies{
+    list-style-type:none;
+}
+
+.date{
+    font-family:"Beth Ellen";
+    color:rgb(117, 33, 33);
+    
+}
+
+.curr-place{
+    width:50%;
+    margin-left:10px;
+    margin-top:0;
+
+}
+
+.input.flag{
+    margin-bottom:5px;
+}
+
+.flag{
+    float:left;
+    height:42px;
+}
+ img.flag{
+     width:60px;
+ }
+
+.base-currency-rate, .currency-name{
+    margin-bottom:0px;
+    float:left;
+}
+
+.add-currency-btn{
+    margin-top:20px;
+}
+
+ul.currencies{
+    height:calc(100vh - 75px - 96.6px - 75px);
+    overflow-y:auto;
+}
+
+ul.currencies li .close{
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 0 0.5rem;
+    font-size: 15px;
+}
+
+/*Scrollbar*/
+
+ul.currencies::-webkit-scrollbar{
+    width:5px;
+}
+
+ul.currencies::-webkit-scrollbar-thumb{
+    background-color:rgb(117, 33, 33);
+    border-bottom: 1rem solid rgb(255, 192, 203);
+}
+
+.add-currency-list{
+    padding-left:0;
+}
+
+ul.add-currency-list{
+position:absolute;
+bottom:0;
+left:0;
+background-color:seashell;
+color:rgb(117, 33, 33);
+width:100%;
+list-style-type:none;
+font-size:5px;
+ height:calc(100vh - 75px - 60px - 120px);
+ top:190px;
+ overflow-y:auto;
+}
