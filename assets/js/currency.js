@@ -2,31 +2,40 @@
     
     const addCurrencyBtn = document.querySelector(".add-currency-btn");
     const addCurrencyList = document.querySelector(".add-currency-list");
+    const currenciesList = document.querySelector(".currencies"); 
+
+    const initiallyDisplayedCurrencies = ["AUD", "EUR", "GBP", "JPY", "RUB"];
+    let baseCurrency;
+    let baseCurrencyAmount;
 
     const currencies = [
     {
     name: "US Dollar",
     abbreviation: "USD",
     symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/us.gif"
+    flagURL: "http://www.geonames.org/flags/l/us.gif",
+    rate: 1.1345
   },
   {
     name: "Euro",
     abbreviation: "EUR",
     symbol: "\u20AC",
-    flagURL: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg"
+    flagURL: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg",
+    rate: 13.90
   },
   {
     name: "Japanese Yen",
     abbreviation: "JPY",
     symbol: "\u00A5",
-    flagURL: "http://www.geonames.org/flags/l/jp.gif"
+    flagURL: "http://www.geonames.org/flags/l/jp.gif",
+    rate: 8.9073 
   },
   {
     name: "British Pound",
     abbreviation: "GBP",
     symbol: "\u00A3",
-    flagURL: "http://www.geonames.org/flags/l/uk.gif"
+    flagURL: "http://www.geonames.org/flags/l/uk.gif",
+    rate: 1.2340
   },
   {
     name: "Australian Dollar",
@@ -223,4 +232,37 @@
         }
     }
 
+    function populateCurrenciesList(){
+        for (let i=0; i<initiallyDisplayedCurrencies.length; i++){
+           const currency = currencies.find(c => c.abbreviation === initiallyDisplayedCurrencies[i]);
+           if(currency) newCurrenciesListItem(currency);
+        }
+    }
+
+    function newCurrenciesListItem(currency){
+//checking if list is empty
+if(currenciesList.childElementCount===0){
+    baseCurrency = currency.abbreviation;
+    baseCurrencyAmount = 0;
+}
+//disabling responding currency from currency list
+addCurrencyList.querySelector(`[data-currency=${currency.abbreviation}]`).classList.add("disabled");
+const baseCurrencyRate = currencies.find(c => c.abbreviation===baseCurrency).rate;
+const exchangeRate = currency.abbreviation === baseCurrency ? 1 : (currency.rate/baseCurrencyRate).toFixed(4);
+const inputValue = baseCurrencyAmount ? (baseCurrencyAmount*exchangeRate).toFixed(4) : "";
+
+currenciesList.insertAdjacentHTML(
+    "beforeend", 
+    `<li class="currency ${currency.abbreviation===baseCurrency ? "base-currency" : ""}" id=${currency.abbreviation}>
+    <div class="info">
+    <p class="input flag"><img src=${currency.flagURL} class="flag"><input class="curr-place" placeholder="0.0000" value=${inputValue} ></p>
+    <p class="currency-name">${currency.abbreviation} - ${currency.name}</p><br>
+    <p class="base-currency-rate">1 ${baseCurrency} = ${exchangeRate} ${currency.abbreviation}</p>
+    </div>
+    <span class="close">&times;</span>
+    </li>`
+);
+    }
     populateAddCurrencyList();
+
+    populateCurrenciesList();

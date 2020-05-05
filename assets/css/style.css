@@ -512,172 +512,174 @@ input[type="password"]:focus {
 
 /*---------------------------Contact Us-----------------------*/
 
-.modal-content{
-    background-color:rgb(255, 255, 255);
-    border:solid 1px rgb(117, 33, 33);
-    border-radius: 4%;
+.modal-content {
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(117, 33, 33);
+  border-radius: 4%;
 }
 
-.modalBtn{
-    color:rgb(255, 192, 203);
-    background-color:rgb(117, 33, 33);   
+.modalBtn {
+  color: rgb(255, 192, 203);
+  background-color: rgb(117, 33, 33);
 }
 
 /*------------------Go--------------------*/
 
 /*Ensuring the content of card is not selectable*/
-.card-group.container-fluid{
-    user-select:none;
+.card-group.container-fluid {
+  user-select: none;
 }
 
-
-.card.api{
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-left:0;
-    padding-right:0;
-    padding-top:0;
-    padding-bottom:0;
-    border-bottom:0;
-    position:relative;
+.card.api {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+  position: relative;
 }
 
-
-img.card-img-top-api{
-    height:75px;
+img.card-img-top-api {
+  height: 75px;
 }
 
-ul.currencies{
-    list-style-type:none;
+ul.currencies {
+  list-style-type: none;
 }
 
-.date{
-    font-family:"Beth Ellen";
-    color:rgb(117, 33, 33);
-    
+.date {
+  font-family: "Beth Ellen";
+  color: rgb(117, 33, 33);
 }
 
-.curr-place{
-    width:50%;
-    margin-left:10px;
-    margin-top:0;
+.curr-place {
+  width: 50%;
+  margin-left: 10px;
+  margin-top: 0;
+}
+.info{
+    border-top: 1px solid #ddd;
+    padding-top:2%;
+    padding-left:2%;
 
 }
 
-.input.flag{
-    margin-bottom:5px;
+.input.flag {
+  margin-bottom: 5px;
 }
 
-.flag{
-    float:left;
-    height:42px;
+.flag {
+  float: left;
+  height: 42px;
 }
- img.flag{
-     width:60px;
- }
-
-.base-currency-rate, .currency-name{
-    margin-bottom:0px;
-    float:left;
+img.flag {
+  width: 60px;
 }
 
-.add-currency-btn{
-    margin-top:20px;
+p.base-currency-rate,
+p.currency-name {
+  margin-bottom: 0px;
+  float: left;
+  font-size:14px;
 }
 
-ul.currencies{
-    height:calc(100vh - 75px - 96.6px - 75px);
-    overflow-y:auto;
+.add-currency-btn {
+  margin-top: 20px;
 }
 
-ul.currencies li .close{
-    position:absolute;
-    top:0;
-    right:0;
-    padding: 0 0.5rem;
-    font-size: 15px;
+ul.currencies {
+  height: calc(100vh - 75px - 96.6px - 75px);
+  overflow-y: auto;
+}
+
+ul.currencies li .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 0.5rem;
+  font-size: 15px;
 }
 
 /*Scrollbar*/
 
-ul.currencies::-webkit-scrollbar{
-    width:5px;
+ul.currencies::-webkit-scrollbar {
+  width: 5px;
 }
 
-ul.currencies::-webkit-scrollbar-thumb{
-    background-color:rgb(117, 33, 33);
-    border-bottom: 1rem solid rgb(255, 192, 203);
+ul.currencies::-webkit-scrollbar-thumb {
+  background-color: rgb(117, 33, 33);
+  border-bottom: 1rem solid rgb(255, 192, 203);
 }
 /*Removing padding so the content stretches across the card*/
-.add-currency-list{
-    padding-left:0;
+.add-currency-list {
+  padding-left: 0;
 }
 /*styling the dropdown currencies*/
-ul.add-currency-list{
-position:absolute;
-bottom:45px;
-left:0;
-background-color:white;
-color:rgb(117, 33, 33);
-width:100%;
-list-style-type:none;
-font-size:5px;
- height:0;
- overflow-y:auto;
- 
- transition: all 0.25s;
+ul.add-currency-list {
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  background-color: white;
+  color: rgb(117, 33, 33);
+  width: 100%;
+  list-style-type: none;
+  font-size: 5px;
+  height: 0;
+  overflow-y: auto;
+
+  transition: all 0.25s;
 }
 
-ul.add-currency-list li.disabled{
-    opacity: 0.7;
-    cursor: not-allowed;
+ul.add-currency-list li.disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 
-.list-group-item.currency{
-    font-size:10px;
+.list-group-item.currency {
+  font-size: 10px;
 }
 
-.add-currency-btn{
-    color:rgb(117, 33, 33);
-    background-color:rgb(255, 192, 203);
-    border:1px solid rgb(117, 33, 33);
-    
-    font-family: "Lexend Peta";
-    font-size:20px;
-    text-transform: lowercase;
-    
-    
-    height: 50px;
-    transition: background-color 0.25s;
-    position:relative;
+.add-currency-btn {
+  color: rgb(117, 33, 33);
+  background-color: rgb(255, 192, 203);
+  border: 1px solid rgb(117, 33, 33);
+
+  font-family: "Lexend Peta";
+  font-size: 20px;
+  text-transform: lowercase;
+
+  height: 50px;
+  transition: background-color 0.25s;
+  position: relative;
 }
 
-.add-currency-btn i{
-    position:absolute;
-    font-size:30px;
-    top:30%;
-    left:10px;
-    opacity:0;
-    transition: all 0.25s;
+.add-currency-btn i {
+  position: absolute;
+  font-size: 30px;
+  top: 30%;
+  left: 10px;
+  opacity: 0;
+  transition: all 0.25s;
 }
 
-.add-currency-btn.open{
-    color:rgb(255, 192, 203);
-    background-color:rgb(117, 33, 33);
-    border:1px solid rgb(255, 192, 203);   
+.add-currency-btn.open {
+  color: rgb(255, 192, 203);
+  background-color: rgb(117, 33, 33);
+  border: 1px solid rgb(255, 192, 203);
 }
 
-.add-currency-btn.open i{
-    opacity: 1;
-    top:10px;
+.add-currency-btn.open i {
+  opacity: 1;
+  top: 10px;
 }
 
 /*Adjacent sibling selector to show dropdown list*/
 .add-currency-btn.open + ul.add-currency-list {
-    height: calc(100vh - 75px - 60px - 100px);
+  height: calc(100vh - 75px - 60px - 100px);
 }
 
-.add-currency-btn.open + ul.add-currency-list li:hover{
- background-color: rgba(255, 248, 232, 0.384);
+.add-currency-btn.open + ul.add-currency-list li:hover {
+  background-color: rgba(255, 248, 232, 0.384);
 }
-
