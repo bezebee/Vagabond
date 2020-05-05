@@ -617,3 +617,7 @@ font-size:5px;
  top:190px;
  overflow-y:auto;
 }
+
+.list-group-item.currency{
+    font-size:10px;
+}
