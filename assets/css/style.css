@@ -525,6 +525,12 @@ input[type="password"]:focus {
 
 /*------------------Go--------------------*/
 
+/*Ensuring the content of card is not selectable*/
+.card-group.container-fluid{
+    user-select:none;
+}
+
+
 .card.api{
     margin-left: 25px;
     margin-right: 25px;
@@ -602,11 +608,11 @@ ul.currencies::-webkit-scrollbar-thumb{
     background-color:rgb(117, 33, 33);
     border-bottom: 1rem solid rgb(255, 192, 203);
 }
-
+/*Removing padding so the content stretches across the card*/
 .add-currency-list{
     padding-left:0;
 }
-
+/*styling the dropdown currencies*/
 ul.add-currency-list{
 position:absolute;
 bottom:45px;
@@ -649,24 +655,29 @@ ul.add-currency-list li.disabled{
 .add-currency-btn i{
     position:absolute;
     font-size:30px;
-    top:40%;
+    top:30%;
     left:10px;
     opacity:0;
     transition: all 0.25s;
 }
 
-.add-currency-btn:hover{
+.add-currency-btn.open{
     color:rgb(255, 192, 203);
     background-color:rgb(117, 33, 33);
     border:1px solid rgb(255, 192, 203);   
 }
 
-.add-currency-btn:hover i{
+.add-currency-btn.open i{
     opacity: 1;
     top:10px;
 }
 
 /*Adjacent sibling selector to show dropdown list*/
-.add-currency-btn:hover + ul.add-currency-list {
+.add-currency-btn.open + ul.add-currency-list {
     height: calc(100vh - 75px - 60px - 100px);
 }
+
+.add-currency-btn.open + ul.add-currency-list li:hover{
+ background-color: rgba(255, 248, 232, 0.384);
+}
+
