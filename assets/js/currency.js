@@ -224,7 +224,7 @@ addCurrencyList.addEventListener("click", addCurrencyListClick);
 function addCurrencyListClick(event) {
     const clickedListItem = event.target.closest("li");
     if (!clickedListItem.classList.contains("disabled")) {
-        const newCurrency = currencies.find(c => c.abbreviation === clickedListItem.getAttribute("data-currency"));
+        const newCurrency = currencies.find(c => c.abbreviation===clickedListItem.getAttribute("data-currency"));
         if (newCurrency) newCurrenciesListItem(newCurrency);
     }
 }
@@ -253,11 +253,11 @@ function currenciesListClick(event) {
 function setNewBaseCurrency(newBaseCurrencyLI) {
     newBaseCurrencyLI.classList.add("base-currency");
     baseCurrency = newBaseCurrencyLI.id;
-    const baseCurrencyRate = currencies.find(currency => currency.abbreviation === baseCurrency).rate;
+    const baseCurrencyRate = currencies.find(currency => currency.abbreviation===baseCurrency).rate;
     currenciesList.querySelectorAll(".currency").forEach(currencyLI => {
-        const currencyRate = currencies.find(currency => currency.abbreviation === currencyLI.id).rate; //get currency rate
+        const currencyRate = currencies.find(currency => currency.abbreviation===currencyLI.id).rate; //get currency rate
         const exchangeRate =
-            currencyLI.id === baseCurrency ?
+            currencyLI.id===baseCurrency ?
             1 :
             (currencyRate / baseCurrencyRate).toFixed(4); //calculate currency rate
         currencyLI.querySelector(
@@ -269,7 +269,7 @@ function setNewBaseCurrency(newBaseCurrencyLI) {
 currenciesList.addEventListener("input", currenciesListInputChange);
 
 function currenciesListInputChange(event) {
-    const isNewBaseCurrency = event.target.closest("li").id !== baseCurrency;
+    const isNewBaseCurrency = event.target.closest("li").id!==baseCurrency;
     if (isNewBaseCurrency) {
 
         currenciesList.querySelector(`#${baseCurrency}`).classList.remove("base-currency");
@@ -277,14 +277,14 @@ function currenciesListInputChange(event) {
     }
 
     const newBaseCurrencyAmount = isNaN(event.target.value) ? 0 : Number(event.target.value);
-    if (baseCurrencyAmount !== newBaseCurrencyAmount || isNewBaseCurrency) {
+    if (baseCurrencyAmount!==newBaseCurrencyAmount || isNewBaseCurrency) {
         baseCurrencyAmount = newBaseCurrencyAmount;
-        const baseCurrencyRate = currencies.find(currency => currency.abbreviation === baseCurrency).rate;
+        const baseCurrencyRate = currencies.find(currency => currency.abbreviation===baseCurrency).rate;
         currenciesList.querySelectorAll(".currency").forEach(currencyLI => {
             if (currencyLI.id !== baseCurrency) {
-                const currencyRate = currencies.find(currency => currency.abbreviation === currencyLI.id).rate;
-                const exchangeRate = currencyLI.id === baseCurrency ? 1 : (currencyRate / baseCurrencyRate).toFixed(4);
-                currencyLI.querySelector(".input input").value = exchangeRate * baseCurrencyAmount !== 0 ? (exchangeRate * baseCurrencyAmount).toFixed(4) : "";
+                const currencyRate = currencies.find(currency => currency.abbreviation===currencyLI.id).rate;
+                const exchangeRate = currencyLI.id===baseCurrency ? 1 : (currencyRate / baseCurrencyRate).toFixed(4);
+                currencyLI.querySelector(".input input").value = exchangeRate * baseCurrencyAmount!==0 ? (exchangeRate * baseCurrencyAmount).toFixed(4) : "";
             }
         });
     }
@@ -306,7 +306,7 @@ function populateAddCurrencyList() {
 function populateCurrenciesList() {
     for (let i = 0; i < initiallyDisplayedCurrencies.length; i++) {
         const currency = currencies.find(
-            c => c.abbreviation === initiallyDisplayedCurrencies[i]
+            c => c.abbreviation===initiallyDisplayedCurrencies[i]
         );
         if (currency) newCurrenciesListItem(currency);
     }
@@ -320,14 +320,14 @@ function newCurrenciesListItem(currency) {
     }
     //disabling responding currency from currency list
     addCurrencyList.querySelector(`[data-currency=${currency.abbreviation}]`).classList.add("disabled");
-    const baseCurrencyRate = currencies.find(c => c.abbreviation === baseCurrency).rate;
-    const exchangeRate = currency.abbreviation === baseCurrency ? 1 : (currency.rate / baseCurrencyRate).toFixed(4);
+    const baseCurrencyRate = currencies.find(c => c.abbreviation===baseCurrency).rate;
+    const exchangeRate = currency.abbreviation===baseCurrency ? 1 : (currency.rate / baseCurrencyRate).toFixed(4);
     const inputValue = baseCurrencyAmount ? (baseCurrencyAmount * exchangeRate).toFixed(4) : "";
 
     currenciesList.insertAdjacentHTML(
         "beforeend",
         `<li class="currency ${
-      currency.abbreviation === baseCurrency ? "base-currency" : ""
+      currency.abbreviation===baseCurrency ? "base-currency" : ""
     }" id=${currency.abbreviation}>
     <img src=${
       currency.flagURL
