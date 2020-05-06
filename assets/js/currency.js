@@ -240,6 +240,63 @@ function currenciesListClick(event) {
   if (event.target.classList.contains("close")) {
     const parentNode = event.target.parentNode;
     parentNode.remove();
+    addCurrencyList
+      .querySelector(`[data-currency=${parentNode.id}]`)
+      .classList.remove("disabled");
+    if (parentNode.classList.contains("base-currency")) {
+      const newBaseCurrencyLI = currenciesList.querySelector(".currency");
+      if (newBaseCurrencyLI) {
+        setNewBaseCurrency(newBaseCurrencyLI);
+        baseCurrencyAmount = Number(
+          newBaseCurrencyLI.querySelector(".input input").value
+        );
+      }
+    }
+  }
+}
+
+function setNewBaseCurrency(newBaseCurrencyLI) {
+  newBaseCurrencyLI.classList.add("base-currency");
+  baseCurrency = newBaseCurrencyLI.id;
+  const baseCurrencyRate = currencies.find(
+    (currency) => currency.abbreviation === baseCurrency
+  ).rate;
+  currenciesList.querySelectorAll(".currency").forEach((currencyLI) => {
+    const currencyRate = currencies.find(
+      (currency) => currency.abbreviation === currencyLI.id
+    ).rate; //get currency rate
+    const exchangeRate =
+      currencyLI.id === baseCurrency
+        ? 1
+        : (currencyRate / baseCurrencyRate).toFixed(4); //calculate currency rate
+    currencyLI.querySelector(
+      ".base-currency-rate"
+    ).textContent = `1 ${baseCurrency} = ${exchangeRate} ${currencyLI.id}`; // set the text content for the base currency element
+  });
+}
+
+currenciesList.addEventListener("input", currenciesListInputChange);
+
+function currenciesListInputChange(event) {
+const isNewBaseCurrency = event.target.closest("li").id!==baseCurrency;
+  if(isNewBaseCurrency) {
+
+    currenciesList.querySelector(`#${baseCurrency}`).classList.remove("base-currency");
+    setNewBaseCurrency(event.target.closest("li"));
+  }
+
+  const newBaseCurrencyAmount = isNaN(event.target.value) ? 0 : Number(event.target.value);
+  if (baseCurrencyAmount!== newBaseCurrencyAmount || isNewBaseCurrency) {
+    baseCurrencyAmount = newBaseCurrencyAmount;
+    const baseCurrencyRate = currencies.find(currency => currency.abbreviation===baseCurrency).rate;
+    currenciesList.querySelectorAll(".currency").forEach(currencyLI => {
+        if(currencyLI.id!==baseCurrency){
+    const currencyRate = currencies.find(currency => currency.abbreviation === currencyLI.id).rate; //get currency rate
+    const exchangeRate = currencyLI.id === baseCurrency ? 1 : (currencyRate / baseCurrencyRate).toFixed(4); //calculate currency rate
+    currencyLI.querySelector(".input input").value = exchangeRate*baseCurrencyAmount!==0 ? (exchangeRate*baseCurrencyAmount).toFixed(4) : "";
+        }
+  });
+
   }
 }
 
