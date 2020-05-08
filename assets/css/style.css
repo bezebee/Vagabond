@@ -563,8 +563,9 @@ ul.currencies {
     
     padding-top:2%;
     padding-left:2%;
-
 }
+
+
 
 .input.flag {
   margin-bottom: 5px;
@@ -572,32 +573,31 @@ ul.currencies {
 
 .flag {
   float: left;
-  height: 42px;
+  height:38px;
+  
 }
 img.flag {
   width: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 p.currency-name {
   margin-bottom: 0px;
   float: left;
-  font-size:14px;
+ font-size:14px;
+  margin-top:7px;
+   
+  text-align: left
 }
 
-p.base-currency-rate{
-   margin-bottom: 0px;
+p.currency-rate{
+  margin-bottom: 0px;
   float: left;
-  font-size:12px;
+  font-size:9px;
   color:rgba(0, 0, 0, 0.7);
 }
 
-.currency{
-     border-bottom:1px solid #ccc;
-     margin-top:7px;
-     margin-bottom:7px;
-     margin-left:7px;
-     position:relative;
-}
+
 
 .add-currency-btn {
   margin-top: 20px;
@@ -608,13 +608,22 @@ ul.currencies {
   overflow-y: auto;
 }
 
+ul.currencies li.base-currency{
+    background-color: rgb(255, 192, 203, 0.3);
+}
+
 ul.currencies li .close {
-  position:absolute;
+ 
   top: 0;
   right: 0;
   padding: 0 0.5rem;
   font-size: 18px;
   color:rgba(0, 0, 0, 0.9);
+}
+
+.additional-currency{
+    font-size:10px;
+    float:left;
 }
 
 /*Scrollbar*/
@@ -630,6 +639,7 @@ ul.currencies::-webkit-scrollbar-thumb {
 /*Removing padding so the content stretches across the card*/
 .add-currency-list {
   padding-left: 0;
+
 }
 /*styling the dropdown currencies*/
 ul.add-currency-list {
@@ -653,7 +663,7 @@ ul.add-currency-list li.disabled {
 }
 
 .list-group-item.currency {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .add-currency-btn {
