@@ -238,8 +238,25 @@ function currenciesListClick(event){
         const parentNode = event.target.parentNode;
         parentNode.remove();
         addCurrencyList.querySelector(`[data-currency=${parentNode.id}]`).classList.remove("disabled");
+        if(parentNode.classList.contains("base-currency")) {
+            const newBaseCurrencyLI = currenciesList.querySelector(".currency");
+            if(newBaseCurrencyLI) {
+                setNewBaseCurrency(newBaseCurrencyLI);
+                baseCurrencyAmount = Number (newBaseCurrencyLI.querySelector(".input input").value);
+            }}}}
+                
+    function setNewBaseCurrency(newBaseCurrencyLI) {
+        newBaseCurrencyLI.classList.add("base-currency");
+        baseCurrency = newBaseCurrencyLI.id;
+        const baseCurrencyRate = currencies.find(currency => currency.abbreviation===baseCurrency).rate;
+        currenciesList.querySelectorAll(".currency").forEach(currencyLI => {
+            const currencyRate = currencies.find(currency => currency.abbreviation===currencyLI.id).rate;
+            const exchangeRate = currencyLI.id===baseCurrency ? 1 : (currencyRate/baseCurrencyRate).toFixed(4);
+            currencyLI.querySelector(".base-currency-rate").textContent = `1 ${baseCurrency} = ${exchangeRate} ${currencyLI.id}`;
+
+        });
     }
-}
+
 
 //Auxiliary Functions
 
@@ -276,7 +293,7 @@ function newCurrenciesListItem(currency) {
                 <p class="input flag"><img src=${currency.flagURL} class="flag"/><span class="currency-symbol"/>${currency.symbol}</span>
                 <input class="curr-place" placeholder="0.0000" value=${inputValue}></p>
                 <p class="currency-name">${currency.abbreviation} - ${currency.name}</p>
-                <p class="currency-rate">1 ${baseCurrency} = ${exchangeRate} ${currency.abbreviation}</p>
+                <p class="currency-rate base-currency-rate">1 ${baseCurrency} = ${exchangeRate} ${currency.abbreviation}</p>
                 </div>
                 <span class="close">&times;</span>
                 </li>`);
