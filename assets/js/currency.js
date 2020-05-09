@@ -113,7 +113,8 @@ const currencies = [
     name: "Russian Ruble",
     abbreviation: "RUB",
     symbol: "\u20BD",
-    flagURL: "http://www.geonames.org/flags/l/ru.gif"
+    flagURL: "http://www.geonames.org/flags/l/ru.gif",
+    rate:2
   },
   {
     name: "Indian Rupee",
@@ -264,6 +265,19 @@ function currenciesListInputChange(event) {
     if (isNewBaseCurrency) {
         currenciesList.querySelector(`#${baseCurrency}`).classList.remove("base-currency");
         setNewBaseCurrency(event.target.closest("li"));
+    }
+    const newBaseCurrencyAmount = isNaN(event.target.value) ? 0 : Number (event.target.value);
+    if(baseCurrencyAmount!==newBaseCurrencyAmount || isNewBaseCurrency){
+        baseCurrencyAmount = newBaseCurrencyAmount;
+        const baseCurrencyRate = currencies.find(currency => currency.abbreviation===baseCurrency).rate;
+        currenciesList.querySelectorAll(".currency").forEach(currencyLI => {
+            if(currencyLI.id!==baseCurrency){
+            const currencyRate = currencies.find(currency => currency.abbreviation===currencyLI.id).rate;
+            const exchangeRate = currencyLI.id===baseCurrency ? 1 : (currencyRate/baseCurrencyRate).toFixed(4);
+            currencyLI.querySelector(".input input").value = exchangeRate*baseCurrencyAmount!==0 ? (exchangeRate*baseCurrencyAmount).toFixed(4) : "";
+                }
+        });
+
     }
 }
 //Auxiliary Functions
