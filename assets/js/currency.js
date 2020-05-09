@@ -237,6 +237,7 @@ function currenciesListClick(event){
     if(event.target.classList.contains("close")) {
         const parentNode = event.target.parentNode;
         parentNode.remove();
+        addCurrencyList.querySelector(`[data-currency=${parentNode.id}]`).classList.remove("disabled");
     }
 }
 
@@ -278,7 +279,7 @@ function newCurrenciesListItem(currency) {
                 <p class="currency-rate">1 ${baseCurrency} = ${exchangeRate} ${currency.abbreviation}</p>
                 </div>
                 <span class="close">&times;</span>
-                </li>`)
+                </li>`);
 
 }
 populateAddCurrencyList();

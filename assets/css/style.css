@@ -608,7 +608,7 @@ ul.currencies {
   overflow-y: auto;
 }
 
-ul.currencies li.base-currency{
+.currency.base-currency{
     background-color: rgb(255, 192, 203, 0.3);
     
 }
