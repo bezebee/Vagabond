@@ -21,7 +21,7 @@ const currencies = [
     abbreviation: "EUR",
     symbol: "\u20AC",
     flagURL: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg",
-    rate:1.7654
+    rate:1
   },
   {
     name: "Japanese Yen",
@@ -251,11 +251,11 @@ function newCurrenciesListItem(currency) {
     const inputValue = baseCurrencyAmount ? (baseCurrencyAmount*exchangeRate).toFixed(4) : "";
 
     currenciesList.insertAdjacentHTML("beforeend",
-    ` <li class="currency  list-group-item ${currency.abbreviation===baseCurrency ? "base-currency": ""}" id=${currency.abbreviation}>
+    `<li class="currency  list-group-item ${currency.abbreviation===baseCurrency ? "base-currency": ""}" id=${currency.abbreviation}>
         <div class="info">
-                <p class="input flag"><img src=${currency.flagURL} class="flag"/><span class="currency-symbol">${currency.symbol}</span>
+                <p class="input flag"><img src=${currency.flagURL} class="flag"/><span class="currency-symbol"/>${currency.symbol}</span>
                 <input class="curr-place" placeholder="0.0000" value=${inputValue}></p>
-                <p class="currency-name">${currency.abbreviation} - ${currency.name}</p><br>
+                <p class="currency-name">${currency.abbreviation} - ${currency.name}</p>
                 <p class="currency-rate">1 ${baseCurrency} = ${exchangeRate} ${currency.abbreviation}</p>
                 </div>
                 <span class="close">&times;</span>

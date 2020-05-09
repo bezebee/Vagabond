@@ -583,7 +583,7 @@ img.flag {
 
 p.currency-name {
   margin-bottom: 0px;
-  float: left;
+  
  font-size:14px;
   margin-top:7px;
    
@@ -610,10 +610,11 @@ ul.currencies {
 
 ul.currencies li.base-currency{
     background-color: rgb(255, 192, 203, 0.3);
+    
 }
 
 ul.currencies li .close {
- 
+ position:absolute;
   top: 0;
   right: 0;
   padding: 0 0.5rem;
