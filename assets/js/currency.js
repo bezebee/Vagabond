@@ -257,7 +257,15 @@ function currenciesListClick(event){
         });
     }
 
+currenciesList.addEventListener("input",currenciesListInputChange);
 
+function currenciesListInputChange(event) {
+    const isNewBaseCurrency = event.target.closest("li").id!==baseCurrency;
+    if (isNewBaseCurrency) {
+        currenciesList.querySelector(`#${baseCurrency}`).classList.remove("base-currency");
+        setNewBaseCurrency(event.target.closest("li"));
+    }
+}
 //Auxiliary Functions
 
 function populateAddCurrencyList(){
