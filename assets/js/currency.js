@@ -4,11 +4,14 @@ const addCurrencyBtn = document.querySelector(".add-currency-btn");
 const addCurrencyList = document.querySelector(".add-currency-list");
 const currenciesList = document.querySelector(".currencies");
 
+const dataURL = "https://api.exchangeratesapi.io/latest";
+
+
 const initiallyDisplayedCurrencies = ["EUR", "GBP", "USD", "JPY", "RUB"];
 let baseCurrency;
 let baseCurrencyAmount;
 
-const currencies = [
+let currencies = [
     {
         name:"US Dollar",
         abbreviation:"USD",
@@ -330,5 +333,20 @@ function newCurrenciesListItem(currency) {
                 </li>`);
 
 }
+
+fetch(dataURL)
+.then(res=> res.json())
+.then(data=>{
+
+    console.log(data)
+    document.querySelector(".date").textContent = data.date.split("-").reverse().join("-");
+    data.rates["EUR"]= 1;
+    currencies = currencies.filter(currency => data.rates[currency.abbreviation]);
+    currencies.forEach(currency => currency.rate = data.rates[currency.abbreviation])
 populateAddCurrencyList();
 populateCurrenciesList();
+
+})
+.catch(err=>console.log(err));
+
+
