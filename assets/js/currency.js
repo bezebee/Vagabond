@@ -288,6 +288,12 @@ function currenciesListFocusOut(event){
     if(isNaN(inputValue) || Number(inputValue)===0) event.target.value="";
     else event.target.value = Number(inputValue).toFixed(4);
 }
+
+currenciesList.addEventListener("keydown", currenciesListKeyDown);
+
+function currenciesListKeyDown(event) {
+    if(event.key==="Enter")event.target.blur();
+}
 //Auxiliary Functions
 
 function populateAddCurrencyList(){
