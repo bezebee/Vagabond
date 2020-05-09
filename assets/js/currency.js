@@ -13,29 +13,25 @@ const currencies = [
         name:"US Dollar",
         abbreviation:"USD",
         symbol:"\u0024",
-        flagURL: "http://www.geonames.org/flags/l/us.gif",
-        rate:1.1354
+        flagURL: "http://www.geonames.org/flags/l/us.gif"
     },
      {
     name: "Euro",
     abbreviation: "EUR",
     symbol: "\u20AC",
-    flagURL: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg",
-    rate:1
+    flagURL: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg"
   },
   {
     name: "Japanese Yen",
     abbreviation: "JPY",
     symbol: "\u00A5",
-    flagURL: "http://www.geonames.org/flags/l/jp.gif",
-    rate:1.9876
+    flagURL: "http://www.geonames.org/flags/l/jp.gif"
   },
   {
     name: "British Pound",
     abbreviation: "GBP",
     symbol: "\u00A3",
-    flagURL: "http://www.geonames.org/flags/l/uk.gif",
-    rate:12.6789
+    flagURL: "http://www.geonames.org/flags/l/uk.gif"
   },
   {
     name: "Australian Dollar",
@@ -113,8 +109,7 @@ const currencies = [
     name: "Russian Ruble",
     abbreviation: "RUB",
     symbol: "\u20BD",
-    flagURL: "http://www.geonames.org/flags/l/ru.gif",
-    rate:2
+    flagURL: "http://www.geonames.org/flags/l/ru.gif"
   },
   {
     name: "Indian Rupee",
