@@ -230,6 +230,16 @@ function addCurrencyListClick(event) {
         if(newCurrency) newCurrenciesListItem(newCurrency);
     }
 }
+
+currenciesList.addEventListener("click", currenciesListClick);
+
+function currenciesListClick(event){
+    if(event.target.classList.contains("close")) {
+        const parentNode = event.target.parentNode;
+        parentNode.remove();
+    }
+}
+
 //Auxiliary Functions
 
 function populateAddCurrencyList(){
