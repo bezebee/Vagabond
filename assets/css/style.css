@@ -622,8 +622,17 @@ ul.currencies li .close {
 }
 
 .additional-currency{
+    border:0;
+}
+.flag.additional{
+    height:32px;
+}
+
+span.currency-description{
     font-size:10px;
-    float:left;
+    text-align: center;
+ 
+    
 }
 
 /*Scrollbar*/
