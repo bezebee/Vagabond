@@ -55,7 +55,7 @@ function initMap() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -100,7 +100,7 @@ function initMap2() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -145,7 +145,7 @@ function initMap3() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -190,7 +190,7 @@ function initMap4() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -236,7 +236,7 @@ function initMap5() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -283,7 +283,7 @@ function initMap6() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -330,7 +330,7 @@ function initMap7() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -377,7 +377,7 @@ function initMap8() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -427,7 +427,7 @@ function initMap9() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -474,7 +474,7 @@ function initMap10() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -521,7 +521,7 @@ function initMap11() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -568,7 +568,7 @@ function initMap12() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)
@@ -615,7 +615,7 @@ function initMap13() {
     google.maps.event.addListener(
       marker,
       "click",
-      function (e) {
+      function (_e) {
         infowindow.setContent(this.name);
         infowindow.open(map, this);
       }.bind(marker)

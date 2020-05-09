@@ -216,7 +216,7 @@ let currencies = [
 
 addCurrencyBtn.addEventListener("click", addCurrencyBtnClick);
 
-function addCurrencyBtnClick(event) {
+function addCurrencyBtnClick(_event) {
   addCurrencyBtn.classList.toggle("open");
 }
 
