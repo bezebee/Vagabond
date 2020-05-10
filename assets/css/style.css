@@ -725,37 +725,41 @@ ul.add-currency-list li.disabled {
 
 /*---------------Places-----------*/
 
-.gallery {
--webkit-column-count: 3;
--moz-column-count: 3;
-column-count: 3;
--webkit-column-width: 33%;
--moz-column-width: 33%;
-column-width: 33%; }
-.gallery .pics {
--webkit-transition: all 350ms ease;
-transition: all 350ms ease; }
-.gallery .animation {
--webkit-transform: scale(1);
--ms-transform: scale(1);
-transform: scale(1); }
+header{
+    margin: .5vw;
+    font-size:0;
+    display: -ms-flexbox;
+    -ms-flexbox-wrap: wrap;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
 
-@media (max-width: 450px) {
-.gallery {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
--webkit-column-width: 100%;
--moz-column-width: 100%;
-column-width: 100%;
-}
 }
 
-@media (max-width: 400px) {
-.btn.filter {
-padding-left: 1.1rem;
-padding-right: 1.1rem;
+header div{
+    -webkit-box-flex: auto;
+    -ms-flex:auto;
+    flex: auto;
+    width: 500px;
+    margin: .5vw;
 }
+
+header div img {
+    width:100%;
+    height: auto;
+}
+ 
+
+@media screen and (max-width: 400px) {
+    header div {
+        margin: 0;
+    }
+    header{
+        padding: 0;
+    }
+
 }
 /*-----------Searchbar--------------*/
 
