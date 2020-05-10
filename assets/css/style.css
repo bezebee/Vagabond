@@ -45,6 +45,8 @@ ul li,
   color: pink;
 }
 
+
+
 /*Registration form*/
 
 form {
@@ -153,7 +155,7 @@ hr.medium-line {
 
 .Newsletter {
   border: 0;
-  width: 50%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -767,5 +769,7 @@ padding-right: 1.1rem;
 small#emailHelp,input#exampleInputEmail1,input.search-box{
 font-size:10px;
 }
-
+.Newsletter{
+    width:80%;
+}
 }
