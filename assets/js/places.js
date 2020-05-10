@@ -1,20 +1,21 @@
-$.getJSON('https://api.unsplash.com/photos/?client_id=kZ9sSryGBssi-2T5OUPjVLye-DzTy5ksc6rEMov7fW0',function(data){
-    console.log(data);
-    $.each(data, function(index, value){
-        console.log(value);
 
-        var name = value.user.name;
-        var bio = value.user.bio;
-        var imageURL = value.urls.regular;
 
-        // $('.name').text(name);
-        // $('.bio').text(bio);
-        // $('.image img').attr('src',imageURL);
-
-        $('.output').append('<h1 class="name">' + name + '</h1><h2 class="bio">' + bio + '</h2><div class="image"><img src="' + imageURL +'"/></div>')
-        
-    });
+$.getJSON('https://api.unsplash.com/search/photos?query=dublin&client_id=kZ9sSryGBssi-2T5OUPjVLye-DzTy5ksc6rEMov7fW0', function(data) {
+  console.log(data);
+  
+  
+  var imageList = data.results;
+  
+  $.each(imageList, function(i, val) {
+    
+    var image = val;
+    var imageURL = val.urls.regular;
+    var imageWidth = val.width;
+    var imageHeight = val.height;
+    
+    if (imageWidth > imageHeight) {
+      $('.row.api').append('<div class="api-gallery"><img src="'+ imageURL +'"></div>');
+    }   
+    
+  });  
 });
-
-
-
