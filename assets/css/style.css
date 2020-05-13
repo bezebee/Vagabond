@@ -51,8 +51,6 @@ ul li,
     }
 } */
 
-
-
 /*Registration form*/
 
 form {
@@ -145,8 +143,6 @@ hr.medium-line {
   justify-content: center;
   flex-direction: row;
 }
-
-
 
 /*Footer*/
 
@@ -266,10 +262,10 @@ a:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 800px){
-    footer a{
-        font-size:14px;
-    }
+@media only screen and (max-width: 800px) {
+  footer a {
+    font-size: 14px;
+  }
 }
 
 /*Removing borders*/
@@ -296,27 +292,24 @@ a:hover {
   padding-top: 15px;
 }
 
-
-
 .summary {
   margin-top: 0;
   margin-bottom: 9px;
 }
 
-button.btn.sign-in.review{
-    font-size:10px;  
-    bottom:   0;
+button.btn.sign-in.review {
+  font-size: 10px;
+  bottom: 0;
 }
 
 .kindle img {
   width: 60px;
   height: 60px;
-  margin-bottom:10px;
- 
+  margin-bottom: 10px;
 }
 
 a.kindle {
- display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -345,39 +338,37 @@ a.kindle {
   z-index: 1;
 }
 
-@media only screen and (min-width: 600px){
-    p.card-text{
-        font-size:15px;
-    }
-    h5.card-title{
-        font-size:12px;
-    }
-    
-    .kindle img{
-       width:50px;
-       height:50px; 
-    }
+@media only screen and (min-width: 600px) {
+  p.card-text {
+    font-size: 15px;
+  }
+  h5.card-title {
+    font-size: 12px;
+  }
+
+  .kindle img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
-@media only screen and (min-width: 1000px){
-    p.card-text{
-        font-size:15px;
-    }
-    h5.card-title{
-        font-size:12px;
-    }
-    .review{
-        font-size:15px;
-        padding-top:2px;
-        padding-bottom:2px;
-    }
-    .kindle img{
-       width:50px;
-       height:50px; 
-    }
+@media only screen and (min-width: 1000px) {
+  p.card-text {
+    font-size: 15px;
+  }
+  h5.card-title {
+    font-size: 12px;
+  }
+  .review {
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .kindle img {
+    width: 50px;
+    height: 50px;
+  }
 }
-
-
 
 /*Map modal*/
 
@@ -556,8 +547,6 @@ input[type="password"]:focus {
   height: 300px;
 }
 
-
-
 /*------Icon Bar---------*/
 
 .icon-bar {
@@ -578,12 +567,11 @@ input[type="password"]:focus {
   padding: 0;
 }
 
-
-@media only screen and (max-width: 800px){
-    .socials li{
-        padding-left:10px;
-        padding-right:10px;
-    }
+@media only screen and (max-width: 800px) {
+  .socials li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 /*---------------------------Contact Us-----------------------*/
@@ -635,13 +623,10 @@ ul.currencies {
   margin-left: 10px;
   margin-top: 0;
 }
-.info{
-    
-    padding-top:2%;
-    padding-left:2%;
+.info {
+  padding-top: 2%;
+  padding-left: 2%;
 }
-
-
 
 .input.flag {
   margin-bottom: 5px;
@@ -649,8 +634,7 @@ ul.currencies {
 
 .flag {
   float: left;
-  height:38px;
-  
+  height: 38px;
 }
 img.flag {
   width: 60px;
@@ -659,21 +643,19 @@ img.flag {
 
 p.currency-name {
   margin-bottom: 0px;
-  
- font-size:14px;
-  margin-top:7px;
-   
-  text-align: left
+
+  font-size: 14px;
+  margin-top: 7px;
+
+  text-align: left;
 }
 
-p.currency-rate{
+p.currency-rate {
   margin-bottom: 0px;
   float: left;
-  font-size:9px;
-  color:rgba(0, 0, 0, 0.7);
+  font-size: 9px;
+  color: rgba(0, 0, 0, 0.7);
 }
-
-
 
 .add-currency-btn {
   margin-top: 20px;
@@ -684,31 +666,29 @@ ul.currencies {
   overflow-y: auto;
 }
 
-.currency.base-currency{
-    background-color: rgb(255, 192, 203, 0.3);
-    
+.currency.base-currency {
+  background-color: rgb(255, 192, 203, 0.3);
 }
 
 ul.currencies li .close {
- position:absolute;
+  position: absolute;
   top: 0;
   right: 0;
   padding: 0 0.5rem;
   font-size: 18px;
-  color:rgba(0, 0, 0, 0.9);
+  color: rgba(0, 0, 0, 0.9);
 }
 
-.additional-currency{
-    border:0;
+.additional-currency {
+  border: 0;
 }
-.flag.additional{
-    height:32px;
+.flag.additional {
+  height: 32px;
 }
 
-span.currency-description{
-    font-size:10px;
-    text-align: center;
-  
+span.currency-description {
+  font-size: 10px;
+  text-align: center;
 }
 
 /*Scrollbar*/
@@ -724,7 +704,6 @@ ul.currencies::-webkit-scrollbar-thumb {
 /*Removing padding so the content stretches across the card*/
 .add-currency-list {
   padding-left: 0;
-
 }
 /*styling the dropdown currencies*/
 ul.add-currency-list {
@@ -794,13 +773,19 @@ ul.add-currency-list li.disabled {
   background-color: rgba(255, 248, 232, 0.384);
 }
 
-
 /*---------------Places-----------*/
 
-
+.center-block {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  align-content: center;
+}
 
 .output {
-  /* Prevent vertical gaps */
+
   line-height: 0;
    
   -webkit-column-count: 5;
@@ -846,20 +831,20 @@ ul.add-currency-list li.disabled {
   }
 }
 
-
 /*-----------Searchbar--------------*/
 
-
-.search input[type=text] {
+.search input[type="text"] {
   border: 1px solid rgb(117, 33, 33, 0.8);
   box-shadow: 0 0 0 1px rgb(117, 33, 33);
 }
 
-@media (max-width:600px){
-small#emailHelp,input#exampleInputEmail1,input.search-box{
-font-size:10px;
-}
-.Newsletter{
-    width:80%;
-}
+@media (max-width: 600px) {
+  small#emailHelp,
+  input#exampleInputEmail1,
+  input.search-box {
+    font-size: 10px;
+  }
+  .Newsletter {
+    width: 80%;
+  }
 }

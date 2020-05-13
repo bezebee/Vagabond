@@ -17,6 +17,7 @@
       content="width=device-width, user-scalable=false,initial-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vagabonds</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -32,8 +33,14 @@
     <link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
     <link rel="icon" href="faviconV.png" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Vagabonds</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
     <!--Logo-->
 
@@ -101,39 +108,64 @@
     </section>
 
     <!----------------------------------- Places------------------>
-   
-<div class="container">
+    <div class="container-fluid search">
+     
+      <div class="row">
+        <div class="center-block" style="max-width: 400px;">
+          <div class="btn-group" role="group" aria-label="countries">
+            <button
+              id="europe"
+              type="button"
+              
+              class="btn btn-success"
+            >
+              Europe
+            </button>
+            <button
+              id="asia"
+              type="button"
+              
+              class="btn btn-warning"
+            >
+              Asia
+            </button>
+            <button
+              id="africa"
+              type="button"
+             
+              class="btn btn-danger"
+            >
+              Africa
+            </button>
+            <button
+              id="australia"
+              type="button"
+              
+              class="btn btn-primary"
+            >
+              Australia
+            </button>
+            <button
+              id="americas"
+              type="button"
+             
+              class="btn btn-light"
+            >
+              Americas
+            </button>
+          </div>
+        </div>
+      </div>
 
-<!--------------------------------- Search bar -->
-<div class="searchWrapper col-md-10" style="margin:auto;">
-  <input 
-  class="form-control search-box" 
-   
-  type="text" 
-  name="searchBar"
-  id="searchBar"
-  placeholder="Enter your dream destination for image inspiration" 
-   />
-   <button type="button" id="btn" class="btn btn-warning">Enter</button>
-</div>
-
-
-
-</div>
-<!-------------Gallery--------------------->
-<section class="output" id="imagesList">
-<img src=" ">
-<img src=" ">
-<img src=" ">
-<img src=" ">
-<img src=" ">
-<img src=" ">
-</section>
-
-
-  
-
-
+      <section class="output" id="imagesList">
+        <img src=" " />
+        <img src=" " />
+        <img src=" " />
+        <img src=" " />
+        <img src=" " />
+        <img src=" " />
+      </section>
+    </div>
 
     <!--Share us with your friends-->
 
@@ -145,11 +177,9 @@
         <ul class="socials">
           <li>
             <a target="_blank" href="#"
-              ><i
-                class="fab fa-facebook-square fa-3x"
-                style="color: pink;"
-              ></i></a
-            ><!--Format to square, add border radius, change to outline-->
+              ><i class="fab fa-facebook-square fa-3x" style="color: pink;"></i
+            ></a>
+            <!--Format to square, add border radius, change to outline-->
           </li>
           <li>
             <a target="_blank" href="#"
@@ -179,7 +209,6 @@
         </ul>
       </div>
     </section>
-
 
     <!-----------------------------------------------------------------Newsletter------------------------->
 
@@ -242,16 +271,11 @@
         </div>
       </section>
     </footer>
-    <script src="assets/jq/jquery-3.5.1.min.js"></script>
-    <script  type="text/javascript" src="assets/js/subscribe.js"></script>
+
+    <script type="text/javascript" src="assets/js/subscribe.js"></script>
     <script type="text/javascript" src="assets/js/places.js"></script>
-  
-    
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+    <script type="text/javascript" src="assets/jq/jquery-3.5.1.min.js"></script>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
