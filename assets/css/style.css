@@ -146,6 +146,8 @@ hr.medium-line {
   flex-direction: row;
 }
 
+
+
 /*Footer*/
 
 .share,
@@ -329,7 +331,7 @@ a:hover {
   z-index: 1;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (min-width: 600px){
     p.card-text{
         font-size:15px;
     }
@@ -346,6 +348,25 @@ a:hover {
        height:50px; 
     }
 }
+
+@media only screen and (min-width: 1000px){
+    p.card-text{
+        font-size:15px;
+    }
+    h5.card-title{
+        font-size:12px;
+    }
+    .review{
+        font-size:15px;
+        padding-top:2px;
+        padding-bottom:2px;
+    }
+    .kindle img{
+       width:50px;
+       height:50px; 
+    }
+}
+
 
 
 /*Map modal*/
