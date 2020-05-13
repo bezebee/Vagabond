@@ -45,6 +45,12 @@ ul li,
   color: pink;
 }
 
+/* @media screen and (max-width 800px){
+    .sign-up.register{
+        margin-top:10px;
+    }
+} */
+
 
 
 /*Registration form*/
@@ -258,6 +264,12 @@ a:hover {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 800px){
+    footer a{
+        font-size:14px;
+    }
+}
+
 /*Removing borders*/
 
 /*Reads*/
@@ -316,6 +328,25 @@ a:hover {
   position: absolute;
   z-index: 1;
 }
+
+@media only screen and (max-width: 800px){
+    p.card-text{
+        font-size:15px;
+    }
+    h5.card-title{
+        font-size:12px;
+    }
+    .review{
+        font-size:10px;
+        padding-top:2px;
+        padding-bottom:2px;
+    }
+    .kindle img{
+       width:50px;
+       height:50px; 
+    }
+}
+
 
 /*Map modal*/
 
@@ -494,6 +525,8 @@ input[type="password"]:focus {
   height: 300px;
 }
 
+
+
 /*------Icon Bar---------*/
 
 .icon-bar {
@@ -512,6 +545,14 @@ input[type="password"]:focus {
 .card-link a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 0;
+}
+
+
+@media only screen and (max-width: 800px){
+    .socials li{
+        padding-left:10px;
+        padding-right:10px;
+    }
 }
 
 /*---------------------------Contact Us-----------------------*/
