@@ -1,9 +1,16 @@
 //Mobile media query for fading on scroll
 
-function myFunction(mobile) {
-  if (mobile.matches) {
+function myFunction(ipad) {
+  if (ipad.matches) {
 
-  
+      $(document).ready(function () {
+      $(window).scroll(function () {
+        $("#slide").css(
+          "opacity",
+          1.5 - $(window).scrollTop() / ($("#slide").height() / 2)
+        );
+      });
+    });
 
     //row 1
     $(document).ready(function () {
@@ -19,7 +26,7 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book2").css(
           "opacity",
-          4.5 - $(window).scrollTop() / ($("#book2").height() / 2)
+          2.5 - $(window).scrollTop() / ($("#book2").height() / 2)
         );
       });
     });
@@ -28,7 +35,7 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book3").css(
           "opacity",
-          6 - $(window).scrollTop() / ($("#book3").height() / 2)
+          4.5 - $(window).scrollTop() / ($("#book3").height() / 2)
         );
       });
     });
@@ -36,7 +43,7 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book4").css(
           "opacity",
-          8.5 - $(window).scrollTop() / ($("#book4").height() / 2)
+          4.5 - $(window).scrollTop() / ($("#book4").height() / 2)
         );
       });
     });
@@ -46,7 +53,7 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book5").css(
           "opacity",
-          10 - $(window).scrollTop() / ($("#book5").height() / 2)
+          6.5 - $(window).scrollTop() / ($("#book5").height() / 2)
         );
       });
     });
@@ -54,7 +61,7 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book6").css(
           "opacity",
-          11.5 - $(window).scrollTop() / ($("#book6").height() / 2)
+          6.5 - $(window).scrollTop() / ($("#book6").height() / 2)
         );
       });
     });
@@ -62,7 +69,7 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book7").css(
           "opacity",
-          14 - $(window).scrollTop() / ($("#book7").height() / 2)
+          8.5 - $(window).scrollTop() / ($("#book7").height() / 2)
         );
       });
     });
@@ -70,7 +77,7 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book8").css(
           "opacity",
-          17 - $(window).scrollTop() / ($("#book8").height() / 2)
+          8.5 - $(window).scrollTop() / ($("#book8").height() / 2)
         );
       });
     });
@@ -80,7 +87,7 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book9").css(
           "opacity",
-          20 - $(window).scrollTop() / ($("#book9").height() / 2)
+          10.5 - $(window).scrollTop() / ($("#book9").height() / 2)
         );
       });
     });
@@ -88,7 +95,7 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book10").css(
           "opacity",
-          25 - $(window).scrollTop() / ($("#book10").height() / 2)
+         10.5 - $(window).scrollTop() / ($("#book10").height() / 2)
         );
       });
     });
@@ -96,7 +103,7 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book11").css(
           "opacity",
-          24.5 - $(window).scrollTop() / ($("#book11").height() / 2)
+          13 - $(window).scrollTop() / ($("#book11").height() / 2)
         );
       });
     });
@@ -104,15 +111,15 @@ function myFunction(mobile) {
       $(window).scroll(function () {
         $("#book12").css(
           "opacity",
-          28 - $(window).scrollTop() / ($("#book12").height() / 2)
+          13 - $(window).scrollTop() / ($("#book12").height() / 2)
         );
       });
     });
   }
 }
 
-let mobile = window.matchMedia("(max-width: 500px)");
-myFunction(mobile);
-mobile.addListener(myFunction);
+let ipad = window.matchMedia("(width: 768px)");
+myFunction(ipad);
+ipad.addListener(myFunction);
 
 

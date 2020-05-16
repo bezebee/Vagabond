@@ -1,7 +1,7 @@
 //Media query for fade on scroll - FHD and up (adapted from Stack Overflow and Media Queries on W3School - links in Readme)
 
-function myFunction(a) {
-  if (a.matches) {
+function myFunction(hd) {
+  if (hd.matches) {
     // If media query matches
     $(document).ready(function () {
       $(window).scroll(function () {
@@ -35,6 +35,6 @@ function myFunction(a) {
   }
 }
 
-let a = window.matchMedia("(min-width: 1200px)");
-myFunction(a); // Call listener function at run time
-a.addListener(myFunction); // Attach listener function on state changes
+let hd = window.matchMedia("(min-width: 1024px)");
+myFunction(hd); // Call listener function at run time
+hd.addListener(myFunction); // Attach listener function on state changes
