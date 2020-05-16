@@ -1,1594 +1,1594 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-      <script type="text/javascript">
-         (function () {
-           emailjs.init("user_cAeBTKRz9cAOzPB86ma5l");
-         })();
-      </script>
-          <meta charset="UTF-8" />
+  <head>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_cAeBTKRz9cAOzPB86ma5l");
+      })();
+    </script>
+    <meta charset="UTF-8" />
 
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, user-scalable=false, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=false, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
-	<link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
 
-	<link rel="icon" href="faviconV.png" />
-	<link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="faviconV.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-	<title>Vagabonds</title>
-   </head>
-   <body>
-      <!-----------------------------------------Navigation-------------------------------------------------->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <button
-            class="navbar-toggler"
+    <title>Vagabonds</title>
+  </head>
+  <body>
+    <!-----------------------------------------Navigation-------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!------------------------------Sign up/Sign in button------------------------------------------------>
+        <div class="sign-up">
+          <button
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            class="btn sign-in register"
+            data-toggle="modal"
+            data-target="#myModal"
+          >
+            <a href="register.html" class="register">Join us!</a>
+          </button>
+        </div>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="reads.html"
+              >Reads<span class="sr-only">(current)</span></a
             >
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNav">
-            <!------------------------------Sign up/Sign in button------------------------------------------------>
-            <div class="sign-up">
-               <button
-                  type="button"
-                  class="btn sign-in register"
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tunes.html">Tunes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="places.html">Places</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="go.html">Go!</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-----------------------------------------------Motto------------------------------------------------>
+    <section class="container-fluid" style="max-width: 100%;" id="slide">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+          <h1 class="display-4 text-center"><a href="index.html">reads</a></h1>
+          <hr class="medium-line" />
+          <p class="lead">
+            reading makes immigrants of us all. It takes us away from home,
+            <br />but more important, it finds homes for us everywhere
+          </p>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------------------Recommendations selection---------------------------------------------->
+    <section class="books">
+      <!-------------Row 1----------------------------------->
+      <div class="row" style="min-height: 100%;">
+        <!-----------------------------Afganistan---------------------------------------->
+        <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/afganistan.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Afganistan
+                <i
+                  class="fas fa-globe-americas afganistan"
                   data-toggle="modal"
-                  data-target="#myModal"
+                  data-target="#Afganistan"
+                  data-lat="33.9391"
+                  data-long="67.7100"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!----------------Afganistan modal---------------------->
+              <div
+                class="modal fade"
+                id="Afganistan"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="AfganistanLabel"
+                aria-hidden="true"
+                data-lat="33.9391"
+                data-long="67.7100"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="AfganistanLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="afganistan"
+                        class="maps"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/afghanistan');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "A gripping and emotional story of betrayal and redemption,
+                  The Kite Runner had me thrilled and moved, both at the same
+                  time."
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.theguardian.com/childrens-books-site/2014/jul/30/review-khaled-hosseini-the-kite-runner');"
+                >
+                  The Guardian
+                </button>
+              </div>
+              <br /><br />
+            </div>
+            <a
+              href="https://www.amazon.co.uk/Kite-Runner-Khaled-Hosseini-ebook/dp/B00B0CR0O6"
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+        <!----------------------------------------------Colombia------------------------------------------------------->
+        <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/colombia.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Colombia
+                <i
+                  class="fas fa-globe-americas colombia"
+                  data-toggle="modal"
+                  data-target="#Colombia"
+                  data-lat="4.6482837"
+                  data-long="-74.2478945"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!----------------Colombia modal-------------------->
+              <div
+                class="modal fade"
+                id="Colombia"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="ColombiaLabel"
+                aria-hidden="true"
+                data-lat="4.5709"
+                data-long="-74.2478945"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ColombiaLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="colombia"
+                        class="maps"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/colombia');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "It is a fully mature novel in scope and perspective,
+                  flawlessly translated, as rich in ideas as in humanity."
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.publishersweekly.com/978-0-394-56161-5');"
+                >
+                  Publishers Weekly
+                </button>
+              </div>
+              <br /><br />
+            </div>
+
+            <a
+              href="https://www.amazon.co.uk/Love-Time-Cholera-Marquez-2014-ebook/dp/B00HVPSXQA"
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+        <!-----------------------------------------Germany and France------------------------------------------------->
+        <div class="col col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/germanyandfrance.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Germany
+                <i
+                  class="fas fa-globe-americas germany"
+                  data-toggle="modal"
+                  data-target="#Germany"
+                  data-lat="51.1657"
+                  data-long="10.4515"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+                <br />France
+                <i
+                  class="fas fa-globe-americas france"
+                  data-toggle="modal"
+                  data-target="#France"
+                  data-lat="48.8589507"
+                  data-long="2.2770204"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!---------------------Germany modal---------------------->
+              <div
+                class="modal fade"
+                id="Germany"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="GermanyLabel"
+                aria-hidden="true"
+                data-lat="51.1657"
+                data-long="10.4515"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="GermanyLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="germany"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/germany');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!----------------------------France modal-------------------->
+              <div
+                class="modal fade"
+                id="France"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="FranceLabel"
+                aria-hidden="true"
+                data-lat="48.8589507"
+                data-long="2.2770204"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="FranceLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="france"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/france');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "I must blame Anthony Doerr for lost sleep, because once I
+                  started reading his new novel, “All the Light We Cannot See,”
+                  there was no putting it down."
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.nytimes.com/2014/05/11/books/review/all-the-light-we-cannot-see-by-anthony-doerr.html');"
+                >
+                  The New York Times
+                </button>
+              </div>
+              <br /><br />
+            </div>
+
+            <a
+              href="https://www.amazon.co.uk/All-Light-We-Cannot-See-ebook/dp/B00G1TOJ7Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+        <!--------------------------------------------------Ghana------------------------------------------------>
+        <div class="col col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/ghana.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Ghana
+                <i
+                  class="fas fa-globe-americas ghana"
+                  data-toggle="modal"
+                  data-target="#Ghana"
+                  data-lat="6.690251"
+                  data-long="-1.6861462"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!----------------Ghana modal------------------------>
+              <div
+                class="modal fade"
+                id="Ghana"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="GhanaLabel"
+                aria-hidden="true"
+                data-lat="6.690251"
+                data-long="-1.6861462"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="GhanaLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="ghana"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/ghana');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "This ambitious form and Gyasi’s determination to scrutinize
+                  the participation of West Africans in the Atlantic slave trade
+                  are the novel’s chief strengths."
+                </p>
+                <div class="sign-up">
+                  <button
+                    type="button"
+                    class="btn sign-in review"
+                    onclick="window.open(href='https://www.newyorker.com/magazine/2016/05/30/yaa-gyasis-homegoing');"
                   >
-               <a href="register.html" class="register">Join us!</a>
-               </button>
+                    The New Yorker
+                  </button>
+                </div>
+                <br /><br />
+              </div>
             </div>
-            <ul class="navbar-nav ml-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-               </li>
-               <li class="nav-item active">
-                  <a class="nav-link" href="reads.html"
-                     >Reads<span class="sr-only">(current)</span></a
-                     >
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="tunes.html">Tunes</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="places.html">Places</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="go.html">Go!</a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-      <!-----------------------------------------------Motto------------------------------------------------>
-      <section class="container-fluid" style="max-width: 100%;">
-         <div class="jumbotron jumbotron-fluid">
-            <div class="container-fluid">
-               <h1 class="display-4 text-center"><a href="index.html">reads</a></h1>
-               <hr class="medium-line" />
-               <p class="lead">
-                  reading makes immigrants of us all. It takes us away from home,
-                  <br />but more important, it finds homes for us everywhere
-               </p>
-            </div>
-         </div>
-      </section>
-      <!---------------------------------------------Recommendations selection---------------------------------------------->
-      <section class="books">
-         <!-------------Row 1----------------------------------->
-         <div class="row" style="min-height: 100%;">
-            <!-----------------------------Afganistan---------------------------------------->
-            <div class="col col-md-6 col-12 col-lg-3  d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/afganistan.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body">
-                     <h5 class="card-title">
-                        Afganistan
-                        <i
-                           class="fas fa-globe-americas afganistan"
-                           data-toggle="modal"
-                           data-target="#Afganistan"
-                           data-lat="33.9391"
-                           data-long="67.7100"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!----------------Afganistan modal---------------------->
-                     <div
-                        class="modal fade"
-                        id="Afganistan"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="AfganistanLabel"
-                        aria-hidden="true"
-                        data-lat="33.9391"
-                        data-long="67.7100"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="AfganistanLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="afganistan"
-                                    class="maps"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/afghanistan');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "A gripping and emotional story of betrayal and redemption, The
-                           Kite Runner had me thrilled and moved, both at the same time."
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://www.theguardian.com/childrens-books-site/2014/jul/30/review-khaled-hosseini-the-kite-runner');"
-                           >
-                        The Guardian
-                        </button>
-                     </div>
-                     <br /><br />
+            <a
+              href="https://www.amazon.co.uk/Homegoing-Yaa-Gyasi-ebook/dp/B019GF5YH8"
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <!--Row 2-->
+      <div class="row">
+        <!--------------------------------------------------------Iceland---------------------------------------------->
+        <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/iceland.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Iceland
+                <i
+                  class="fas fa-globe-americas iceland"
+                  data-toggle="modal"
+                  data-target="#Iceland"
+                  data-lat="64.1335484,"
+                  data-long="-21.9224813,"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!-------------------Iceland modal------------------------>
+              <div
+                class="modal fade"
+                id="Iceland"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="IcelandLabel"
+                aria-hidden="true"
+                data-lat="64.1335484,"
+                data-long="-21.9224813,"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="IcelandLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="iceland"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/iceland');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
-                  <a
-                     href="https://www.amazon.co.uk/Kite-Runner-Khaled-Hosseini-ebook/dp/B00B0CR0O6"
-                     target="_blank"
-                     class="kindle"
-                     rel="noopener noreferrer"
-                     style="border: none; text-decoration: none;"
-                     ><img
-                     src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                     /></a>
-               </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "The distinction between "Icelander" and "foreigner" is very
+                  clear in Icelanders' minds. Though the title mentions the sea,
+                  the book is a refreshing antidote to
+                  wrestling-with-the-landscape travel writing."
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.theguardian.com/books/2012/nov/02/sea-iceland-sarah-moss-review');"
+                >
+                  The Guardian
+                </button>
+              </div>
+              <br /><br />
             </div>
-            <!----------------------------------------------Colombia------------------------------------------------------->
-            <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/colombia.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body">
-                     <h5 class="card-title">
-                        Colombia
-                        <i
-                           class="fas fa-globe-americas colombia"
-                           data-toggle="modal"
-                           data-target="#Colombia"
-                           data-lat="4.6482837"
-                           data-long="-74.2478945"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!----------------Colombia modal-------------------->
-                     <div
-                        class="modal fade"
-                        id="Colombia"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="ColombiaLabel"
-                        aria-hidden="true"
-                        data-lat="4.5709"
-                        data-long="-74.2478945"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="ColombiaLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="colombia"
-                                    class="maps"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/colombia');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "It is a fully mature novel in scope and perspective, flawlessly
-                           translated, as rich in ideas as in humanity."
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://www.publishersweekly.com/978-0-394-56161-5');"
-                           >
-                        Publishers Weekly
-                        </button>
-                     </div>
-                     <br /><br />
+
+            <a
+              href="https://www.amazon.co.uk/Names-Sea-Strangers-Sarah-Moss-ebook/dp/B008F8GF3U"
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+        <!-------------------------------------------Ireland----------------------------------------------------->
+        <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/ireland.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Ireland
+                <i
+                  class="fas fa-globe-americas ireland"
+                  data-toggle="modal"
+                  data-target="#Ireland"
+                  data-lat="53.3244431"
+                  data-long="-6.3857857"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!----------------------Ireland modal-------------->
+              <div
+                class="modal fade"
+                id="Ireland"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="IrelandLabel"
+                aria-hidden="true"
+                data-lat="53.3244431"
+                data-long="-6.3857857"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="IrelandLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="ireland"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/ireland');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
-                 
-                     <a
-                        href="https://www.amazon.co.uk/Love-Time-Cholera-Marquez-2014-ebook/dp/B00HVPSXQA"
-                        target="_blank"
-                        class="kindle"
-                        rel="noopener noreferrer"
-                        style="border: none; text-decoration: none;"
-                        ><img
-                        src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                        /></a>
-                 
-               </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "Over the course of its 150-odd pages, Donal Ryan’s first
+                  novel introduces us to no fewer than 21 narrators living in or
+                  around the same small town in the west of Ireland. One by one,
+                  they reflect on their lives, past and present."
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.spectator.co.uk/article/the-spinning-heart-by-donal-ryan---review');"
+                >
+                  Spectator
+                </button>
+              </div>
+              <br /><br />
             </div>
-            <!-----------------------------------------Germany and France------------------------------------------------->
-            <div class="col col-12 col-md-6 col-lg-3  d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/germanyandfrance.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body">
-                     <h5 class="card-title">
-                        Germany
-                        <i
-                           class="fas fa-globe-americas germany"
-                           data-toggle="modal"
-                           data-target="#Germany"
-                           data-lat="51.1657"
-                           data-long="10.4515"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                        <br />France
-                        <i
-                           class="fas fa-globe-americas france"
-                           data-toggle="modal"
-                           data-target="#France"
-                           data-lat="48.8589507"
-                           data-long="2.2770204"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!---------------------Germany modal---------------------->
-                     <div
-                        class="modal fade"
-                        id="Germany"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="GermanyLabel"
-                        aria-hidden="true"
-                        data-lat="51.1657"
-                        data-long="10.4515"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="GermanyLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="germany"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/germany');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <!----------------------------France modal-------------------->
-                     <div
-                        class="modal fade"
-                        id="France"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="FranceLabel"
-                        aria-hidden="true"
-                        data-lat="48.8589507"
-                        data-long="2.2770204"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="FranceLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="france"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/france');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "I must blame Anthony Doerr for lost sleep, because once I
-                           started reading his new novel, “All the Light We Cannot See,”
-                           there was no putting it down."
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://www.nytimes.com/2014/05/11/books/review/all-the-light-we-cannot-see-by-anthony-doerr.html');"
-                           >
-                        The New York Times
-                        </button>
-                     </div>
-                     <br /><br />
+
+            <a
+              href="https://www.amazon.co.uk/Spinning-Heart-Donal-Ryan-ebook/dp/B009NH74EG/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+        <!-----------------------------------------------Japan---------------------------------------------------->
+        <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/japan.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Japan
+                <i
+                  class="fas fa-globe-americas japan"
+                  data-toggle="modal"
+                  data-target="#Japan"
+                  data-lat="35.6684415"
+                  data-long="139.6007843"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!--------------Japan modal-------------------->
+              <div
+                class="modal fade"
+                id="Japan"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="JapanLabel"
+                aria-hidden="true"
+                data-lat="35.6684415"
+                data-long="139.6007843"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="JapanLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="japan"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/japan');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
-                  
-                     <a
-                        href="https://www.amazon.co.uk/All-Light-We-Cannot-See-ebook/dp/B00G1TOJ7Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
-                        target="_blank"
-                        class="kindle"
-                        rel="noopener noreferrer"
-                        style="border: none; text-decoration: none;"
-                        ><img
-                        src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                        /></a>
-                  
-               </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "The fictional Sayuri, based on Golden's voluminous researc,
+                  presents an illuminating portrait of a culture too often
+                  mistakenly considered synonymous with prostitution by
+                  outsiders."
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://bookpage.com/reviews/18611-arthur-golden-channeling-another-voice-provocative-debut-fiction#.XqQeQmhKiUk');"
+                >
+                  BookPage
+                </button>
+              </div>
+              <br /><br />
             </div>
-            <!--------------------------------------------------Ghana------------------------------------------------>
-            <div class="col col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/ghana.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body">
-                     <h5 class="card-title">
-                        Ghana
-                        <i
-                           class="fas fa-globe-americas ghana"
-                           data-toggle="modal"
-                           data-target="#Ghana"
-                           data-lat="6.690251"
-                           data-long="-1.6861462"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!----------------Ghana modal------------------------>
-                     <div
-                        class="modal fade"
-                        id="Ghana"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="GhanaLabel"
-                        aria-hidden="true"
-                        data-lat="6.690251"
-                        data-long="-1.6861462"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="GhanaLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="ghana"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/ghana');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "This ambitious form and Gyasi’s determination to scrutinize the
-                           participation of West Africans in the Atlantic slave trade are
-                           the novel’s chief strengths."
-                        </p>
-                        <div class="sign-up">
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://www.newyorker.com/magazine/2016/05/30/yaa-gyasis-homegoing');"
-                           >
-                        The New Yorker
-                        </button>
-                     </div>
-                     <br /><br />
+
+            <a
+              href="https://www.amazon.co.uk/Memoirs-Geisha-Vintage-Anniv-Editions-ebook/dp/B0031RSAJC"
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+        <!------------------------------------------Latin America------------------------------------------------>
+        <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/latinamerica.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Latin America
+                <i
+                  class="fas fa-globe-americas latin-america"
+                  data-toggle="modal"
+                  data-target="#latin-america"
+                  data-lat="-5.7379831"
+                  data-long="-64.1876637"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!-----------------------Latin America modal--------------------------->
+              <div
+                class="modal fade"
+                id="latin-america"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="latin-americaLabel"
+                aria-hidden="true"
+                data-lat="-5.7379831"
+                data-long="-64.1876637"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="latin-americaLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="latinamerica"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/south-america');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        />
+                      </button>
+                      <button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
-                   </div>
-                     <a
-                        href="https://www.amazon.co.uk/Homegoing-Yaa-Gyasi-ebook/dp/B019GF5YH8"
-                        target="_blank"
-                        class="kindle"
-                        rel="noopener noreferrer"
-                        style="border: none; text-decoration: none;"
-                        ><img
-                        src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                        /></a>
-                 
-               </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "Reading Che’s memories made me realise travelling changes us
+                  more than we think. It helps make us better people and more
+                  tolerant of others"
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.thetravelmagazine.net/book-review-motorcycle-diaries-by-che-guevara.html');"
+                >
+                  The Travel Magazine
+                </button>
+              </div>
+              <br /><br />
             </div>
-         </div>
-         <!--Row 2-->
-         <div class="row">
-            <!--------------------------------------------------------Iceland---------------------------------------------->
-            <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/iceland.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body">
-                     <h5 class="card-title">
-                        Iceland
-                        <i
-                           class="fas fa-globe-americas iceland"
-                           data-toggle="modal"
-                           data-target="#Iceland"
-                           data-lat="64.1335484,"
-                           data-long="-21.9224813,"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!-------------------Iceland modal------------------------>
-                     <div
-                        class="modal fade"
-                        id="Iceland"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="IcelandLabel"
-                        aria-hidden="true"
-                        data-lat="64.1335484,"
-                        data-long="-21.9224813,"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="IcelandLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="iceland"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/iceland');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "The distinction between "Icelander" and "foreigner" is very
-                           clear in Icelanders' minds. Though the title mentions the sea,
-                           the book is a refreshing antidote to
-                           wrestling-with-the-landscape travel writing."
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://www.theguardian.com/books/2012/nov/02/sea-iceland-sarah-moss-review');"
-                           >
-                        The Guardian
-                        </button>
-                     </div>
-                     <br /><br />
+
+            <a
+              href="https://www.amazon.co.uk/Motorcycle-Diaries-Notes-American-Journey-ebook/dp/B006T3MBPY/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <!--Row 3-->
+      <div class="row">
+        <!-----------------------------------------------------New York------------------------------------------>
+        <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/newyork.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body" style="height: 100%;">
+              <h5 class="card-title">
+                New York
+                <i
+                  class="fas fa-globe-americas newyork"
+                  data-toggle="modal"
+                  data-target="#NewYork"
+                  data-lat="40.6971494"
+                  data-long="-74.2598655"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!----------------------New York modal-------------------->
+              <div
+                class="modal fade"
+                id="NewYork"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="NewYorkLabel"
+                aria-hidden="true"
+                data-lat="40.6971494"
+                data-long="-74.2598655"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="NewYorkLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="newyork"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/usa/new-york-city');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
-                  
-                     <a
-                        href="https://www.amazon.co.uk/Names-Sea-Strangers-Sarah-Moss-ebook/dp/B008F8GF3U"
-                        target="_blank"
-                        class="kindle"
-                        rel="noopener noreferrer"
-                        style="border: none; text-decoration: none;"
-                        ><img
-                        src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                        /></a>
-                  
-               </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "Plot and character and fine prose can take you far – but a
+                  novel this good makes you want to go even further. "
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.theguardian.com/books/2013/oct/17/goldfinch-donna-tartt-review');"
+                >
+                  The Guardian
+                </button>
+              </div>
+              <br /><br />
             </div>
-            <!-------------------------------------------Ireland----------------------------------------------------->
-            <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/ireland.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body">
-                     <h5 class="card-title">
-                        Ireland
-                        <i
-                           class="fas fa-globe-americas ireland"
-                           data-toggle="modal"
-                           data-target="#Ireland"
-                           data-lat="53.3244431"
-                           data-long="-6.3857857"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!----------------------Ireland modal-------------->
-                     <div
-                        class="modal fade"
-                        id="Ireland"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="IrelandLabel"
-                        aria-hidden="true"
-                        data-lat="53.3244431"
-                        data-long="-6.3857857"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="IrelandLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="ireland"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/ireland');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "Over the course of its 150-odd pages, Donal Ryan’s first novel
-                           introduces us to no fewer than 21 narrators living in or around
-                           the same small town in the west of Ireland. One by one, they
-                           reflect on their lives, past and present."
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://www.spectator.co.uk/article/the-spinning-heart-by-donal-ryan---review');"
-                           >
-                        Spectator
-                        </button>
-                     </div>
-                     <br /><br />
+
+            <a
+              href="https://www.amazon.co.uk/Goldfinch-Donna-Tartt-ebook/dp/B00C74SHRK"
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+        <!------------------------------------------------Russia----------------------------------------------------------->
+        <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/russia.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body" style="height: 100%;">
+              <h5 class="card-title">
+                Russia
+                <i
+                  class="fas fa-globe-americas russia"
+                  data-toggle="modal"
+                  data-target="#Russia"
+                  data-lat="55.5815245"
+                  data-long="36.8251381"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!----------------Russia modal----------->
+              <div
+                class="modal fade"
+                id="Russia"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="RussiaLabel"
+                aria-hidden="true"
+                data-lat="55.5815245"
+                data-long="36.8251381"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="RussiaLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="russia"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/russia');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
-                  
-                    
-                     <a
-                        href="https://www.amazon.co.uk/Spinning-Heart-Donal-Ryan-ebook/dp/B009NH74EG/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
-                        target="_blank"
-                        class="kindle"
-                        rel="noopener noreferrer"
-                        style="border: none; text-decoration: none;"
-                        ><img
-                        src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                        /></a>
-                  
-               </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "To Tolstoy the city is a static, artificial place..."
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.theguardian.com/books/2012/aug/31/rereading-anna-karenina-james-meek');"
+                >
+                  The Guardian
+                </button>
+              </div>
+              <br /><br />
             </div>
-            <!-----------------------------------------------Japan---------------------------------------------------->
-            <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/japan.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body">
-                     <h5 class="card-title">
-                        Japan
-                        <i
-                           class="fas fa-globe-americas japan"
-                           data-toggle="modal"
-                           data-target="#Japan"
-                           data-lat="35.6684415"
-                           data-long="139.6007843"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!--------------Japan modal-------------------->
-                     <div
-                        class="modal fade"
-                        id="Japan"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="JapanLabel"
-                        aria-hidden="true"
-                        data-lat="35.6684415"
-                        data-long="139.6007843"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="JapanLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="japan"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/japan');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "The fictional Sayuri, based on Golden's voluminous researc,
-                           presents an illuminating portrait of a culture too often
-                           mistakenly considered synonymous with prostitution by
-                           outsiders."
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://bookpage.com/reviews/18611-arthur-golden-channeling-another-voice-provocative-debut-fiction#.XqQeQmhKiUk');"
-                           >
-                        BookPage
-                        </button>
-                     </div>
-                     <br /><br />
+
+            <a
+              href="https://www.amazon.co.uk/Anna-Karenina-Leo-Tolstoy-ebook/dp/B008HSEEKO"
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+        <!-----------------------------------------------------------China-------------------------------------------------->
+        <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/china.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body" style="height: 100%;">
+              <h5 class="card-title">
+                China
+                <i
+                  class="fas fa-globe-americas china"
+                  data-toggle="modal"
+                  data-target="#China"
+                  data-lat="39.9390731"
+                  data-long="116.1172782"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!---------------China modal----------------->
+              <div
+                class="modal fade"
+                id="China"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="ChinaLabel"
+                aria-hidden="true"
+                data-lat="39.9390731"
+                data-long="116.1172782"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ChinaLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="china"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/china');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
-                  
-                     <a
-                        href="https://www.amazon.co.uk/Memoirs-Geisha-Vintage-Anniv-Editions-ebook/dp/B0031RSAJC"
-                        target="_blank"
-                        class="kindle"
-                        rel="noopener noreferrer"
-                        style="border: none; text-decoration: none;"
-                        ><img
-                        src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                        /></a>
-                  
-               </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "...this novel has bestseller potential and should become a
+                  reading group favorite as well."
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://www.publishersweekly.com/978-1-4000-6028-3');"
+                >
+                  Publishers Weekly
+                </button>
+              </div>
+              <br /><br />
             </div>
-            <!------------------------------------------Latin America------------------------------------------------>
-            <div class="col col-md-6  col-12 col-lg-3 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/latinamerica.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body">
-                     <h5 class="card-title">
-                        Latin America
-                        <i
-                           class="fas fa-globe-americas latin-america"
-                           data-toggle="modal"
-                           data-target="#latin-america"
-                           data-lat="-5.7379831"
-                           data-long="-64.1876637"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!-----------------------Latin America modal--------------------------->
-                     <div
-                        class="modal fade"
-                        id="latin-america"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="latin-americaLabel"
-                        aria-hidden="true"
-                        data-lat="-5.7379831"
-                        data-long="-64.1876637"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="latin-americaLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="latinamerica"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/south-america');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    />
-                                 </button>
-                                 <button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "Reading Che’s memories made me realise travelling changes us
-                           more than we think. It helps make us better people and more
-                           tolerant of others"
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://www.thetravelmagazine.net/book-review-motorcycle-diaries-by-che-guevara.html');"
-                           >
-                        The Travel Magazine
-                        </button>
-                     </div>
-                     <br /><br />
+
+            <a
+              href="https://www.amazon.co.uk/Snow-Flower-Secret-Fan-Lisa-ebook/dp/B003E20ZO2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+        <!----------------------------------------------------Sweden---------------------------------------------------->
+        <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/books/sweden.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body" style="height: 100%;">
+              <h5 class="card-title">
+                sweden
+                <i
+                  class="fas fa-globe-americas sweden"
+                  data-toggle="modal"
+                  data-target="#Sweden"
+                  data-lat="59.326242"
+                  data-long="17.8419717"
+                  ><span class="tooltiptext"
+                    >see, where this book takes you</span
+                  ></i
+                >
+              </h5>
+              <!-------------------------Sweden modal--------------------->
+              <div
+                class="modal fade"
+                id="Sweden"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="SwedenLabel"
+                aria-hidden="true"
+                data-lat="59.326242"
+                data-long="17.8419717"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="SwedenLabel">
+                        See, where the book will take you
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="sweden"
+                        class="modal-style"
+                        style="height: 400px; width: 100%;"
+                      ></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        class="lp"
+                        onclick="window.open(href='https://www.lonelyplanet.com/sweden');"
+                      >
+                        <span class="tooltiptext">Click to read article</span>
+                        <img
+                          border="0"
+                          alt="lonely planet"
+                          src="assets/images/lp.jpg"
+                          target="_blank"
+                          width="66"
+                          height="100%"
+                        /></button
+                      ><button
+                        type="button"
+                        class="btn sign-in save"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
-                  
-                     <a
-                        href="https://www.amazon.co.uk/Motorcycle-Diaries-Notes-American-Journey-ebook/dp/B006T3MBPY/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
-                        target="_blank"
-                        class="kindle"
-                        rel="noopener noreferrer"
-                        style="border: none; text-decoration: none;"
-                        ><img
-                        src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                        /></a>
-                  
-               </div>
+                </div>
+              </div>
+              <div class="review">
+                <p class="card-text">
+                  "We get a taste of urban Swedish life, in this novel..."
+                </p>
+                <button
+                  type="button"
+                  class="btn sign-in review"
+                  onclick="window.open(href='https://wordfest.com/news/review-of-a-man-called-ove-by-fredrik-backman/');"
+                >
+                  Wordfest
+                </button>
+              </div>
+              <br /><br />
             </div>
-         </div>
-         <!--Row 3-->
-         <div class="row">
-            <!-----------------------------------------------------New York------------------------------------------>
-            <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/newyork.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body" style="height: 100%;">
-                     <h5 class="card-title">
-                        New York
-                        <i
-                           class="fas fa-globe-americas newyork"
-                           data-toggle="modal"
-                           data-target="#NewYork"
-                           data-lat="40.6971494"
-                           data-long="-74.2598655"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!----------------------New York modal-------------------->
-                     <div
-                        class="modal fade"
-                        id="NewYork"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="NewYorkLabel"
-                        aria-hidden="true"
-                        data-lat="40.6971494"
-                        data-long="-74.2598655"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="NewYorkLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="newyork"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/usa/new-york-city');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "Plot and character and fine prose can take you far – but a
-                           novel this good makes you want to go even further. "
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://www.theguardian.com/books/2013/oct/17/goldfinch-donna-tartt-review');"
-                           >
-                        The Guardian
-                        </button>
-                     </div>
-                     <br /><br />
-                  </div>
-                  
-                     <a
-                        href="https://www.amazon.co.uk/Goldfinch-Donna-Tartt-ebook/dp/B00C74SHRK"
-                        target="_blank"
-                        class="kindle"
-                        rel="noopener noreferrer"
-                        style="border: none; text-decoration: none;"
-                        ><img
-                        src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                        /></a>
-                  
-               </div>
-            </div>
-            <!------------------------------------------------Russia----------------------------------------------------------->
-            <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/russia.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body" style="height: 100%;">
-                     <h5 class="card-title">
-                        Russia
-                        <i
-                           class="fas fa-globe-americas russia"
-                           data-toggle="modal"
-                           data-target="#Russia"
-                           data-lat="55.5815245"
-                           data-long="36.8251381"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!----------------Russia modal----------->
-                     <div
-                        class="modal fade"
-                        id="Russia"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="RussiaLabel"
-                        aria-hidden="true"
-                        data-lat="55.5815245"
-                        data-long="36.8251381"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="RussiaLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="russia"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/russia');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "To Tolstoy the city is a static, artificial place..."
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://www.theguardian.com/books/2012/aug/31/rereading-anna-karenina-james-meek');"
-                           >
-                        The Guardian
-                        </button>
-                     </div>
-                     <br /><br />
-                  </div>
-                  
-                     <a
-                        href="https://www.amazon.co.uk/Anna-Karenina-Leo-Tolstoy-ebook/dp/B008HSEEKO"
-                        target="_blank"
-                        class="kindle"
-                        rel="noopener noreferrer"
-                        style="border: none; text-decoration: none;"
-                        ><img
-                        src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                        /></a>
-                  
-               </div>
-            </div>
-            <!-----------------------------------------------------------China-------------------------------------------------->
-            <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/china.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body" style="height: 100%;">
-                     <h5 class="card-title">
-                        China
-                        <i
-                           class="fas fa-globe-americas china"
-                           data-toggle="modal"
-                           data-target="#China"
-                           data-lat="39.9390731"
-                           data-long="116.1172782"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!---------------China modal----------------->
-                     <div
-                        class="modal fade"
-                        id="China"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="ChinaLabel"
-                        aria-hidden="true"
-                        data-lat="39.9390731"
-                        data-long="116.1172782"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="ChinaLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="china"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/china');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "...this novel has bestseller potential and should become a
-                           reading group favorite as well."
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://www.publishersweekly.com/978-1-4000-6028-3');"
-                           >
-                        Publishers Weekly
-                        </button>
-                     </div>
-                     <br /><br />
-                  </div>
-                  
-                     <a
-                        href="https://www.amazon.co.uk/Snow-Flower-Secret-Fan-Lisa-ebook/dp/B003E20ZO2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
-                        target="_blank"
-                        class="kindle"
-                        rel="noopener noreferrer"
-                        style="border: none; text-decoration: none;"
-                        ><img
-                        src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                        /></a>
-                  
-               </div>
-            </div>
-            <!----------------------------------------------------Sweden---------------------------------------------------->
-            <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
-                  <img
-                     class="card-img-top"
-                     src="assets/books/sweden.jpg"
-                     alt="Card image cap"
-                     />
-                  <div class="card-body" style="height: 100%;">
-                     <h5 class="card-title">
-                        sweden
-                        <i
-                           class="fas fa-globe-americas sweden"
-                           data-toggle="modal"
-                           data-target="#Sweden"
-                           data-lat="59.326242"
-                           data-long="17.8419717"
-                           ><span class="tooltiptext"
-                           >see, where this book takes you</span
-                           ></i
-                           >
-                     </h5>
-                     <!-------------------------Sweden modal--------------------->
-                     <div
-                        class="modal fade"
-                        id="Sweden"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="SwedenLabel"
-                        aria-hidden="true"
-                        data-lat="59.326242"
-                        data-long="17.8419717"
-                        >
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header">
-                                 <h5 class="modal-title" id="SwedenLabel">
-                                    See, where the book will take you
-                                 </h5>
-                                 <button
-                                    type="button"
-                                    class="close"
-                                    data-dismiss="modal"
-                                    aria-label="Close"
-                                    >
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <div
-                                    id="sweden"
-                                    class="modal-style"
-                                    style="height: 400px; width: 100%;"
-                                    ></div>
-                              </div>
-                              <div class="modal-footer">
-                                 <button
-                                    class="lp"
-                                    onclick="window.open(href='https://www.lonelyplanet.com/sweden');"
-                                    >
-                                 <span class="tooltiptext">Click to read article</span>
-                                 <img
-                                    border="0"
-                                    alt="lonely planet"
-                                    src="assets/images/lp.jpg"
-                                    target="_blank"
-                                    width="66"
-                                    height="100%"
-                                    /></button
-                                    ><button
-                                    type="button"
-                                    class="btn sign-in save"
-                                    data-dismiss="modal"
-                                    >
-                                 Close
-                                 </button>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="review">
-                        <p class="card-text">
-                           "We get a taste of urban Swedish life, in this novel..."
-                        </p>
-                        <button
-                           type="button"
-                           class="btn sign-in review"
-                           onclick="window.open(href='https://wordfest.com/news/review-of-a-man-called-ove-by-fredrik-backman/');"
-                           >
-                        Wordfest
-                        </button>
-                     </div>
-                     <br /><br />
-                  </div>
-                  
-                        <a
-                           href="https://www.amazon.co.uk/Man-Called-Ove-life-affirming-bestseller-ebook/dp/B00IORP664"
-                           target="_blank"
-                           class="kindle"
-                           rel="noopener noreferrer"
-                           style="border: none; text-decoration: none;"
-                           ><img
-                           src="https://www.niftybuttons.com/amazon/amazon-button11.png"
-                           /></a>
-                     
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-----------------------------Share us with your friends------------------------------>
-      <section class="for-sharing">
-         <h4 class="share">Sharing is caring</h4>
-         <hr class="medium-line" />
-         <div class="box-right text-center">
-            <ul class="socials">
-               <li>
-                  <a
-                     target="_blank"
-                     href="https://www.facebook.com/sharer/sharer.php?u=https%3A//bezebee.github.io/Beeing-About/"
-                     >
-                  <i class="fab fa-facebook-square fa-3x" style="color: pink;"></i
-                     ></a>
-               </li>
-               <li>
-                  <a
-                     target="_blank"
-                     href="https://twitter.com/intent/tweet?text=https%3A//bezebee.github.io/Beeing-About/"
-                     ><i class="fab fa-twitter fa-3x" style="color: pink;"></i
-                     ></a>
-               </li>
-               <li>
-                  <a target="_blank" href="https://www.instagram.com/beeing_about/"
-                     ><i class="fab fa-instagram fa-3x" style="color: pink;"></i
-                     ></a>
-               </li>
-               <li>
-                  <a
-                     target="_blank"
-                     href="http://reddit.com/submit?url=bezebee.github.io%2FBeeing-About"
-                     ><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i
-                     ></a>
-               </li>
-               <li>
-                  <a
-                     target="_blank"
-                     href="http://www.stumbleupon.com/submit?url=bezebee.github.io%2FBeeing-About"
-                     ><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i
-                     ></a>
-               </li>
-               <li>
-                  <a
-                     target="_blank"
-                     href="https://pinterest.com/pin/create/bookmarklet/?url=bezebee.github.io%2FBeeing-About"
-                     ><i class="fab fa-pinterest fa-3x" style="color: pink;"></i
-                     ></a>
-               </li>
-            </ul>
-         </div>
-      </section>
-      <!-----------------------------------------Newsletter---------------------------------------->
-      <section class="newsletter">
-         <h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
-         <hr class="medium-line" />
-         <form
-            onsubmit="return sendMail(this);"
-            class="Newsletter"
-            id="newsletterForm"
+
+            <a
+              href="https://www.amazon.co.uk/Man-Called-Ove-life-affirming-bestseller-ebook/dp/B00IORP664"
+              target="_blank"
+              class="kindle"
+              rel="noopener noreferrer"
+              style="border: none; text-decoration: none;"
+              ><img
+                src="https://www.niftybuttons.com/amazon/amazon-button11.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------Share us with your friends------------------------------>
+    <section class="for-sharing">
+      <h4 class="share">Sharing is caring</h4>
+      <hr class="medium-line" />
+      <div class="box-right text-center">
+        <ul class="socials">
+          <li>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/sharer/sharer.php?u=https%3A//bezebee.github.io/Beeing-About/"
             >
-            <div class="form-group">
-               <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                  name="email"
-                  required
-                  />
-               <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                  >
-            </div>
-            <button type="submit" class="btn btn-newsletter">Submit</button>
-         </form>
+              <i class="fab fa-facebook-square fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://twitter.com/intent/tweet?text=https%3A//bezebee.github.io/Beeing-About/"
+              ><i class="fab fa-twitter fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/beeing_about/"
+              ><i class="fab fa-instagram fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="http://reddit.com/submit?url=bezebee.github.io%2FBeeing-About"
+              ><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="http://www.stumbleupon.com/submit?url=bezebee.github.io%2FBeeing-About"
+              ><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://pinterest.com/pin/create/bookmarklet/?url=bezebee.github.io%2FBeeing-About"
+              ><i class="fab fa-pinterest fa-3x" style="color: pink;"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-----------------------------------------Newsletter---------------------------------------->
+    <section class="newsletter">
+      <h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
+      <hr class="medium-line" />
+      <form
+        onsubmit="return sendMail(this);"
+        class="Newsletter"
+        id="newsletterForm"
+      >
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+            name="email"
+            required
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <button type="submit" class="btn btn-newsletter">Submit</button>
+      </form>
+    </section>
+    <!------------------------------------------Footer----------------------------------------------->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm col-lg-3 col-6 col-lg-3">
+            <a href="about.html"> About</a>
+          </div>
+          <div class="vl"></div>
+          <div class="col-sm col-lg-3 col-6 col-lg-3">
+            <a href="terms.html"> Terms</a>
+          </div>
+          <div class="vl"></div>
+          <div class="col-sm col-lg-3 col-6 col-lg-3">
+            <a href="privacy.html"> Privacy</a>
+          </div>
+          <div class="vl"></div>
+          <div class="col-sm col-lg-3 col-6 col-lg-3">
+            <a href="contact-us.html"> Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="col">
+          <p class="copyright text-center">
+            <a href="https://bezebee.github.io/Beeing-About/" target="_blank"
+              >Beeing About &copy; 2020</a
+            >
+          </p>
+        </div>
       </section>
-      <!------------------------------------------Footer----------------------------------------------->
-      <footer>
-         <div class="container">
-            <div class="row">
-               <div class="col-sm  col-lg-3 col-6 col-lg-3">
-                  <a href="about.html"> About</a>
-               </div>
-               <div class="vl"></div>
-               <div class="col-sm  col-lg-3 col-6 col-lg-3">
-                  <a href="terms.html"> Terms</a>
-               </div>
-               <div class="vl"></div>
-               <div class="col-sm  col-lg-3 col-6 col-lg-3">
-                  <a href="privacy.html"> Privacy</a>
-               </div>
-               <div class="vl"></div>
-               <div class="col-sm  col-lg-3 col-6 col-lg-3">
-                  <a href="contact-us.html"> Contact Us</a>
-               </div>
-            </div>
-         </div>
-         <section>
-            <div class="col">
-               <p class="copyright text-center">
-                  <a href="https://bezebee.github.io/Beeing-About/" target="_blank"
-                     >Beeing About &copy; 2020</a
-                     >
-               </p>
-            </div>
-         </section>
-      </footer>
-      <script src="assets/js/subscribe.js"></script>
-      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-      <!--Marker Clusterer js file-->
-      <script
-         async
-         defer
-         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEhq-IVtwtCviN41Z7Y9AjmZEOIvBfPw4&callback=initialize"
-         ></script>
-      <script src="assets/js/maps.js"></script>
-     
-           <script
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-   </body>
+    </footer>
+    <script src="assets/js/subscribe.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <!--Marker Clusterer js file-->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEhq-IVtwtCviN41Z7Y9AjmZEOIvBfPw4&callback=initialize"></script>
+    <script src="assets/js/maps.js"></script>
+        
+    <script src="assets/js/slide.js" type="text/javascript"></script>
+    <script src="assets/js/slide-responsive.js" type="text/javascript"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
