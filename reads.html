@@ -97,10 +97,10 @@
     <!---------------------------------------------Recommendations selection---------------------------------------------->
     <section class="books">
       <!-------------Row 1----------------------------------->
-      <div class="row" style="min-height: 100%;">
+      <div class="row" id="row1" style="min-height: 100%;">
         <!-----------------------------Afganistan---------------------------------------->
         <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book1">
             <img
               class="card-img-top"
               src="assets/books/afganistan.jpg"
@@ -207,7 +207,7 @@
         </div>
         <!----------------------------------------------Colombia------------------------------------------------------->
         <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book2">
             <img
               class="card-img-top"
               src="assets/books/colombia.jpg"
@@ -314,7 +314,7 @@
         </div>
         <!-----------------------------------------Germany and France------------------------------------------------->
         <div class="col col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book3">
             <img
               class="card-img-top"
               src="assets/books/germanyandfrance.jpg"
@@ -491,7 +491,7 @@
         </div>
         <!--------------------------------------------------Ghana------------------------------------------------>
         <div class="col col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book4">
             <img
               class="card-img-top"
               src="assets/books/ghana.jpg"
@@ -599,11 +599,11 @@
           </div>
         </div>
       </div>
-      <!--Row 2-->
-      <div class="row">
+      <!------------Row 2-->
+      <div class="row" id="row2">
         <!--------------------------------------------------------Iceland---------------------------------------------->
         <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book5">
             <img
               class="card-img-top"
               src="assets/books/iceland.jpg"
@@ -712,7 +712,7 @@
         </div>
         <!-------------------------------------------Ireland----------------------------------------------------->
         <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book6">
             <img
               class="card-img-top"
               src="assets/books/ireland.jpg"
@@ -821,7 +821,7 @@
         </div>
         <!-----------------------------------------------Japan---------------------------------------------------->
         <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book7">
             <img
               class="card-img-top"
               src="assets/books/japan.jpg"
@@ -930,7 +930,7 @@
         </div>
         <!------------------------------------------Latin America------------------------------------------------>
         <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book8">
             <img
               class="card-img-top"
               src="assets/books/latinamerica.jpg"
@@ -1039,10 +1039,10 @@
         </div>
       </div>
       <!--Row 3-->
-      <div class="row">
+      <div class="row" id="row3">
         <!-----------------------------------------------------New York------------------------------------------>
         <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book9">
             <img
               class="card-img-top"
               src="assets/books/newyork.jpg"
@@ -1149,7 +1149,7 @@
         </div>
         <!------------------------------------------------Russia----------------------------------------------------------->
         <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book10">
             <img
               class="card-img-top"
               src="assets/books/russia.jpg"
@@ -1255,7 +1255,7 @@
         </div>
         <!-----------------------------------------------------------China-------------------------------------------------->
         <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book11">
             <img
               class="card-img-top"
               src="assets/books/china.jpg"
@@ -1362,13 +1362,13 @@
         </div>
         <!----------------------------------------------------Sweden---------------------------------------------------->
         <div class="col col-md-6 col-12 col-lg-3 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" id="book12">
             <img
               class="card-img-top"
               src="assets/books/sweden.jpg"
               alt="Card image cap"
             />
-            <div class="card-body" style="height: 100%;">
+            <div class="card-body" style="height: 100%;" >
               <h5 class="card-title">
                 sweden
                 <i
@@ -1584,10 +1584,13 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEhq-IVtwtCviN41Z7Y9AjmZEOIvBfPw4&callback=initialize"></script>
     <script src="assets/js/maps.js"></script>
         
-    <script src="assets/js/slide.js" type="text/javascript"></script>
-    <script src="assets/js/slide-responsive.js" type="text/javascript"></script>
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/slide.js" type="text/javascript"></script>
+    <script src="assets/js/books-slide.js" type="text/javascript"></script>
+    <script src="assets/js/slide-responsive.js" type="text/javascript"></script>
+    <script src="assets/js/books-slide-responsive.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   </body>
