@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
+
+<head>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
         emailjs.init("user_cAeBTKRz9cAOzPB86ma5l");
       })();
-    </script>
+	</script>
 
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=false, initial-scale=1.0" />
@@ -23,13 +21,14 @@
 	<link rel="stylesheet" href="assets/css/style.css" />
 
 	<title>Vagabonds</title>
-  </head>
-  <body>
-    <!--Logo-->
+</head>
 
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button
+<body>
+	<!--Logo-->
+
+	<!--Navigation-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light"  >
+		<button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -40,10 +39,10 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <!-----------Sign up/Sign in button------------->
-        <div class="sign-up">
-          <button
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<!-----------Sign up/Sign in button------------->
+			<div class="sign-up">
+				<button
             type="button"
             class="btn sign-in register"
             data-toggle="modal"
@@ -51,168 +50,152 @@
           >
             <a href="register.html">Join us!</a>
           </button>
-        </div>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="reads.html">Reads</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tunes.html">Tunes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="places.html">Places</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="go.html">Go!</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+			</div>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="reads.html">Reads</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="tunes.html">Tunes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="places.html">Places</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="go.html">Go!</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-    <!--Page 1 section 1 Motto-->
+	<!--Page 1 section 1 Motto-->
 
-    <section class="container-fluid" style="max-width: 100%;">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container-fluid">
-          <h1 class="display-4 text-center">
-            <a href="index.html">Vagabonds</a>
-          </h1>
-          <hr class="medium-line" />
-          <p class="lead">read, hear, experience your Journey</p>
-        </div>
-      </div>
-    </section>
+	<section class="container-fluid" style="max-width: 100%;"  id="slide">
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container-fluid">
+				<h1 class="display-4 text-center">
+					<a href="index.html">Vagabonds</a>
+				</h1>
+				<hr class="medium-line" />
+				<p class="lead">read, hear, experience your Journey</p>
+			</div>
+		</div>
+	</section>
 
-    <!--Page 1 section 2 What this website is about-->
-    <section class="container intro" style="max-width: 100%;">
-      <div class="card-deck">
-        <div class="card">
-          <img
+	<!--Page 1 section 2 What this website is about-->
+	<section class="container intro" style="max-width: 100%;" id="slide2">
+		<div class="card-deck">
+			<div class="card" id="slide3">
+				<img
             class="card-img-top"
             src="assets/images/bookshelf.jpg"
             alt="Card image cap"
           />
-          <div class="card-body">
-            <h5 class="card-title"><a href="reads.html">Reads</a></h5>
-            <hr />
-            <p class="card-text">
-              Updated monthly our subscribers' picks for books that really wake
-              up your wanderlust, that desire to wander off the beaten track.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img
+				<div class="card-body">
+					<h5 class="card-title"><a href="reads.html">Reads</a></h5>
+					<hr />
+					<p class="card-text">
+						Updated monthly our subscribers' picks for books that really wake
+						up your wanderlust, that desire to wander off the beaten track.
+					</p>
+				</div>
+			</div>
+			<div class="card" id="slide4">
+				<img
             class="card-img-top"
             src="assets/images/recordshelf.jpg"
             alt="Card image cap"
           />
-          <div class="card-body">
-            <h5 class="card-title"><a href="tunes.html">Tunes</a></h5>
-            <hr />
-            <p class="card-text">
-              Wonderful tunes that really set the soundtrack to whatever route
-              you choose. Pick the coutry and submerge yourself in local tunes.
-              Selection updated every month.
-            </p>
-          </div>
-        </div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="tunes.html">Tunes</a></h5>
+					<hr />
+					<p class="card-text">
+						Wonderful tunes that really set the soundtrack to whatever route
+						you choose. Pick the coutry and submerge yourself in local tunes.
+						Selection updated every month.
+					</p>
+				</div>
+			</div>
 
-        <div class="card">
-          <img
+			<div class="card" id="slide5">
+				<img
             class="card-img-top fire img-fluid"
             src="assets/video/fire.gif"
             alt="Card image cap"
             style="height:168px"
           />
-          <div class="card-body">
-            <h5 class="card-title"><a href="places.html">Places</a></h5>
-            <hr />
-            <p class="card-text">
-              When you are ready to book that dream destination, inspired by
-              reads and tunes, we have a selection of cozy and unique nooks for
-              you.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img
+				<div class="card-body">
+					<h5 class="card-title"><a href="places.html">Places</a></h5>
+					<hr />
+					<p class="card-text">
+						When you are ready to book that dream destination, inspired by
+						reads and tunes, we have a selection of cozy and unique nooks for
+						you.
+					</p>
+				</div>
+			</div>
+			<div class="card" id="slide6">
+				<img
             class="card-img-top"
             src="assets/images/fly.jpg"
             alt="Card image cap"
           />
-          <div class="card-body">
-            <h5 class="card-title"><a href="go.html">GO!</a></h5>
-            <hr />
-            <p class="card-text">
-              When it's time to book the destination you read and hear about, time to book your flight. <br><br>But before you go...
+				<div class="card-body" >
+					<h5 class="card-title"><a href="go.html">GO!</a></h5>
+					<hr />
+					<p class="card-text">
+						When it's time to book the destination you read and hear about, time to book your flight.
+						<br><br>But before you go...
             </p>
-          </div>
-        </div>
-      </div>
-    </section>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!--Page 1 section 3 Share us with your friends-->
+	<!--Page 1 section 3 Share us with your friends-->
 
-    <section class="for-sharing">
-      <h4 class="share">Sharing is caring</h4>
-      <hr class="medium-line" />
+	<section class="for-sharing">
+		<h4 class="share">Sharing is caring</h4>
+		<hr class="medium-line" />
 
-      <div class="box-right text-center">
-        <ul class="socials">
-          <li>
-            <a target="_blank" href="#"
-              ><i
+		<div class="box-right text-center">
+			<ul class="socials">
+				<li>
+					<a target="_blank" href="#"><i
                 class="fab fa-facebook-square fa-3x"
                 style="color: pink;"
-              ></i></a
-            ><!--Format to square, add border radius, change to outline-->
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-twitter fa-3x" style="color: pink;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-instagram fa-3x" style="color: pink;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-pinterest fa-3x" style="color: pink;"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!--Newsletter sign up-->
-    <section class="newsletter">
-      <h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
-      <hr class="medium-line" />
+              ></i></a>
+					<!--Format to square, add border radius, change to outline-->
+				</li>
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-twitter fa-3x" style="color: pink;"></i></a>
+				</li>
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-instagram fa-3x" style="color: pink;"></i></a>
+				</li>
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i></a>
+				</li>
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i></a>
+				</li>
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-pinterest fa-3x" style="color: pink;"></i></a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!--Newsletter sign up-->
+	<section class="newsletter">
+		<h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
+		<hr class="medium-line" />
 
-      <form
-        onsubmit="return sendMail(this);"
-        class="Newsletter"
-        id="newsletterForm"
-      >
-        <div class="form-group">
-          <input
+		<form onsubmit="return sendMail(this);" class="Newsletter" id="newsletterForm">
+			<div class="form-group">
+				<input
             type="email"
             class="form-control"
             id="exampleInputEmail1"
@@ -221,53 +204,49 @@
             name="email"
             required
           />
-          <small id="emailHelp" class="form-text text-muted"
-            >We'll never share your email with anyone else.</small
-          >
-        </div>
+				<small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small>
+			</div>
 
-        <button type="submit" class="btn btn-newsletter">Submit</button>
-      </form>
-    </section>
+			<button type="submit" class="btn btn-newsletter">Submit</button>
+		</form>
+	</section>
 
-    <!--Footer-->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm col-6 col-sm-3">
-            <a href="about.html"> About</a>
-          </div>
-          <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3">
-            <a href="terms.html"> Terms</a>
-          </div>
-          <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3">
-            <a href="privacy.html"> Privacy</a>
-          </div>
-          <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3">
-            <a href="contact-us.html"> Contact Us</a>
-          </div>
-        </div>
-      </div>
-      <section>
-        <div class="col">
-          <p class="copyright text-center">
-            <a href="https://bezebee.github.io/Beeing-About/" target="_blank"
-              >Beeing About &copy; 2020</a
-            >
-          </p>
-        </div>
-      </section>
-    </footer>
-    <script src="assets/js/subscribe.js"></script>
+	<!--Footer-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm col-6 col-sm-3">
+					<a href="about.html"> About</a>
+				</div>
+				<div class="vl"></div>
+				<div class="col-sm col-6 col-sm-3">
+					<a href="terms.html"> Terms</a>
+				</div>
+				<div class="vl"></div>
+				<div class="col-sm col-6 col-sm-3">
+					<a href="privacy.html"> Privacy</a>
+				</div>
+				<div class="vl"></div>
+				<div class="col-sm col-6 col-sm-3">
+					<a href="contact-us.html"> Contact Us</a>
+				</div>
+			</div>
+		</div>
+		<section>
+			<div class="col">
+				<p class="copyright text-center">
+					<a href="https://bezebee.github.io/Beeing-About/" target="_blank">Beeing About &copy; 2020</a>
+				</p>
+			</div>
+		</section>
+	</footer>
+	<script type="text/javascript" src="assets/js/subscribe.js"></script>
 
-          <script
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  </body>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/slide.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
 </html>

@@ -573,6 +573,13 @@ input[type="password"]:focus {
     padding-right: 10px;
   }
 }
+/* @media screen and (width:1024px){
+    
+    .card-front--item{
+    box-sizing:content-box;
+}
+} */
+
 
 /*---------------------------Contact Us-----------------------*/
 
