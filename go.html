@@ -1,46 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
+
+<head>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
         emailjs.init("user_cAeBTKRz9cAOzPB86ma5l");
       })();
-    </script>
+	</script>
 
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=false, initial-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
-    <link rel="icon" href="faviconV.png" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Vagabonds</title>
-  </head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=false, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <body>
-    <!--Logo-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+	<link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
 
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button
+	<link rel="icon" href="faviconV.png" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+
+	<title>Vagabonds</title>
+</head>
+
+<body>
+	<!--Logo-->
+
+	<!--Navigation-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -51,10 +40,10 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <!-----------Sign up/Sign in button------------->
-        <div class="sign-up">
-          <button
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<!-----------Sign up/Sign in button------------->
+			<div class="sign-up">
+				<button
             type="button"
             class="btn sign-in register"
             data-toggle="modal"
@@ -62,165 +51,147 @@
           >
             <a href="register.html">Join us!</a>
           </button>
-        </div>
+			</div>
 
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="reads.html">Reads</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tunes.html">Tunes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="places.html">Places</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="go.html">Go!</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="reads.html">Reads</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="tunes.html">Tunes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="places.html">Places</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="go.html">Go!</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-    <!-----------------Motto-------------------------->
+	<!-----------------Motto-------------------------->
 
-    <section class="container-fluid" style="max-width: 100%;">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container-fluid">
-          <h1 class="display-4 text-center">
-            <a href="index.html">But before you go...</a>
-          </h1>
-          <hr class="medium-line" />
-          <p class="lead">few things you may want to check</p>
-        </div>
-      </div>
-    </section>
+	<section class="container-fluid" style="max-width: 100%;">
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container-fluid">
+				<h1 class="display-4 text-center">
+					<a href="index.html">But before you go...</a>
+				</h1>
+				<hr class="medium-line" />
+				<p class="lead">few things you may want to check</p>
+			</div>
+		</div>
+	</section>
 
-    <!--------------Before you Go------------------->
+	<!--------------Before you Go------------------->
 
-    <div class="card-group container-fluid">
-      <div class="row mx-auto">
-        <!------------------------------CURRENCY---------------->
-        <div class="card api container">
-          <img
+	<div class="card-group container-fluid">
+		<div class="row mx-auto">
+			<!------------------------------CURRENCY---------------->
+			<div class="card api container">
+				<img
             class="card-img-top-api"
             src="assets/video/video3.gif"
             alt="Card image cap"
           />
-          <div class="card-body">
-            <div class="header">
-              <h5 class="card-title">currency converter</h5>
-            </div>
-            <div class="date"></div>
-          </div>
-          <ul class="currencies list-group list-group-flush"></ul>
+				<div class="card-body">
+					<div class="header">
+						<h5 class="card-title">currency converter</h5>
+					</div>
+					<div class="date"></div>
+				</div>
+				<ul class="currencies list-group list-group-flush"></ul>
 
-          <button class="add-currency-btn">
+				<button class="add-currency-btn">
             <i class="fas fa-arrow-alt-circle-up"></i>Add Currency
           </button>
-          <ul class="add-currency-list"></ul>
-        </div>
-        <!-----------------------------WEATHER------------------------>
-        <div class="card api container">
-          <img class="card-img-top-api" src="..." alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-          </div>
-        </div>
-        <!-----------------------------------SOME THIRD API--------------------->
-        <div class="card api container">
-          <img class="card-img-top-api" src="..." alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-    </div>
+				<ul class="add-currency-list"></ul>
+			</div>
+			<!-----------------------------WEATHER------------------------>
+			<div class="card api container">
+				<img class="card-img-top-api" src="..." alt="Card image cap" />
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up the
+						bulk of the card's content.
+					</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">Cras justo odio</li>
+					<li class="list-group-item">Dapibus ac facilisis in</li>
+					<li class="list-group-item">Vestibulum at eros</li>
+				</ul>
+				<div class="card-body">
+					<a href="#" class="card-link">Card link</a>
+				</div>
+			</div>
+			<!-----------------------------------SOME THIRD API--------------------->
+			<div class="card api container">
+				<img class="card-img-top-api" src="..." alt="Card image cap" />
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up the
+						bulk of the card's content.
+					</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">Cras justo odio</li>
+					<li class="list-group-item">Dapibus ac facilisis in</li>
+					<li class="list-group-item">Vestibulum at eros</li>
+				</ul>
+				<div class="card-body">
+					<a href="#" class="card-link">Card link</a>
+					<a href="#" class="card-link">Another link</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <!--Page 1 section 3 Share us with your friends-->
+	<!--Page 1 section 3 Share us with your friends-->
 
-    <section class="for-sharing">
-      <h4 class="share">Sharing is caring</h4>
-      <hr class="medium-line" />
+	<section class="for-sharing">
+		<h4 class="share">Sharing is caring</h4>
+		<hr class="medium-line" />
 
-      <div class="box-right text-center">
-        <ul class="socials">
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-facebook-square fa-3x" style="color: pink;"></i
-            ></a>
-            <!--Format to square, add border radius, change to outline-->
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-twitter fa-3x" style="color: pink;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-instagram fa-3x" style="color: pink;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-pinterest fa-3x" style="color: pink;"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
+		<div class="box-right text-center">
+			<ul class="socials">
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-facebook-square fa-3x" style="color: pink;"></i></a>
+					<!--Format to square, add border radius, change to outline-->
+				</li>
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-twitter fa-3x" style="color: pink;"></i></a>
+				</li>
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-instagram fa-3x" style="color: pink;"></i></a>
+				</li>
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-reddit-alien fa-3x" style="color: pink;"></i></a>
+				</li>
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-stumbleupon fa-3x" style="color: pink;"></i></a>
+				</li>
+				<li>
+					<a target="_blank" href="#"><i class="fab fa-pinterest fa-3x" style="color: pink;"></i></a>
+				</li>
+			</ul>
+		</div>
 
-      <!-----------------------------------------------------------------Newsletter------------------------->
+		<!-----------------------------------------------------------------Newsletter------------------------->
 
-      <section class="newsletter">
-        <h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
-        <hr class="medium-line" />
+		<section class="newsletter">
+			<h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
+			<hr class="medium-line" />
 
-        <form
-          onsubmit="return sendMail(this);"
-          class="Newsletter"
-          id="newsletterForm"
-        >
-          <div class="form-group">
-            <input
+			<form onsubmit="return sendMail(this);" class="Newsletter" id="newsletterForm">
+				<div class="form-group">
+					<input
               type="email"
               class="form-control"
               id="exampleInputEmail1"
@@ -229,64 +200,51 @@
               name="email"
               required
             />
-            <small id="emailHelp" class="form-text text-muted"
-              >We'll never share your email with anyone else.</small
-            >
-          </div>
+					<small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small>
+				</div>
 
-          <button type="submit" class="btn btn-newsletter">Submit</button>
-        </form>
-      </section>
+				<button type="submit" class="btn btn-newsletter">Submit</button>
+			</form>
+		</section>
 
-      <!---------------------------------------------------------------Footer----------------------------->
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm col-6 col-sm-3">
-              <a href="about.html"> About</a>
-            </div>
-            <div class="vl"></div>
-            <div class="col-sm col-6 col-sm-3">
-              <a href="terms.html"> Terms</a>
-            </div>
-            <div class="vl"></div>
-            <div class="col-sm col-6 col-sm-3">
-              <a href="privacy.html"> Privacy</a>
-            </div>
-            <div class="vl"></div>
-            <div class="col-sm col-6 col-sm-3">
-              <a href="contact-us.html"> Contact Us</a>
-            </div>
-          </div>
-        </div>
-        <section>
-          <div class="col">
-            <p class="copyright text-center">
-              <a href="https://bezebee.github.io/Beeing-About/" target="_blank"
-                >Beeing About &copy; 2020</a
-              >
-            </p>
-          </div>
-        </section>
-      </footer>
-      <script src="assets/js/subscribe.js"></script>
-      <script src="assets/js/currency.js"></script>
+		<!---------------------------------------------------------------Footer----------------------------->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm col-6 col-sm-3">
+						<a href="about.html"> About</a>
+					</div>
+					<div class="vl"></div>
+					<div class="col-sm col-6 col-sm-3">
+						<a href="terms.html"> Terms</a>
+					</div>
+					<div class="vl"></div>
+					<div class="col-sm col-6 col-sm-3">
+						<a href="privacy.html"> Privacy</a>
+					</div>
+					<div class="vl"></div>
+					<div class="col-sm col-6 col-sm-3">
+						<a href="contact-us.html"> Contact Us</a>
+					</div>
+				</div>
+			</div>
+			<section>
+				<div class="col">
+					<p class="copyright text-center">
+						<a href="https://bezebee.github.io/Beeing-About/" target="_blank">Beeing About &copy; 2020</a>
+					</p>
+				</div>
+			</section>
+		</footer>
+		<script src="assets/js/subscribe.js"></script>
+		<script src="assets/js/currency.js"></script>
+		<script src="assets/js/weather.js"></script>
 
-      <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"
-      ></script>
-    </section>
-  </body>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	</section>
+</body>
+
 </html>
