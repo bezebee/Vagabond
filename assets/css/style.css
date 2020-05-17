@@ -8,6 +8,7 @@ body {
 body {
   font-family: "Open Sans";
   font-size: 20px;
+  background-color: rgb(174, 205, 210, 0.2)
 }
 
 /*Cursor*/
@@ -24,7 +25,7 @@ ul li,
   font-family: "Lexend Peta";
   font-size: 17px;
   text-transform: lowercase;
-  color: rgb(117, 33, 33);
+  color: rgb(49, 105, 124);
 }
 
 /*Registration button styling*/
@@ -35,14 +36,14 @@ ul li,
   font-size: 15px;
   text-transform: lowercase;
   
-  border: 1px solid rgb(117, 33, 33);
-  color: rgb(117, 33, 33);
+  border: 1px solid rgb(49, 105, 124);
+  color: rgb(49, 105, 124);
 }
 
 .sign-in:hover,
 .btn-newsletter:hover {
-  background-color: rgb(117, 33, 33);
-  color: pink;
+  background-color: rgb(49, 105, 124);
+  color: rgb(174, 205, 210);
 }
 
 
@@ -58,13 +59,13 @@ section.container-fluid {
   text-transform: lowercase;
   letter-spacing: 7px;
   margin-bottom: 3px;
-  color: rgb(117, 33, 33);
+  color: rgb(49, 105, 124);
 }
 
 hr.medium-line {
   width: 40%;
   margin: auto;
-  color: rgb(117, 33, 33);
+  color: rgb(49, 105, 124);
 }
 
 .lead {
@@ -72,11 +73,11 @@ hr.medium-line {
   text-align: center;
   font-size: 25px;
   margin-top: 3px;
-  color: rgb(117, 33, 33);
+  color: rgb(49, 105, 124);
 }
 
 .jumbotron {
-  background-color: pink;
+  background-color: rgb(174, 205, 210);
 }
 /*vagabond cards styling*/
 
@@ -96,7 +97,7 @@ hr.medium-line {
   font-size: 17px;
   text-transform: lowercase;
   font-family: "Lexend Peta";
-  color: rgb(117, 33, 33);
+  color: rgb(49, 105, 124);
 }
 
 /*--Newsletter styling, form and the paragraphs--*/
@@ -126,11 +127,11 @@ hr.medium-line {
 }
 
 .socials li:hover {
-  text-shadow: 2px 3px 4px brown;
+  text-shadow: 2px 3px 4px rgb(49, 105, 124);
 }
 
 a:hover {
-  text-shadow: 2px 3px 4px brown;
+  text-shadow: 2px 3px 4px rgb(49, 105, 124);
 }
 
 /*--Vertical line--*/
@@ -145,7 +146,7 @@ a:hover {
   font-family: "Lexend Peta";
   font-size: 17px;
   text-transform: lowercase;
-  color: rgb(117, 33, 33);
+  color: rgb(49, 105, 124);
 }
 
 /*Media*/
@@ -202,62 +203,62 @@ a:hover {
 
 .sign-in a:link {
   text-decoration: none;
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
 }
 
 .sign-in a:visited {
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
   text-decoration: none;
 }
 
 .sign-in a:hover {
-  color: pink !important;
+  color: rgb(174, 205, 210) !important;
 }
 
 .display-4 a:link {
   text-decoration: none;
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
 }
 
 .display-4 a:visited {
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
   text-decoration: none;
 }
 
 .card-body a:link {
   text-decoration: none;
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
 }
 
 .card-body a:visited {
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
   text-decoration: none;
 }
 .card-title a:link {
   text-decoration: none;
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
 }
 
 .card-title a:visited {
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
   text-decoration: none;
 }
 .col-sm a:link {
   text-decoration: none;
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
 }
 
 .col-sm a:visited {
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
   text-decoration: none;
 }
 .copyright a:link {
   text-decoration: none;
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
 }
 
 .copyright a:visited {
-  color: rgb(117, 33, 33) !important;
+  color: rgb(49, 105, 124) !important;
   text-decoration: none;
 }
 
@@ -314,7 +315,7 @@ a.kindle {
 .fa-globe-americas .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: rgb(117, 33, 33, 0.5);
+  background-color: rgb(49, 105, 124, 0.5);
   color: #fff;
   text-align: center;
   border-radius: 4px;
@@ -390,7 +391,7 @@ a.kindle {
 .lp .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: rgb(117, 33, 33, 0.5);
+  background-color: rgb(49, 105, 124, 0.5);
   color: #fff;
   text-align: center;
   border-radius: 2px;
@@ -477,7 +478,7 @@ a.kindle {
 
 .icon-bar {
   width: 100%;
-  background-color: pink;
+  background-color: rgb(174, 205, 210);
   overflow: hidden;
 }
 
@@ -505,13 +506,13 @@ a.kindle {
 
 .modal-content {
   background-color: rgb(255, 255, 255);
-  border: solid 1px rgb(117, 33, 33);
+  border: solid 1px rgb(49, 105, 124);
   border-radius: 4%;
 }
 
 .modalBtn {
-  color: rgb(255, 192, 203);
-  background-color: rgb(117, 33, 33);
+  color: rgb(174, 205, 210);
+  background-color: rgb(49, 105, 124);
 }
 
 /*------------------Go--------------------*/
@@ -540,7 +541,7 @@ ul.currencies {
 
 .date {
   font-family: "Beth Ellen";
-  color: rgb(117, 33, 33);
+  color: rgb(49, 105, 124);
 }
 
 .curr-place {
@@ -592,7 +593,7 @@ ul.currencies {
 }
 
 .currency.base-currency {
-  background-color: rgb(255, 192, 203, 0.3);
+  background-color: rgb(174, 205, 210, 0.3);
 }
 
 ul.currencies li .close {
@@ -623,8 +624,8 @@ ul.currencies::-webkit-scrollbar {
 }
 
 ul.currencies::-webkit-scrollbar-thumb {
-  background-color: rgb(117, 33, 33);
-  border-bottom: 1rem solid rgb(255, 192, 203);
+  background-color: rgb(49, 105, 124);
+  border-bottom: 1rem solid rgb(174, 205, 210);
 }
 /*Removing padding so the content stretches across the card*/
 .add-currency-list {
@@ -636,7 +637,7 @@ ul.add-currency-list {
   bottom: 45px;
   left: 0;
   background-color: white;
-  color: rgb(117, 33, 33);
+  color: rgb(49, 105, 124);
   width: 100%;
   list-style-type: none;
   font-size: 5px;
@@ -656,9 +657,9 @@ ul.add-currency-list li.disabled {
 }
 
 .add-currency-btn {
-  color: rgb(117, 33, 33);
-  background-color: rgb(255, 192, 203);
-  border: 1px solid rgb(117, 33, 33);
+  color: rgb(49, 105, 124);
+  background-color: rgb(174, 205, 210);
+  border: 1px solid rgb(49, 105, 124);
 
   font-family: "Lexend Peta";
   font-size: 20px;
@@ -679,9 +680,9 @@ ul.add-currency-list li.disabled {
 }
 
 .add-currency-btn.open {
-  color: rgb(255, 192, 203);
-  background-color: rgb(117, 33, 33);
-  border: 1px solid rgb(255, 192, 203);
+  color: rgb(174, 205, 210);
+  background-color: rgb(49, 105, 124);
+  border: 1px solid rgb(174, 205, 210);
 }
 
 .add-currency-btn.open i {
