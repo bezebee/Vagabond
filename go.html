@@ -51,7 +51,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html"
@@ -90,13 +89,14 @@
 
     <!--------------Before you Go------------------->
 
-    <div class="card-group container-fluid">
+    <div class="card-group container-fluid" >
       <div class="row mx-auto">
         <!------------------------------CURRENCY---------------->
         <div class="card api container">
           <div class="card-body">
             <div class="header">
-              <h2 class="card-title">currency converter</h2><hr class="currency-line">
+              <h2 class="card-title">currency converter</h2>
+              <hr class="currency-line" />
             </div>
             <div class="date"></div>
           </div>
@@ -108,25 +108,25 @@
           <ul class="add-currency-list"></ul>
         </div>
         <!-----------------------------WEATHER------------------------>
-        <div class="card api container">
-          <img class="card-img-top-api" src="..." alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
+        <div class="card app-title api container">
+          <h5 class="app-title">
+          <p>Weather</p></h5>
+          <div class="notification"></div>
+
+          <div class="weather-container">
+            <div class="card-body">
+              <img class="weather-icon" src="assets/weather-icons/01d.png" alt="Card image cap" /></div>
+            <div class="temperature-value">
+              <p> - °<span>C</span></p></div>
+            <ul class="list-group list-group-flush" style="list-style:none;">
+              <li class="temperature-description">
+              <p> - </p></li>
+              <li class="location">
+              <p> - </p></li>
+            </ul>
           </div>
         </div>
-        <!-----------------------------------SOME THIRD API--------------------->
+        <!-----------------------------------Maybe a snake game...--------------------->
         <div class="card api container">
           <img class="card-img-top-api" src="..." alt="Card image cap" />
           <div class="card-body">
@@ -254,11 +254,15 @@
       </footer>
       <script src="assets/js/subscribe.js"></script>
       <script src="assets/js/currency.js"></script>
-      <script src="assets/js/weather.js"></script>
+      
 
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="assets/js/weather.js"></script>
       <script src="assets/js/slide.js" type="text/javascript"></script>
-      <script src="assets/js/slide-responsive.js" type="text/javascript"></script>
+      <script
+        src="assets/js/slide-responsive.js"
+        type="text/javascript"
+      ></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </section>
