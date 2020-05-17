@@ -86,6 +86,14 @@ hr.medium-line {
   justify-content: center;
   flex-direction: row;
 }
+/*cards mobile and ipad styling*/
+
+@media (min-width: 700px){
+    #slideX, #slide4, #slide5, #slide6{
+        min-width:25%;
+        height:auto;
+    }
+}
 
 /*Footer*/
 
@@ -699,9 +707,32 @@ ul.add-currency-list li.disabled {
   background-color: rgba(255, 248, 232, 0.384);
 }
 
+@media only screen and (min-width: 800px) {
+    .api.container{
+        max-width:100%;
+        margin:auto;
+    }
+
+
+}
+
 /*--------------------------End of adapted styling-----------------------*/
 
-/*---------------Places-----------*/
+/*-------------Weather------------*/
+.temperature-value{
+    font-size:50px;
+ 
+}
+
+.list-group{
+    margin-top:20px;
+}
+.temperature-description{
+    font-size:20px;
+}
+.location{
+    font-size:15px;
+}
 
 
 
