@@ -34,7 +34,7 @@ ul li,
   font-family: "Lexend Peta";
   font-size: 15px;
   text-transform: lowercase;
-  background-color: rgb(117, 33, 33, 0.1);
+  
   border: 1px solid rgb(117, 33, 33);
   color: rgb(117, 33, 33);
 }
@@ -45,64 +45,6 @@ ul li,
   color: pink;
 }
 
-/* @media screen and (max-width 800px){
-    .sign-up.register{
-        margin-top:10px;
-    }
-} */
-
-/*Registration form*/
-
-form {
-  border: 3px solid #f1f1f1;
-  font-family: "Lexend Peta";
-  text-transform: lowercase;
-  padding: 15px;
-}
-
-.container {
-  padding: 10px;
-
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-input {
-  width: 90%;
-  padding: 8px;
-  margin: 3px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-input {
-  margin-top: 16px;
-}
-
-input {
-  background-color: pink;
-  color: rgb(117, 33, 33);
-
-  font-family: "Lexend Peta";
-  text-transform: lowercase;
-}
-
-input:hover {
-  opacity: 0.8;
-  background-color: rgb(117, 33, 33);
-  color: pink;
-}
-
-.login {
-  font-family: "Lexend Peta";
-  text-transform: lowercase;
-  font-size: 17px;
-  margin-top: 10px;
-}
-
-/*End of form styling*/
 
 /*Wanderlust Jumbotron*/
 
@@ -157,13 +99,24 @@ hr.medium-line {
   color: rgb(117, 33, 33);
 }
 
+/*--Newsletter styling, form and the paragraphs--*/
 .Newsletter {
-  border: 0;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+  margin:auto;
+}
+/*Newsletter mobile and ipad view*/
+
+@media (max-width: 600px) {
+
+  input#exampleInputEmail1{
+    font-size: 10px;
+  }
+  .Newsletter {
+    width: 80%;
+  }
 }
 
+/*Social media share links*/
 .socials {
   padding-left: 0;
 }
@@ -180,10 +133,12 @@ a:hover {
   text-shadow: 2px 3px 4px brown;
 }
 
+/*--Vertical line--*/
 .vl {
   height: 70px;
-}
 
+}
+/*--footer links styling--*/
 .col-sm {
   text-align: center;
   margin-top: 10px;
@@ -193,12 +148,56 @@ a:hover {
   color: rgb(117, 33, 33);
 }
 
+/*Media*/
+
+@media only screen and (max-width: 600px) {
+  /*Jumbotron paragraph and main title to fit within the jumbotron*/
+  .display-4 {
+    font-family: "Lexend Peta";
+    text-transform: lowercase;
+    letter-spacing: 7px;
+    font-size: 130%;
+  }
+
+  .medium-line {
+    width: 80%;
+    margin: auto;
+  }
+
+  .lead {
+    font-size: 68%;
+  }
+
+  /*Ensuring Social Media links display nicely and centered*/
+  .socials {
+    text-align: center;
+    padding-left: 0;
+  }
+  /*For mobile website reduced size of the social icons*/
+  .socials li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 50%;
+  }
+}
+
+
+/*---Footer media view----*/
+
+@media only screen and (max-width: 800px) {
+  footer a {
+    font-size: 14px;
+  }
+}
+
+/*---Copyright styling----------*/
 .copyright {
   font-family: p22-hopper-edward, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 130%;
+  font-size: 30px;
 }
+
 /*links decoration removal*/
 
 .sign-in a:link {
@@ -262,13 +261,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 800px) {
-  footer a {
-    font-size: 14px;
-  }
-}
 
-/*Removing borders*/
 
 /*Reads*/
 
@@ -338,6 +331,9 @@ a.kindle {
   z-index: 1;
 }
 
+
+/*-------Media for the Reads page----*/
+/*----For smaller ipads---*/
 @media only screen and (min-width: 600px) {
   p.card-text {
     font-size: 15px;
@@ -352,6 +348,7 @@ a.kindle {
   }
 }
 
+/*----For ipad pro----*/
 @media only screen and (min-width: 1000px) {
   p.card-text {
     font-size: 15px;
@@ -370,7 +367,7 @@ a.kindle {
   }
 }
 
-/*Map modal*/
+/*-------------Map modal---------------*/
 
 .lp {
   color: #ffffff;
@@ -396,7 +393,7 @@ a.kindle {
   background-color: rgb(117, 33, 33, 0.5);
   color: #fff;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 2px;
   padding: 5px 0;
   margin-left: 10px;
 
@@ -405,10 +402,9 @@ a.kindle {
   text-transform: lowercase;
   text-decoration: none !important;
 
-  /* Position the tooltip text - see examples below! */
+  /* Position the tooltip text*/
   position: absolute;
   z-index: 1;
-
   top: -5px;
   right: 105%;
 }
@@ -418,77 +414,7 @@ a.kindle {
   visibility: visible;
 }
 
-/*Map modal*/
 
-.lp {
-  color: #ffffff;
-  background: transparent;
-  border: none;
-  outline: none;
-}
-
-.lp:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/*Media*/
-
-@media only screen and (max-width: 600px) {
-  /*Jumbotron paragraph and main title to fit within the jumbotron*/
-  .display-4 {
-    font-family: "Lexend Peta";
-    text-transform: lowercase;
-    letter-spacing: 7px;
-    font-size: 130%;
-  }
-
-  .medium-line {
-    width: 80%;
-    margin: auto;
-  }
-
-  .lead {
-    font-size: 68%;
-  }
-
-  /*Ensuring Social Media links display nicely and centered*/
-  .socials {
-    text-align: center;
-    padding-left: 0;
-  }
-  /*For mobile website reduced size of the social icons*/
-  .socials li {
-    display: inline-block;
-    padding: 5px;
-    font-size: 50%;
-  }
-}
-
-/*----------------------form------------*/
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-* {
-  box-sizing: border-box;
-}
-
-/* Full-width input fields */
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-/* Add a background color when the inputs get focus */
-input[type="text"]:focus,
-input[type="password"]:focus {
-  background-color: #ddd;
-  outline: none;
-}
 
 /*------------------------Tunes-----------------*/
 
@@ -573,12 +499,6 @@ input[type="password"]:focus {
     padding-right: 10px;
   }
 }
-/* @media screen and (width:1024px){
-    
-    .card-front--item{
-    box-sizing:content-box;
-}
-} */
 
 
 /*---------------------------Contact Us-----------------------*/
@@ -596,6 +516,8 @@ input[type="password"]:focus {
 
 /*------------------Go--------------------*/
 
+
+/*----------------Currency converter adapted from Coding Journey tutorial, most styling is custom (link in readme)-----------*/
 /*Ensuring the content of card is not selectable*/
 .card-group.container-fluid {
   user-select: none;
@@ -610,10 +532,6 @@ input[type="password"]:focus {
   padding-bottom: 0;
   border-bottom: 0;
   position: relative;
-}
-
-img.card-img-top-api {
-  height: 75px;
 }
 
 ul.currencies {
@@ -780,78 +698,9 @@ ul.add-currency-list li.disabled {
   background-color: rgba(255, 248, 232, 0.384);
 }
 
+/*--------------------------End of adapted styling-----------------------*/
+
 /*---------------Places-----------*/
 
-.center-block {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: center;
-  align-content: center;
-}
 
-.output {
 
-  line-height: 0;
-   
-  -webkit-column-count: 5;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    5;
-  -moz-column-gap:      0px;
-  column-count:         5;
-  column-gap:           0px;  
-}
-
-.output img {
- 
-  width: 100% !important;
-  height: auto !important;
-}
-
-@media (max-width: 1200px) {
-  .output {
-  -moz-column-count:    3;
-  -webkit-column-count: 3;
-  column-count:         3;
-  }
-}
-@media (max-width: 1000px) {
-  .output {
-  -moz-column-count:    4;
-  -webkit-column-count: 4;
-  column-count:         4;
-  }
-}
-@media (max-width: 800px) {
-  .output {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
-}
-@media (max-width: 400px) {
-  .output {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
-}
-
-/*-----------Searchbar--------------*/
-
-.search input[type="text"] {
-  border: 1px solid rgb(117, 33, 33, 0.8);
-  box-shadow: 0 0 0 1px rgb(117, 33, 33);
-}
-
-@media (max-width: 600px) {
-  small#emailHelp,
-  input#exampleInputEmail1,
-  input.search-box {
-    font-size: 10px;
-  }
-  .Newsletter {
-    width: 80%;
-  }
-}
