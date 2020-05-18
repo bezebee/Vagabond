@@ -1,47 +1,39 @@
+//58bbb3f1eaa946a98e0ef4604163b217
 
+$(document).ready(function(){
 
- $("button#asia").click(function(){
-$.getJSON('https://api.unsplash.com/search/photos?query=asia&per_page=30&client_id=kZ9sSryGBssi-2T5OUPjVLye-DzTy5ksc6rEMov7fW0', function(data) {
-console.log(data);
+let url = "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=58bbb3f1eaa946a98e0ef4604163b217";
 
-var imageList = data.results;
+$.ajax({
+    url:url,
+    method:"GET",
+    dataType:"JSON",
 
-$.each(imageList, function(i, val){
+    beforeSend: function(){
+        $(".progress").show();
+    },
 
-    var image = data.results;
+complete:function(){
+    $(".progress").hide();
+},
 
-    var imageURL = val.urls.regular;
-    var imageWidth = val.width;
-    var imageHeight = val.height;
+success: function(news){
+let output = "";
+let latestNews = news.articles;
 
-    if(imageWidth>imageHeight){
-        $('.output').append('<div class="image"><img src="'+ imageURL +'"></div>');
+for(var i in latestNews){
+    output += `
+    <div class="col-12 col-6 col-4">
+    <h6>${latestNews[i].title}</h6></div>`;
+}
 
-};
-  });
+if(output !== ""){
+    $("#newsResults").html(output);
+}
+},
 
-  })
-
+error: function(){}
+    
 })
-//   $("button#asia").click(function(){
+});
 
-// $.getJSON('https://api.unsplash.com/search/photos?query=asia&client_id=kZ9sSryGBssi-2T5OUPjVLye-DzTy5ksc6rEMov7fW0', function(data) {
-// console.log(data);
-
-// var imageList = data.results;
-
-// $.each(imageList, function(i, val){
-
-//     var image = data.results[Math.floor(Math.random())]
-
-//     var imageURL = val.urls.regular;
-//     var imageWidth = val.width;
-//     var imageHeight = val.height;
-
-//     if(imageWidth>imageHeight){
-//         $('.output').append('<div class="image"><img src="'+ imageURL +'"></div>');
-//     }else{$('.output').append('<div class="image"><img src="'+ imageURL +'"></div>')}
-// });
-//   });
-
-//   })
