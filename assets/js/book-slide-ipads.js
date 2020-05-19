@@ -118,7 +118,7 @@ function myFunction(ipad) {
   }
 }
 
-let ipad = window.matchMedia("(max-width: 768px)");
+let ipad = window.matchMedia("(min-width:700px)");
 myFunction(ipad);
 ipad.addListener(myFunction);
 
