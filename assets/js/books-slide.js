@@ -35,6 +35,6 @@ function myFunction(hd) {
   }
 }
 
-let hd = window.matchMedia("(width: 1024px)");
+let hd = window.matchMedia("(min-width: 1024px)");
 myFunction(hd); // Call listener function at run time
 hd.addListener(myFunction); // Attach listener function on state changes
