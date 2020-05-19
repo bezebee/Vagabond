@@ -1,45 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
+
+<head>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
         emailjs.init("user_cAeBTKRz9cAOzPB86ma5l");
       })();
-    </script>
+	</script>
 
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=false, initial-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=false, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    />
-    <link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+	<link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
 
-    <link rel="icon" href="globe.png" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="icon" href="globe.png" />
+	<link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>Vagabonds</title>
-  </head>
+	<title>Vagabonds</title>
+</head>
 
-  <body>
-    <!--Logo-->
+<body>
+	<!--Logo-->
 
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button
+	<!--Navigation-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -50,46 +40,44 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="reads.html">Reads</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tunes.html">Tunes</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="places.html"
-              >Places<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="go.html">Go!</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="reads.html">Reads</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="tunes.html">Tunes</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="places.html">Places<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="go.html">Go!</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-    <!-----------------------Motto-->
+	<!-----------------------Motto-->
 
-    <section class="container-fluid" style="max-width: 100%;" id="slide">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container-fluid">
-          <h1 class="display-4 text-center"><a href="index.html">places</a></h1>
-          <hr class="medium-line" />
-          <p class="lead">
-            Sometimes you just need time away alone<br />
+	<section class="container-fluid" style="max-width: 100%;" id="slide">
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container-fluid">
+				<h1 class="display-4 text-center"><a href="index.html">places</a></h1>
+				<hr class="medium-line" />
+				<p class="lead">
+					Sometimes you just need time away alone<br />
             in a beautiful place to figure things out.
           </p>
-        </div>
-      </div>
-    </section>
+			</div>
+		</div>
+	</section>
 
-    <!----------------------------------- News------------------>
-    <div class="container">
+	<!----------------------------------- News------------------>
+	<!-- <div class="container">
       <div class="row">
         <div id="newsResults"></div>
       </div>
@@ -99,67 +87,87 @@
           <div class="indeterminate"></div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <!--Share us with your friends-->
+	<div class="container">
+		<form class="form-inline my-2 my-lg-0">
+      <input id="searchquery" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="searchbtn">Search</button>
+    </form>
 
-    <section class="for-sharing">
-      <h4 class="share">Sharing is caring</h4>
-      <hr class="medium-line" />
+    <div class="gallery">
+  <!-- <figure class="gallery__item gallery__item--1">
+    <img src="img/image-1.jpg" class="gallery__img" alt="Image 1">
+  </figure>
+  <figure class="gallery__item gallery__item--2">
+    <img src="img/image-2.jpg" class="gallery__img" alt="Image 2">
+  </figure>
+  <figure class="gallery__item gallery__item--3">
+    <img src="img/image-3.jpg" class="gallery__img" alt="Image 3">
+  </figure>
+  <figure class="gallery__item gallery__item--4">
+    <img src="img/image-4.jpg" class="gallery__img" alt="Image 4">
+  </figure>
+  <figure class="gallery__item gallery__item--5">
+    <img src="img/image-5.jpg" class="gallery__img" alt="Image 5">
+  </figure>
+  <figure class="gallery__item gallery__item--6">
+    <img src="img/image-6.jpg" class="gallery__img" alt="Image 6">
+  </figure> -->
+</div>
 
-      <div class="box-right text-center">
-        <ul class="socials">
-          <li>
-            <a target="_blank" href="#"
-              ><i
+			
+
+			</div>
+
+
+			<!--Share us with your friends-->
+
+			<section class="for-sharing">
+				<h4 class="share">Sharing is caring</h4>
+				<hr class="medium-line" />
+
+				<div class="box-right text-center">
+					<ul class="socials">
+						<li>
+							<a target="_blank" href="#"><i
                 class="fab fa-facebook-square fa-3x"
                 style="color: #aecdd2;"
-              ></i
-            ></a>
-            <!--Format to square, add border radius, change to outline-->
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-twitter fa-3x" style="color: #aecdd2;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-instagram fa-3x" style="color: #aecdd2;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-reddit-alien fa-3x" style="color: #aecdd2;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-stumbleupon fa-3x" style="color: #aecdd2;"></i
-            ></a>
-          </li>
-          <li>
-            <a target="_blank" href="#"
-              ><i class="fab fa-pinterest fa-3x" style="color: #aecdd2;"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </section>
+              ></i></a>
+							<!--Format to square, add border radius, change to outline-->
+						</li>
+						<li>
+							<a target="_blank" href="#"><i class="fab fa-twitter fa-3x" style="color: #aecdd2;"></i></a>
+						</li>
+						<li>
+							<a target="_blank"
+								href="#"><i class="fab fa-instagram fa-3x" style="color: #aecdd2;"></i></a>
+						</li>
+						<li>
+							<a target="_blank"
+								href="#"><i class="fab fa-reddit-alien fa-3x" style="color: #aecdd2;"></i></a>
+						</li>
+						<li>
+							<a target="_blank"
+								href="#"><i class="fab fa-stumbleupon fa-3x" style="color: #aecdd2;"></i></a>
+						</li>
+						<li>
+							<a target="_blank"
+								href="#"><i class="fab fa-pinterest fa-3x" style="color: #aecdd2;"></i></a>
+						</li>
+					</ul>
+				</div>
+			</section>
 
-    <!-----------------------------------------------------------------Newsletter------------------------->
+			<!-----------------------------------------------------------------Newsletter------------------------->
 
-    <section class="newsletter">
-      <h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
-      <hr class="medium-line" />
+			<section class="newsletter">
+				<h4 class="newsletter sign-up">Subscribe to Newsletter</h4>
+				<hr class="medium-line" />
 
-      <form
-        onsubmit="return sendMail(this);"
-        class="Newsletter"
-        id="newsletterForm"
-      >
-        <div class="form-group">
-          <input
+				<form onsubmit="return sendMail(this);" class="Newsletter" id="newsletterForm">
+					<div class="form-group">
+						<input
             type="email"
             class="form-control"
             id="exampleInputEmail1"
@@ -168,56 +176,56 @@
             name="email"
             required
           />
-          <small id="emailHelp" class="form-text text-muted"
-            >We'll never share your email with anyone else.</small
-          >
-        </div>
+						<small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small>
+					</div>
 
-        <button type="submit" class="btn btn-newsletter">Submit</button>
-      </form>
-    </section>
+					<button type="submit" class="btn btn-newsletter">Submit</button>
+				</form>
+			</section>
 
-    <!---------------------------------------------------------------Footer----------------------------->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm col-6 col-sm-3">
-            <a href="about.html"> About</a>
-          </div>
-          <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3">
-            <a href="terms.html"> Terms</a>
-          </div>
-          <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3">
-            <a href="privacy.html"> Privacy</a>
-          </div>
-          <div class="vl"></div>
-          <div class="col-sm col-6 col-sm-3">
-            <a href="contact-us.html"> Contact Us</a>
-          </div>
-        </div>
-      </div>
-      <section>
-        <div class="col">
-          <p class="copyright text-center">
-            <a href="https://bezebee.github.io/Beeing-About/" target="_blank"
-              >Beeing About &copy; 2020</a
-            >
-          </p>
-        </div>
-      </section>
-    </footer>
-    <script src="jquery-3.5.1.js"></script>
+			<!---------------------------------------------------------------Footer----------------------------->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm col-6 col-sm-3">
+							<a href="about.html"> About</a>
+						</div>
+						<div class="vl"></div>
+						<div class="col-sm col-6 col-sm-3">
+							<a href="terms.html"> Terms</a>
+						</div>
+						<div class="vl"></div>
+						<div class="col-sm col-6 col-sm-3">
+							<a href="privacy.html"> Privacy</a>
+						</div>
+						<div class="vl"></div>
+						<div class="col-sm col-6 col-sm-3">
+							<a href="contact-us.html"> Contact Us</a>
+						</div>
+					</div>
+				</div>
+				<section>
+					<div class="col">
+						<p class="copyright text-center">
+							<a href="https://bezebee.github.io/Beeing-About/" target="_blank">Beeing About &copy;
+								2020</a>
+						</p>
+					</div>
+				</section>
+			</footer>
+			<script src="jquery-3.5.1.js"></script>
 
 
 
-    <script type="text/javascript" src="assets/js/places.js"></script>
-    <script type="text/javascript" src="assets/js/subscribe.js"></script>
+			<script type="text/javascript" src="assets/js/places.js"></script>
+			<script type="text/javascript" src="assets/js/subscribe.js"></script>
 
-    <script src="assets/js/slide.js" type="text/javascript"></script>
-    <script src="assets/js/slide-responsive.js" type="text/javascript"></script>
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  </body>
+			<script src="assets/js/slide.js" type="text/javascript"></script>
+			<script src="assets/js/slide-responsive.js" type="text/javascript"></script>
+            
+
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
 </html>
