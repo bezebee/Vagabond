@@ -1,4 +1,4 @@
-//Mobile media query for fading on scroll
+//Home page cards, mobile media query for fading on scroll
 
 function myFunction(y) {
   if (y.matches) {
