@@ -270,6 +270,14 @@ a:hover {
   text-decoration: none;
 }
 
+.fa-hand-pointer{
+  color: rgb(49, 105, 124) !important;
+  text-decoration: none;
+  margin-top:20px;  
+}
+
+
+
 
 
 /*Reads*/
@@ -581,4 +589,8 @@ a.kindle {
     grid-row-end: 9;
 }
 
-/*------------------Go--------------------*/
+/*------------------Privacy--------------------*/
+
+.privacy{
+    font-family: "Beth Ellen";
+}
