@@ -594,3 +594,59 @@ a.kindle {
 .privacy{
     font-family: "Beth Ellen";
 }
+
+/*--------------Go!-------------*/
+.PoweredBySkyscanner__logo___2attf{
+    margin-right:20px;
+}
+.FlightSearchWidget__searchWidgetFieldsWrap___TisxM{
+    max-width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+a.bpk-button{
+    background-color: rgb(49, 105, 124)!important;
+    background-image: none;
+}
+span.ReferralButton__cta___2Yxt0:hover{
+    text-decoration: none!important;
+}
+.bpk-select{
+    font-family: "Lexend Peta"!important;
+  font-size: 17px;
+  text-transform: lowercase;
+  color: rgb(49, 105, 124)!important;
+}
+
+.FlightSearchWidget__searchWidget___1yYnU{
+    font-family: "Lexend Peta"!important;
+  font-size: 17px;
+  text-transform: lowercase;
+  color: rgb(49, 105, 124)!important;
+}
+
+.bpk-link:visited{
+    color:rgb(49, 105, 124)!important; 
+    background: 2px 3px 4px rgb(251, 255, 5);
+}
+.bpk-link:hover{
+    text-decoration:none; 
+    background:rgb(251, 255, 5);
+}
+a.bpk-link{
+    border:1px solid rgb(251, 255, 5);
+    background:rgb(251, 255, 5);
+    padding-top:5px;
+    padding-left:17px;
+    padding-right:17px;
+    padding-bottom:7px;  
+}
+a.bpk-link:hover{
+    text-shadow: 2px 3px 4px rgb(49, 105, 124);
+    }
+
+
+.bpk-nudger__icon, .bpk-radio__circle{
+    color:rgb(49, 105, 124)!important;
+    background:none!important;
+}
