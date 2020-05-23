@@ -602,6 +602,8 @@ a.bpk-link:hover{
 .clock .number10{ --rotation: 300deg;}
 .clock .number11{ --rotation: 330deg;}
 
+
+
 .clock .hand{
     --rotation:0;
     position:absolute;
@@ -646,6 +648,74 @@ a.bpk-link:hover{
     background-color: rgb(49, 105, 124);
 }
 
+/*----------------------------Media query for a mobile view of the clocks-----------------*/
+
+@media only screen and (max-width: 600px) {
+    
+.clock{
+    width:80px;
+    height:80px;
+    font-size:8px;
+}
+.clock .hand{
+    background-color: black;
+    border:none;
+}
+.clock::after{
+    width:5px;
+    height: 5px;
+}
+
+.clock .hand.second {
+    width: 1px;
+    height: 42%;
+    background-color: rgb(248, 244, 4);
+}
+.clock .hand.minute {
+    width: 2px;
+    height: 40%;
+    background-color: rgb(49, 105, 124);
+}
+.clock .hand.hour {
+    width: 3px;
+    height: 35%;
+    background-color: rgb(49, 105, 124);
+}
+}
+/*---------------------------------------Media query for iPad view of the clocks-----------------*/
+
+@media only screen and (max-width: 1024px) {
+    
+.clock{
+    width:200px;
+    height:200px;
+    font-size:16px;
+}
+.clock .hand{
+    background-color: black;
+    border:none;
+}
+.clock::after{
+    width:10px;
+    height: 10px;
+}
+
+.clock .hand.second {
+    width: 2px;
+    height: 42%;
+    background-color: rgb(248, 244, 4);
+}
+.clock .hand.minute {
+    width: 4px;
+    height: 40%;
+    background-color: rgb(49, 105, 124);
+}
+.clock .hand.hour {
+    width: 6px;
+    height: 35%;
+    background-color: rgb(49, 105, 124);
+}
+}
 /*Dedicated links decoration removal*/
 
 .sign-in a:link {
