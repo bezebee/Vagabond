@@ -1,7 +1,6 @@
 
- var dt = new Date();
-         var tz = dt.getTimezoneOffset(); 
-         document.write("getTimezoneOffset() : " + tz ); 
+
+
 setInterval(setClock, 1000)
 
 const hourHand = document.querySelector('[data-hour-hand]')
@@ -16,6 +15,8 @@ function setClock(){
     setRotation(secondHand, secondsRatio)
     setRotation(minuteHand, minutesRatio)
     setRotation(hourHand, hoursRatio)
+
+
 }
 
 function setRotation(element, rotationRatio){
