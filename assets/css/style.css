@@ -568,6 +568,23 @@ a.bpk-link:hover{
     color:rgb(49, 105, 124)!important;
     background:none!important;
 }
+
+/*------------------Media - mobile view of the flight booking form---------------*/
+@media only screen and (max-width: 600px){
+.ReferralButton__cta___2Yxt0, a.bpk-link, select.bpk-select{
+    font-size: 12px;
+}
+a.bpk-button{
+    padding-top: 3px;
+    padding-bottom:3px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.ReferralButton__buttonContainer___3X6Dk{
+    margin-top:30px!important;
+}
+
+}
 /*-----------------------Clocks/ taken from the Web Dev Simplified tutorial and adapted as required------------------*/
 
 
@@ -652,35 +669,40 @@ a.bpk-link:hover{
 
 @media only screen and (max-width: 600px) {
     
-.clock{
+.clock.clock1, .clock.clock2, .clock.clock3 {
     width:80px;
     height:80px;
     font-size:8px;
 }
-.clock .hand{
+.clock.clock1.hand, .clock.clock2.hand, .clock.clock3.hand{
     background-color: black;
     border:none;
 }
-.clock::after{
+.clock.clock1::after, .clock.clock2::after, .clock.clock3::after{
     width:5px;
     height: 5px;
 }
 
-.clock .hand.second {
+.clock.clock1 .hand.second, .clock.clock2 .hand.second, .clock.clock3 .hand.second{
     width: 1px;
     height: 42%;
     background-color: rgb(248, 244, 4);
 }
-.clock .hand.minute {
+.clock.clock1 .hand.minute, .clock.clock2 .hand.minute, .clock.clock3 .hand.minute{
     width: 2px;
     height: 40%;
     background-color: rgb(49, 105, 124);
 }
-.clock .hand.hour {
+.clock.clock1 .hand.hour, .clock.clock2 .hand.hour, .clock.clock3 .hand.hour{
     width: 3px;
     height: 35%;
     background-color: rgb(49, 105, 124);
 }
+
+#clockOne p, #clockTwo p, #clockThree p{
+    font-size:10px
+}
+
 }
 /*---------------------------------------Media query for iPad view of the clocks-----------------*/
 
