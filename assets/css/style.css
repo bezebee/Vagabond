@@ -6,6 +6,7 @@ height: 100%;
 margin: 0px;
 padding: 0px;
 overflow-x: hidden; 
+
 }
 
 body {
@@ -202,6 +203,8 @@ a:hover {
   }
 }
 
+
+
 /*---Copyright styling----------*/
 .copyright {
   font-family: p22-hopper-edward, sans-serif;
@@ -209,76 +212,6 @@ a:hover {
   font-style: normal;
   font-size: 30px;
 }
-
-/*links decoration removal*/
-
-.sign-in a:link {
-  text-decoration: none;
-  color: rgb(49, 105, 124) !important;
-}
-
-.sign-in a:visited {
-  color: rgb(49, 105, 124) !important;
-  text-decoration: none;
-}
-
-.sign-in a:hover {
-  color: rgb(174, 205, 210) !important;
-}
-
-.display-4 a:link {
-  text-decoration: none;
-  color: rgb(49, 105, 124) !important;
-}
-
-.display-4 a:visited {
-  color: rgb(49, 105, 124) !important;
-  text-decoration: none;
-}
-
-.card-body a:link {
-  text-decoration: none;
-  color: rgb(49, 105, 124) !important;
-}
-
-.card-body a:visited {
-  color: rgb(49, 105, 124) !important;
-  text-decoration: none;
-}
-.card-title a:link {
-  text-decoration: none;
-  color: rgb(49, 105, 124) !important;
-}
-
-.card-title a:visited {
-  color: rgb(49, 105, 124) !important;
-  text-decoration: none;
-}
-.col-sm a:link {
-  text-decoration: none;
-  color: rgb(49, 105, 124) !important;
-}
-
-.col-sm a:visited {
-  color: rgb(49, 105, 124) !important;
-  text-decoration: none;
-}
-.copyright a:link {
-  text-decoration: none;
-  color: rgb(49, 105, 124) !important;
-}
-
-.copyright a:visited {
-  color: rgb(49, 105, 124) !important;
-  text-decoration: none;
-}
-
-.fa-hand-pointer{
-  color: rgb(49, 105, 124) !important;
-  text-decoration: none;
-  margin-top:20px;  
-}
-
 
 
 
@@ -574,68 +507,13 @@ a.kindle {
 
 
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
-}
-
-.gallery__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.gallery__item--1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-.gallery__item--2 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-.gallery__item--3 {
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 6;
-}
-
-.gallery__item--4 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 6;
-}
-
-.gallery__item--5 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 9;
-}
-
-.gallery__item--6 {
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 9;
-}
-
 /*------------------Privacy--------------------*/
 
 .privacy{
     font-family: "Beth Ellen";
 }
 
-/*--------------Go!-------------*/
+/*--------------Go!/Taken from Skyscanner and adapted to the color scheme of the Vagabond website-------------*/
 .PoweredBySkyscanner__logo___2attf{
     margin-right:20px;
 }
@@ -690,3 +568,151 @@ a.bpk-link:hover{
     color:rgb(49, 105, 124)!important;
     background:none!important;
 }
+/*-----------------------Clocks/ taken from the Web Dev Simplified tutorial and adapted as required------------------*/
+
+
+
+.clock{
+    width:300px;
+    height:300px;
+    background-color:rgb(174, 205, 210, 0.5);
+    border-radius:50%;
+    border:2px solid rgb(49, 105, 124);
+    position:relative;
+}
+
+.clock .number{
+   --rotation:0;
+   position: absolute;
+   width:100%;
+   height:100%;
+   text-align: center;
+   transform: rotate(var(--rotation));
+}
+
+.clock .number1{ --rotation: 30deg;}
+.clock .number2{ --rotation: 60deg;}
+.clock .number3{ --rotation: 90deg;}
+.clock .number4{ --rotation: 120deg;}
+.clock .number5{ --rotation: 150deg;}
+.clock .number6{ --rotation: 180deg;}
+.clock .number7{ --rotation: 210deg;}
+.clock .number8{ --rotation: 240deg;}
+.clock .number9{ --rotation: 270deg;}
+.clock .number10{ --rotation: 300deg;}
+.clock .number11{ --rotation: 330deg;}
+
+.clock .hand{
+    --rotation:0;
+    position:absolute;
+    bottom: 50%;
+    left: 50%;
+    
+    background-color: black;
+    border:1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform-origin:bottom;
+    z-index:10;
+    transform:translateX(-50%) rotate(calc(var(--rotation)*1deg)); 
+}
+
+.clock::after{
+    content:'';
+    position: absolute;
+    background-color: rgb(49, 105, 124);
+    z-index:11;
+    width:15px;
+    height: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:50%;
+}
+
+.clock .hand.second {
+    width: 3px;
+    height: 42%;
+    background-color: rgb(248, 244, 4);
+}
+.clock .hand.minute {
+    width: 7px;
+    height: 40%;
+    background-color: rgb(49, 105, 124);
+}
+.clock .hand.hour {
+    width: 10px;
+    height: 35%;
+    background-color: rgb(49, 105, 124);
+}
+
+/*Dedicated links decoration removal*/
+
+.sign-in a:link {
+  text-decoration: none;
+  color: rgb(49, 105, 124) !important;
+}
+
+.sign-in a:visited {
+  color: rgb(49, 105, 124) !important;
+  text-decoration: none;
+}
+
+.sign-in a:hover {
+  color: rgb(174, 205, 210) !important;
+}
+
+.display-4 a:link {
+  text-decoration: none;
+  color: rgb(49, 105, 124) !important;
+}
+
+.display-4 a:visited {
+  color: rgb(49, 105, 124) !important;
+  text-decoration: none;
+}
+
+.card-body a:link {
+  text-decoration: none;
+  color: rgb(49, 105, 124) !important;
+}
+
+.card-body a:visited {
+  color: rgb(49, 105, 124) !important;
+  text-decoration: none;
+}
+.card-title a:link {
+  text-decoration: none;
+  color: rgb(49, 105, 124) !important;
+}
+
+.card-title a:visited {
+  color: rgb(49, 105, 124) !important;
+  text-decoration: none;
+}
+.col-sm a:link {
+  text-decoration: none;
+  color: rgb(49, 105, 124) !important;
+}
+
+.col-sm a:visited {
+  color: rgb(49, 105, 124) !important;
+  text-decoration: none;
+}
+.copyright a:link {
+  text-decoration: none;
+  color: rgb(49, 105, 124) !important;
+}
+
+.copyright a:visited {
+  color: rgb(49, 105, 124) !important;
+  text-decoration: none;
+}
+
+.fa-hand-pointer{
+  color: rgb(49, 105, 124) !important;
+  text-decoration: none;
+  margin-top:20px;  
+}
+
+

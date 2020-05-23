@@ -84,22 +84,29 @@
         </div>
       </div>
     </section>
-<!----------------------------Time zones---------------->
+<!----------------------------Time zones/taken from Web Dev Simplified tutorial and adapted as required---------------->
 
 <div class="clock">
-<div class="hour">
-<div class="hr" id="hr"></div>
+
+<div class="hand hour" data-hour-hand></div>
+<div class="hand minute" data-minute-hand></div>
+<div class="hand second" data-second-hand></div>
+
+<div class="number number1">1</div>
+<div class="number number2">2</div>
+<div class="number number3">3</div>
+<div class="number number4">4</div>
+<div class="number number5">5</div>
+<div class="number number6">6</div>
+<div class="number number7">7</div>
+<div class="number number8">8</div>
+<div class="number number9">9</div>
+<div class="number number10">10</div>
+<div class="number number11">11</div>
+<div class="number number12">12</div>
+
+
 </div>
-
-<div class="min">
-<div class="mn" id="mn"></div>
-</div>
-
-<div class="sec">
-<div class="sc" id="sc"></div>
-</div>
-
-
     <!--------------Go/courtesy of SkyScanner------------------->
     
 <div data-skyscanner-widget="FlightSearchWidget" data-locale="en-GB"></div>
@@ -213,6 +220,8 @@
           </div>
         </section>
       </footer>
+      <script src="assets/js/clockOne.js"></script>
+      <script src="assets/js/moment-timezone-with-data.js"></script>
       <script src="assets/js/subscribe.js"></script>
       
 
@@ -220,12 +229,14 @@
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         crossorigin="anonymous"
       ></script>
-      <script src="assets/js/go.js"></script>
+
       <script src="assets/js/slide.js" type="text/javascript"></script>
+      
       <script
         src="assets/js/slide-responsive.js"
         type="text/javascript"
       ></script>
+
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     
