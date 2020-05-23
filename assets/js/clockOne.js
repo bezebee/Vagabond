@@ -1,5 +1,7 @@
 
-
+ var dt = new Date();
+         var tz = dt.getTimezoneOffset(); 
+         document.write("getTimezoneOffset() : " + tz ); 
 setInterval(setClock, 1000)
 
 const hourHand = document.querySelector('[data-hour-hand]')
