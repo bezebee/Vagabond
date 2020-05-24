@@ -763,19 +763,7 @@ a.bpk-button{
 }
 /*Dedicated links decoration removal*/
 
-.sign-in a:link {
-  text-decoration: none;
-  color: rgb(49, 105, 124) !important;
-}
 
-.sign-in a:visited {
-  color: rgb(49, 105, 124) !important;
-  text-decoration: none;
-}
-
-.sign-in a:hover {
-  color: rgb(174, 205, 210) !important;
-}
 
 .display-4 a:link {
   text-decoration: none;
