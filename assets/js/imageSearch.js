@@ -2,7 +2,10 @@ const API_CLIENTID = 'kZ9sSryGBssi-2T5OUPjVLye-DzTy5ksc6rEMov7fW0'
 const form = document.querySelector('form');
 const input = document.querySelector('input');
 const imageSection = document.querySelector('.images');
-const API_URL = `https://api.unsplash.com/search/photos?page=1&per_page=20&client_id=${API_CLIENTID}`
+const API_URL = `https://api.unsplash.com/search/photos?page=1&per_page=20&client_id=${API_CLIENTID};rel="first",
+https://api.unsplash.com/search/photos?page=2&per_page=20&client_id=${API_CLIENTID};rel="next",
+
+https://api.unsplash.com/search/photos?page=20&per_page=20&client_id=${API_CLIENTID};rel="last"`
 
 form.addEventListener('submit', formSubmitted);
 
@@ -31,9 +34,9 @@ function search(searchTerm) {
 function displayImages(images) {
   images.forEach(image => {
     let imageContainer = document.createElement('div');
-    imageContainer.className = 'ImageResult col-md-4 col'
-    imageContainer.innerHTML = `<img src="${image.urls.regular}">
-<a href="${image.links.html}" target="_blank" class="view_link">View on Unsplash</a>`;
+    imageContainer.className = 'ImageResult col-12 text-center .img-fluid'
+    imageContainer.innerHTML = `<img src="${image.urls.regular}"
+     <a href="${image.links.html}" target="_blank" class="view_link col-12">View on Unsplash</a>`
     imageSection.appendChild(imageContainer);
 
   });
