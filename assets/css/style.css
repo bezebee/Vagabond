@@ -198,8 +198,8 @@ a:hover {
 /*---Footer media view----*/
 
 @media only screen and (max-width: 800px) {
-  footer a {
-    font-size: 14px;
+  .col-sm a:link {
+    font-size: 11px;
   }
 }
 
