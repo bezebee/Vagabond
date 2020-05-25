@@ -34,9 +34,10 @@ function search(searchTerm) {
 function displayImages(images) {
   images.forEach(image => {
     let imageContainer = document.createElement('div');
-    imageContainer.className = 'ImageResult col-12 text-center .img-fluid'
+    imageContainer.className = 'ImageResult col-12 text-center img-fluid'
     imageContainer.innerHTML = `<img src="${image.urls.regular}">
-     <div class="container-fluid text-center"><a href="${image.links.html}" target="_blank" class="view_link col-12">View on Unsplash</a></div>`
+     <div class="container-fluid text-center">
+     <button onclick="location.href='${image.links.html}'"  target="_blank" class="dreamDest btn btn-newsletter">View on Unsplash</a></div>`
     imageSection.appendChild(imageContainer);
 
   });

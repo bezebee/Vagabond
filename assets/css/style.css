@@ -510,7 +510,7 @@ a.kindle {
     margin-left:auto;
     margin-right:auto;
 }
-img {
+.ImageResult img {
 object-fit: cover;
 max-width:100%;
 height:auto;
@@ -527,8 +527,42 @@ padding:5px;
     margin-left:auto;
     margin-right:auto;
     margin-bottom:10px;
+    
 }
 
+input#exampleInputEmail1.form-control{
+text-transform: lowercase;
+}
+
+p#dreamDest.newsletter.form-text, .searchBox{
+  font-family: "Lexend Peta";
+  font-size: 13.6px;
+  text-transform: lowercase;
+  color: rgba(91, 98, 100, 0.87);
+  margin-top:0;
+  margin-bottom:0;
+}
+
+button.dreamDest{
+    margin-top:15px;
+}
+
+a.view_link.col-12{
+    color:rgb(49, 105, 124);
+    text-decoration: none;
+}
+a.view_link.col-12:hover{
+    background-color:rgb(49, 105, 124);
+    color:rgb(49, 105, 124, 0.1)!important;
+    text-decoration: none;
+}
+/*---------------------------Mobile view of the Images search-box-------------------*/
+
+@media only screen and (max-width: 600px){
+p#dreamDest.newsletter.form-text{
+    font-size:12px;
+}
+}
 
 /*------------------Privacy--------------------*/
 
