@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Lexend+Peta|Beth+Ellen|Open+Sans&display=swap");
 
 body {
-width: 100%;
-height: 100%;
-margin: 0px;
-padding: 0px;
-overflow-x: hidden; 
-
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Open Sans";
   font-size: 20px;
- 
 }
 
 /*Cursor*/
@@ -39,7 +37,7 @@ ul li,
   font-family: "Lexend Peta";
   font-size: 15px;
   text-transform: lowercase;
-  
+
   border: 1px solid rgb(49, 105, 124);
   color: rgb(49, 105, 124);
 }
@@ -49,7 +47,6 @@ ul li,
   background-color: rgb(49, 105, 124);
   color: rgb(174, 205, 210);
 }
-
 
 /*Wanderlust Jumbotron*/
 
@@ -92,11 +89,14 @@ hr.medium-line {
 }
 /*cards mobile and ipad styling*/
 
-@media (min-width: 700px){
-    #slideX, #slide4, #slide5, #slide6{
-        min-width:25%;
-        height:auto;
-    }
+@media (min-width: 700px) {
+  #slideX,
+  #slide4,
+  #slide5,
+  #slide6 {
+    min-width: 25%;
+    height: auto;
+  }
 }
 
 /*Footer*/
@@ -115,13 +115,12 @@ hr.medium-line {
 /*--Newsletter styling, form and the paragraphs--*/
 .Newsletter {
   width: 80%;
-  margin:auto;
+  margin: auto;
 }
 /*Newsletter mobile and ipad view*/
 
 @media (max-width: 600px) {
-
-  input#exampleInputEmail1{
+  input#exampleInputEmail1 {
     font-size: 10px;
   }
   .Newsletter {
@@ -149,7 +148,6 @@ a:hover {
 /*--Vertical line--*/
 .vl {
   height: 70px;
-
 }
 /*--footer links styling--*/
 .col-sm {
@@ -194,7 +192,6 @@ a:hover {
   }
 }
 
-
 /*---Footer media view----*/
 
 @media only screen and (max-width: 800px) {
@@ -203,8 +200,6 @@ a:hover {
   }
 }
 
-
-
 /*---Copyright styling----------*/
 .copyright {
   font-family: p22-hopper-edward, sans-serif;
@@ -212,9 +207,6 @@ a:hover {
   font-style: normal;
   font-size: 30px;
 }
-
-
-
 
 /*Reads*/
 
@@ -284,12 +276,13 @@ a.kindle {
   z-index: 1;
 }
 
-
 /*-------Media for the Reads page----*/
 /*----For smaller ipads---*/
 @media only screen and (min-width: 600px) {
   p.card-text {
     font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
   }
   h5.card-title {
     font-size: 12px;
@@ -367,8 +360,6 @@ a.kindle {
   visibility: visible;
 }
 
-
-
 /*------------------------Tunes-----------------*/
 
 .card-container {
@@ -427,11 +418,11 @@ a.kindle {
 }
 /*------Card title----*/
 
-.card-title{
-    font-size:17px;
-    margin-top:0;
-    margin-bottom:2px;
-    padding-top:0;
+.card-title {
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  padding-top: 0;
 }
 
 /*------Icon Bar---------*/
@@ -459,37 +450,35 @@ a.kindle {
     padding-left: 10px;
     padding-right: 10px;
   }
-.front,
-.back {
-  width: 170px;
-  height: 170px;
+  .front,
+  .back {
+    width: 170px;
+    height: 170px;
+  }
+  .card-title {
+    font-size: 15px;
+  }
 }
-.card-title{
-    font-size:15px;
-}
-}
-
 
 @media only screen and (min-width: 1100px) {
-.front,
-.back {
-  width: 320px;
-  height: 320px;
+  .front,
+  .back {
+    width: 320px;
+    height: 320px;
+  }
+  .card-title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 0;
+  }
+  .icon-bar {
+    width: 100%;
+    background-color: rgb(174, 205, 210);
+    overflow: hidden;
+    margin-top: 8px;
+  }
 }
-.card-title{
-    font-size:20px;
-    margin-top:10px;
-    margin-bottom:10px;
-    padding-top:0;
-}
-.icon-bar {
-  width: 100%;
-  background-color: rgb(174, 205, 210);
-  overflow: hidden;
-  margin-top:8px;
-}
-}
-
 
 /*---------------------------Contact Us-----------------------*/
 
@@ -504,300 +493,327 @@ a.kindle {
   background-color: rgb(49, 105, 124);
 }
 /*--------------------------------Places------------------------*/
-.ImageResult{
-    padding-left:0;
-    padding-right:0;
-    margin-left:auto;
-    margin-right:auto;
+.ImageResult {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .ImageResult img {
-object-fit: cover;
-max-width:100%;
-height:auto;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
 
-padding:5px;
+  padding: 5px;
 }
 
-.view-link{
-    position:bottom;
-
+.view-link {
+  position: bottom;
 }
-.searchBox.form-control{
-    max-width: 60%;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:10px;
-    
+.searchBox.form-control {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
-input#exampleInputEmail1.form-control{
-text-transform: lowercase;
+input#exampleInputEmail1.form-control {
+  text-transform: lowercase;
 }
 
-p#dreamDest.newsletter.form-text, .searchBox{
+p#dreamDest.newsletter.form-text,
+.searchBox {
   font-family: "Lexend Peta";
   font-size: 13.6px;
   text-transform: lowercase;
   color: rgba(91, 98, 100, 0.87);
-  margin-top:0;
-  margin-bottom:0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-button.dreamDest{
-    margin-top:15px;
+button.dreamDest {
+  margin-top: 15px;
 }
 
-a.view_link.col-12{
-    color:rgb(49, 105, 124);
-    text-decoration: none;
+a.view_link.col-12 {
+  color: rgb(49, 105, 124);
+  text-decoration: none;
 }
-a.view_link.col-12:hover{
-    background-color:rgb(49, 105, 124);
-    color:rgb(49, 105, 124, 0.1)!important;
-    text-decoration: none;
+a.view_link.col-12:hover {
+  background-color: rgb(49, 105, 124);
+  color: rgb(49, 105, 124, 0.1) !important;
+  text-decoration: none;
 }
 /*---------------------------Mobile view of the Images search-box-------------------*/
 
-@media only screen and (max-width: 600px){
-p#dreamDest.newsletter.form-text{
-    font-size:12px;
-}
+@media only screen and (max-width: 600px) {
+  p#dreamDest.newsletter.form-text {
+    font-size: 12px;
+  }
 }
 
 /*------------------Privacy--------------------*/
 
-.privacy{
-    font-family: "Beth Ellen";
+.privacy {
+  font-family: "Beth Ellen";
 }
 
 /*--------------Go!/Taken from Skyscanner and adapted to the color scheme of the Vagabond website-------------*/
-.PoweredBySkyscanner__logo___2attf{
-    margin-right:20px;
+.PoweredBySkyscanner__logo___2attf {
+  margin-right: 20px;
 }
-.FlightSearchWidget__searchWidgetFieldsWrap___TisxM{
-    max-width:80%;
-    margin-left:auto;
-    margin-right:auto;
+.FlightSearchWidget__searchWidgetFieldsWrap___TisxM {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
-a.bpk-button{
-    background-color: rgb(49, 105, 124)!important;
-    background-image: none;
+a.bpk-button {
+  background-color: rgb(49, 105, 124) !important;
+  background-image: none;
 }
-span.ReferralButton__cta___2Yxt0:hover{
-    text-decoration: none!important;
+span.ReferralButton__cta___2Yxt0:hover {
+  text-decoration: none !important;
 }
-.bpk-select{
-    font-family: "Lexend Peta"!important;
+.bpk-select {
+  font-family: "Lexend Peta" !important;
   font-size: 17px;
   text-transform: lowercase;
-  color: rgb(49, 105, 124)!important;
+  color: rgb(49, 105, 124) !important;
 }
 
-.FlightSearchWidget__searchWidget___1yYnU{
-    font-family: "Lexend Peta"!important;
+.FlightSearchWidget__searchWidget___1yYnU {
+  font-family: "Lexend Peta" !important;
   font-size: 17px;
   text-transform: lowercase;
-  color: rgb(49, 105, 124)!important;
+  color: rgb(49, 105, 124) !important;
 }
 
-.bpk-link:visited{
-    color:rgb(49, 105, 124)!important; 
-    background: 2px 3px 4px rgb(251, 255, 5);
+.bpk-link:visited {
+  color: rgb(49, 105, 124) !important;
+  background: 2px 3px 4px rgb(251, 255, 5);
 }
-.bpk-link:hover{
-    text-decoration:none; 
-    background:rgb(251, 255, 5);
+.bpk-link:hover {
+  text-decoration: none;
+  background: rgb(251, 255, 5);
 }
-a.bpk-link{
-    border:1px solid rgb(251, 255, 5);
-    background:rgb(251, 255, 5);
-    padding-top:5px;
-    padding-left:17px;
-    padding-right:17px;
-    padding-bottom:7px;  
+a.bpk-link {
+  border: 1px solid rgb(251, 255, 5);
+  background: rgb(251, 255, 5);
+  padding-top: 5px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 7px;
 }
-a.bpk-link:hover{
-    text-shadow: 2px 3px 4px rgb(49, 105, 124);
-    }
+a.bpk-link:hover {
+  text-shadow: 2px 3px 4px rgb(49, 105, 124);
+}
 
-
-.bpk-nudger__icon, .bpk-radio__circle{
-    color:rgb(49, 105, 124)!important;
-    background:none!important;
+.bpk-nudger__icon,
+.bpk-radio__circle {
+  color: rgb(49, 105, 124) !important;
+  background: none !important;
 }
 
 /*------------------Media - mobile view of the flight booking form---------------*/
-@media only screen and (max-width: 600px){
-.ReferralButton__cta___2Yxt0, a.bpk-link, select.bpk-select{
+@media only screen and (max-width: 600px) {
+  .ReferralButton__cta___2Yxt0,
+  a.bpk-link,
+  select.bpk-select {
     font-size: 12px;
-}
-a.bpk-button{
+  }
+  a.bpk-button {
     padding-top: 3px;
-    padding-bottom:3px;
+    padding-bottom: 3px;
     padding-left: 9px;
     padding-right: 9px;
-}
-.ReferralButton__buttonContainer___3X6Dk{
-    margin-top:30px!important;
-}
-
+  }
+  .ReferralButton__buttonContainer___3X6Dk {
+    margin-top: 30px !important;
+  }
 }
 /*-----------------------Clocks/ taken from the Web Dev Simplified tutorial and adapted as required------------------*/
 
-
-
-.clock{
-    width:300px;
-    height:300px;
-    background-color:rgb(174, 205, 210, 0.5);
-    border-radius:50%;
-    border:2px solid rgb(49, 105, 124);
-    position:relative;
+.clock {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(174, 205, 210, 0.5);
+  border-radius: 50%;
+  border: 2px solid rgb(49, 105, 124);
+  position: relative;
 }
 
-.clock .number{
-   --rotation:0;
-   position: absolute;
-   width:100%;
-   height:100%;
-   text-align: center;
-   transform: rotate(var(--rotation));
+.clock .number {
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
 }
 
-.clock .number1{ --rotation: 30deg;}
-.clock .number2{ --rotation: 60deg;}
-.clock .number3{ --rotation: 90deg;}
-.clock .number4{ --rotation: 120deg;}
-.clock .number5{ --rotation: 150deg;}
-.clock .number6{ --rotation: 180deg;}
-.clock .number7{ --rotation: 210deg;}
-.clock .number8{ --rotation: 240deg;}
-.clock .number9{ --rotation: 270deg;}
-.clock .number10{ --rotation: 300deg;}
-.clock .number11{ --rotation: 330deg;}
-
-
-
-.clock .hand{
-    --rotation:0;
-    position:absolute;
-    bottom: 50%;
-    left: 50%;
-    
-    background-color: black;
-    border:1px solid white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    transform-origin:bottom;
-    z-index:10;
-    transform:translateX(-50%) rotate(calc(var(--rotation)*1deg)); 
+.clock .number1 {
+  --rotation: 30deg;
+}
+.clock .number2 {
+  --rotation: 60deg;
+}
+.clock .number3 {
+  --rotation: 90deg;
+}
+.clock .number4 {
+  --rotation: 120deg;
+}
+.clock .number5 {
+  --rotation: 150deg;
+}
+.clock .number6 {
+  --rotation: 180deg;
+}
+.clock .number7 {
+  --rotation: 210deg;
+}
+.clock .number8 {
+  --rotation: 240deg;
+}
+.clock .number9 {
+  --rotation: 270deg;
+}
+.clock .number10 {
+  --rotation: 300deg;
+}
+.clock .number11 {
+  --rotation: 330deg;
 }
 
-.clock::after{
-    content:'';
-    position: absolute;
-    background-color: rgb(49, 105, 124);
-    z-index:11;
-    width:15px;
-    height: 15px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius:50%;
+.clock .hand {
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+
+  background-color: black;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transform-origin: bottom;
+  z-index: 10;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.clock::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(49, 105, 124);
+  z-index: 11;
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
 }
 
 .clock .hand.second {
-    width: 3px;
-    height: 42%;
-    background-color: rgb(248, 244, 4);
+  width: 3px;
+  height: 42%;
+  background-color: rgb(248, 244, 4);
 }
 .clock .hand.minute {
-    width: 7px;
-    height: 40%;
-    background-color: rgb(49, 105, 124);
+  width: 7px;
+  height: 40%;
+  background-color: rgb(49, 105, 124);
 }
 .clock .hand.hour {
-    width: 10px;
-    height: 35%;
-    background-color: rgb(49, 105, 124);
+  width: 10px;
+  height: 35%;
+  background-color: rgb(49, 105, 124);
 }
 
 /*----------------------------Media query for a mobile view of the clocks-----------------*/
 
 @media only screen and (max-width: 600px) {
-    
-.clock.clock1, .clock.clock2, .clock.clock3 {
-    width:80px;
-    height:80px;
-    font-size:8px;
-}
-.clock.clock1.hand, .clock.clock2.hand, .clock.clock3.hand{
+  .clock.clock1,
+  .clock.clock2,
+  .clock.clock3 {
+    width: 80px;
+    height: 80px;
+    font-size: 8px;
+  }
+  .clock.clock1.hand,
+  .clock.clock2.hand,
+  .clock.clock3.hand {
     background-color: black;
-    border:none;
-}
-.clock.clock1::after, .clock.clock2::after, .clock.clock3::after{
-    width:5px;
+    border: none;
+  }
+  .clock.clock1::after,
+  .clock.clock2::after,
+  .clock.clock3::after {
+    width: 5px;
     height: 5px;
-}
+  }
 
-.clock.clock1 .hand.second, .clock.clock2 .hand.second, .clock.clock3 .hand.second{
+  .clock.clock1 .hand.second,
+  .clock.clock2 .hand.second,
+  .clock.clock3 .hand.second {
     width: 1px;
     height: 42%;
     background-color: rgb(248, 244, 4);
-}
-.clock.clock1 .hand.minute, .clock.clock2 .hand.minute, .clock.clock3 .hand.minute{
+  }
+  .clock.clock1 .hand.minute,
+  .clock.clock2 .hand.minute,
+  .clock.clock3 .hand.minute {
     width: 2px;
     height: 40%;
     background-color: rgb(49, 105, 124);
-}
-.clock.clock1 .hand.hour, .clock.clock2 .hand.hour, .clock.clock3 .hand.hour{
+  }
+  .clock.clock1 .hand.hour,
+  .clock.clock2 .hand.hour,
+  .clock.clock3 .hand.hour {
     width: 3px;
     height: 35%;
     background-color: rgb(49, 105, 124);
-}
+  }
 
-#clockOne p, #clockTwo p, #clockThree p{
-    font-size:10px
-}
-
+  #clockOne p,
+  #clockTwo p,
+  #clockThree p {
+    font-size: 10px;
+  }
 }
 /*---------------------------------------Media query for iPad view of the clocks-----------------*/
 
 @media only screen and (max-width: 1024px) {
-    
-.clock{
-    width:200px;
-    height:200px;
-    font-size:16px;
-}
-.clock .hand{
+  .clock {
+    width: 200px;
+    height: 200px;
+    font-size: 16px;
+  }
+  .clock .hand {
     background-color: black;
-    border:none;
-}
-.clock::after{
-    width:10px;
+    border: none;
+  }
+  .clock::after {
+    width: 10px;
     height: 10px;
-}
+  }
 
-.clock .hand.second {
+  .clock .hand.second {
     width: 2px;
     height: 42%;
     background-color: rgb(248, 244, 4);
-}
-.clock .hand.minute {
+  }
+  .clock .hand.minute {
     width: 4px;
     height: 40%;
     background-color: rgb(49, 105, 124);
-}
-.clock .hand.hour {
+  }
+  .clock .hand.hour {
     width: 6px;
     height: 35%;
     background-color: rgb(49, 105, 124);
-}
+  }
 }
 /*Dedicated links decoration removal*/
-
-
 
 .display-4 a:link {
   text-decoration: none;
@@ -846,10 +862,8 @@ a.bpk-button{
   text-decoration: none;
 }
 
-.fa-hand-pointer{
+.fa-hand-pointer {
   color: rgb(49, 105, 124) !important;
   text-decoration: none;
-  margin-top:20px;  
+  margin-top: 20px;
 }
-
-
