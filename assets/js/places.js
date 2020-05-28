@@ -18,7 +18,7 @@ function initMap() {
 				lat: 25.122318,
 				lng: 55.132433
 			},
-			content: '<h6>Palm Jumeirah in Dubai</h6><button id="maps"><a href="https://www.tripsavvy.com/things-to-do-at-palm-jumeirah-4172289" target="_blank">Attractions</a></button>'
+            content: '<h6>Palm Jumeirah in Dubai</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -26,7 +26,7 @@ function initMap() {
 				lat: 36.176333,
 				lng: -112.460353
 			},
-			content: '<h6>Grand Canyon</h6><button id="maps"><a href="https://www.planetware.com/canyon-country/grand-canyon-national-park-us-az-gcnp.htm" target="_blank">Attractions</a></button>'
+            content: '<h6>Grand Canyon</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -34,7 +34,7 @@ function initMap() {
 				lat: -16.356378,
 				lng: 145.804226
 			},
-			content: '<h6>Great Barrier Reef</h6><button id="maps"><a href="https://www.planetware.com/australia/great-barrier-reef-aus-qld-gbr.htm" target="_blank">Attractions</a></button>'
+            content: '<h6>Great Barrier Reef</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -42,7 +42,7 @@ function initMap() {
 				lat: 43.979102,
 				lng: 15.381623
 			},
-			content: '<h6>The Lovers Island</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>The Lovers Island</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -50,7 +50,7 @@ function initMap() {
 				lat: 43.077769,
 				lng: -79.076075
 			},
-			content: '<h6>Niagara Falls</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Niagara Falls</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -58,7 +58,7 @@ function initMap() {
 				lat: 28.044935,
 				lng: 86.276308
 			},
-			content: '<h6>Mount Everest</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Mount Everest</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -66,7 +66,7 @@ function initMap() {
 				lat: 23.993574,
 				lng: -77.759123
 			},
-			content: '<h6>The Bahamas</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>The Bahamas</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -74,7 +74,7 @@ function initMap() {
 				lat: 70.492972,
 				lng: -156.232523
 			},
-			content: '<h6>Alaska North Slopes</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Alaska North Slopes</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -82,7 +82,7 @@ function initMap() {
 				lat: -32.023812,
 				lng: 135.370051
 			},
-			content: '<h6>Acraman Lake, Australia</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Acraman Lake, Australia</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -90,7 +90,7 @@ function initMap() {
 				lat: 27.3638,
 				lng: 37.9497
 			},
-			content: '<h6>Kiritimati</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Kiritimati</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -98,7 +98,7 @@ function initMap() {
 				lat: 51.4200,
 				lng: -116.2259
 			},
-			content: '<h6>Lake Louise (North Lakeside）</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Lake Louise (North Lakeside）</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -106,7 +106,7 @@ function initMap() {
 				lat: 27.1751496,
 				lng: 78.0399535
 			},
-			content: '<h6>Taj Mahal, India</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Taj Mahal, India</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -114,7 +114,7 @@ function initMap() {
 				lat: 35.3606,
 				lng: 138.7186
 			},
-			content: '<h6>Mount Fuji, Japan</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Mount Fuji, Japan</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -122,7 +122,7 @@ function initMap() {
 				lat: -23.6473,
 				lng: 15.1851
 			},
-			content: '<h6>Namib-Naukluft National Park, Namibia</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Namib-Naukluft National Park, Namibia</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -130,7 +130,7 @@ function initMap() {
 				lat: -20.20866,
 				lng: -67.8721
 			},
-			content: '<h6>Salar de Uyuni Salt Flats, Bolivia</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Salar de Uyuni Salt Flats, Bolivia</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -138,7 +138,7 @@ function initMap() {
 				lat: 21.1722,
 				lng: 94.8544
 			},
-			content: '<h6>Bagan, Myanmar</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Bagan, Myanmar</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -146,7 +146,7 @@ function initMap() {
 				lat: 67.9307,
 				lng: 13.08510
 			},
-			content: '<h6>Reine, Norway</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Reine, Norway</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -154,7 +154,7 @@ function initMap() {
 				lat: -28.2277,
 				lng: 107.0795
 			},
-			content: '<h6>Ha Long Bay, Vietnam</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Ha Long Bay, Vietnam</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -162,7 +162,7 @@ function initMap() {
 				lat: -33.9520,
 				lng: 18.3736
 			},
-			content: '<h6>Camps Bay, South Africa</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Camps Bay, South Africa</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -170,7 +170,7 @@ function initMap() {
 				lat: -44.6230,
 				lng: 167.7842
 			},
-			content: '<h6>Milford Sound, New Zealand</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Milford Sound, New Zealand</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -178,7 +178,7 @@ function initMap() {
 				lat: -2.3333,
 				lng: 34.8311
 			},
-			content: '<h6>Serengeti National Park, Tanzania</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Serengeti National Park, Tanzania</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -186,7 +186,7 @@ function initMap() {
 				lat: 35.1710,
 				lng: -5.2884
 			},
-			content: '<h6>Chefchaouen, Morocco</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Chefchaouen, Morocco</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -194,7 +194,7 @@ function initMap() {
 				lat: -38.66209,
 				lng: 143.1029
 			},
-			content: '<h6>Twelve Apostles, Australia</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Twelve Apostles, Australia</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -202,7 +202,7 @@ function initMap() {
 				lat: 47.5575,
 				lng: 10.74761
 			},
-			content: '<h6>Neuschwanstein Castle, Germany</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Neuschwanstein Castle, Germany</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -210,7 +210,7 @@ function initMap() {
 				lat: 23.0664,
 				lng: 102.6968
 			},
-			content: '<h6>Rice Terraces (Yuanyuang), China</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Rice Terraces (Yuanyuang), China</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -218,7 +218,7 @@ function initMap() {
 				lat: 44.5251,
 				lng: -110.8403
 			},
-			content: '<h6>Grand Prismatic Spring, USA</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Grand Prismatic Spring, USA</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -226,7 +226,7 @@ function initMap() {
 				lat: -13.16313,
 				lng: -72.5471
 			},
-			content: '<h6>Machu Picchu, Peru</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Machu Picchu, Peru</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -234,7 +234,7 @@ function initMap() {
 				lat: 22.3476,
 				lng: 103.7994
 			},
-			content: '<h6>Sa Pa, Vietnam</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Sa Pa, Vietnam</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -242,7 +242,7 @@ function initMap() {
 				lat: 5.44036,
 				lng: 130.8001
 			},
-			content: '<h6>Palau, Palau</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Palau, Palau</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -250,7 +250,7 @@ function initMap() {
 				lat: 44.8654,
 				lng: 15.57982
 			},
-			content: '<h6>Plitvice Lakes National Park, Croatia</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Plitvice Lakes National Park, Croatia</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -258,7 +258,7 @@ function initMap() {
 				lat: 63.61560,
 				lng: -19.99069
 			},
-			content: '<h6>Seljalandsfoss, Iceland</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Seljalandsfoss, Iceland</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -266,7 +266,7 @@ function initMap() {
 				lat: -16.5979,
 				lng: 143.6004
 			},
-			content: '<h6>Great Barrier Reef, Australia</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Great Barrier Reef, Australia</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -274,7 +274,7 @@ function initMap() {
 				lat: -44.0084,
 				lng: 170.4555
 			},
-			content: '<h6>Lake Tekapo, New Zealand</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Lake Tekapo, New Zealand</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -282,7 +282,7 @@ function initMap() {
 				lat: 43.80001,
 				lng: 6.04124
 			},
-			content: '<h6>Plateau de Valensole, Alpes de Haute-Provence, France</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Plateau de Valensole, Alpes de Haute-Provence, France</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -290,7 +290,7 @@ function initMap() {
 				lat: -34.0949,
 				lng: 123.1940
 			},
-			content: '<h6>Lake Hillier, Australia</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Lake Hillier, Australia</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -298,7 +298,7 @@ function initMap() {
 				lat: 66.3407,
 				lng: 14.4945
 			},
-			content: '<h6>Aurora Sky Station, Sweden</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Aurora Sky Station, Sweden</h6><button type="submit" id="Sweden"></button>'
 		},
 
 		{
@@ -306,7 +306,7 @@ function initMap() {
 				lat: 36.8825,
 				lng: -111.4118
 			},
-			content: '<h6>Antelope Canyon, USA</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Antelope Canyon, USA</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -314,7 +314,7 @@ function initMap() {
 				lat: 35.0094,
 				lng: 135.6645
 			},
-			content: '<h6>Arashiyama Bamboo Forest, Japan</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Arashiyama Bamboo Forest, Japan</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -322,7 +322,7 @@ function initMap() {
 				lat: 38.9180,
 				lng: 100.3312
 			},
-			content: '<h6>Rainbow Mountains of Zhangye Danxia, China</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Rainbow Mountains of Zhangye Danxia, China</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -330,7 +330,7 @@ function initMap() {
 				lat: 61.8989,
 				lng: -7.514715
 			},
-			content: '<h6>Faroe Islands, Denmark</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Faroe Islands, Denmark</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -338,7 +338,7 @@ function initMap() {
 				lat: 22.05209,
 				lng: -159.68022
 			},
-			content: '<h6>Kauai, Hawaii</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Palm_Jumeirah">Attractions</a></button>'
+            content: '<h6>Kauai, Hawaii</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -346,7 +346,7 @@ function initMap() {
 				lat: 43.351702,
 				lng: 9.90800
 			},
-			content: '<h6>Tuscan Countryside, Italy</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Tuscany" target="_blank">Attractions</a></button>'
+            content: '<h6>Tuscan Countryside, Italy</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -354,7 +354,7 @@ function initMap() {
 				lat: 64.3816,
 				lng: -17.25183
 			},
-			content: '<h6>Vatnajökull Ice Cave in Skaftafell National Park, Iceland</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Vatnaj%C3%B6kull_National_Park" target="_blank">Attractions</a></button>'
+            content: '<h6>Vatnajökull Ice Cave in Skaftafell National Park, Iceland</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -362,7 +362,7 @@ function initMap() {
 				lat: 36.4072,
 				lng: 25.3505
 			},
-			content: '<h6>Santorini, Greece</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Santorini" target="_blank">Attractions</a></button>'
+            content: '<h6>Santorini, Greece</h6><button type="submit" id="maps"></button>'
 		},
 
 		{
@@ -370,7 +370,7 @@ function initMap() {
 				lat: -38.2608,
 				lng: 175.1013
 			},
-			content: '<h6>Waitomo Glowworm Cave, New Zealand</h6><button id="maps"><a href="https://en.wikipedia.org/wiki/Waitomo_Glowworm_Caves" target="_blank">Attractions</a></button>'
+			content: '<h6>Waitomo Glowworm Cave, New Zealand</h6><button type="submit" id="maps"><a href="https://en.wikipedia.org/wiki/Waitomo_Glowworm_Caves" target="_blank">Attractions</a></button>'
 		}
 
 	];
@@ -400,5 +400,47 @@ function initMap() {
 			});
 		}
 	}
+}
+
+const API_CLIENTID = 'kZ9sSryGBssi-2T5OUPjVLye-DzTy5ksc6rEMov7fW0'
+const form = document.querySelector('form');
+const input = document.querySelector('input');
+const imageSection = document.querySelector('.images');
+const API_URL = `https://api.unsplash.com/search/photos?page=1&per_page=20&client_id=${API_CLIENTID}`
+
+form.addEventListener('submit', formSubmitted);
+
+function formSubmitted(event) {
+  event.preventDefault();
+  let searchTerm = input.value;
+
+  searchStart();
+  search(searchTerm)
+    .then(displayImages)
+}
+
+function searchStart() {
+  imageSection.innerHTML = '';
+}
+
+function search(searchTerm) {
+  let url = `${API_URL}&query=${searchTerm}`;
+  return fetch(url)
+    .then(response => response.json())
+    .then(result => {
+      return result.results;
+    });
+}
+
+function displayImages(images) {
+  images.forEach(image => {
+    let imageContainer = document.createElement('div');
+    imageContainer.className = 'ImageResult col-12 text-center img-fluid'
+    imageContainer.innerHTML = `<img src="${image.urls.regular}">
+     <div class="container-fluid text-center">
+     <button onclick="location.href='${image.links.html}'"  target="_blank" class="dreamDest btn btn-newsletter">View on Unsplash</a></div>`
+    imageSection.appendChild(imageContainer);
+
+  });
 }
 

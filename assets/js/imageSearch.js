@@ -2,10 +2,7 @@ const API_CLIENTID = 'kZ9sSryGBssi-2T5OUPjVLye-DzTy5ksc6rEMov7fW0'
 const form = document.querySelector('form');
 const input = document.querySelector('input');
 const imageSection = document.querySelector('.images');
-const API_URL = `https://api.unsplash.com/search/photos?page=1&per_page=20&client_id=${API_CLIENTID};rel="first",
-https://api.unsplash.com/search/photos?page=2&per_page=20&client_id=${API_CLIENTID};rel="next",
-
-https://api.unsplash.com/search/photos?page=20&per_page=20&client_id=${API_CLIENTID};rel="last"`
+const API_URL = `https://api.unsplash.com/search/photos?page=1&per_page=20&client_id=${API_CLIENTID}`
 
 form.addEventListener('submit', formSubmitted);
 
