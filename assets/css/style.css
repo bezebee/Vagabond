@@ -410,6 +410,10 @@ a.kindle {
   perspective: 700px;
 }
 
+.front, .back{
+    border:0;
+}
+
 /*front and back same size*/
 
 .front,
@@ -480,7 +484,22 @@ a.kindle {
     margin-top: 8px;
   }
 }
+/*------------------Increasing card size for mobiles----------*/
 
+@media only screen and (max-width: 600px) {
+  .socials li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .front,
+  .back {
+    width: 250px;
+    height: 250px;
+  }
+  .card-title {
+    font-size: 15px;
+  }
+}
 /*---------------------------Contact Us-----------------------*/
 
 .modal-content {
