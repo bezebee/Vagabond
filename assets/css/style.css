@@ -286,6 +286,7 @@ a.kindle {
   }
   h5.card-title {
     font-size: 12px;
+    padding-top: 20px;
   }
 
   .kindle img {
@@ -300,7 +301,7 @@ a.kindle {
     font-size: 15px;
   }
   h5.card-title {
-    font-size: 12px;
+    font-size: 18px;
   }
   .review {
     font-size: 15px;
@@ -581,7 +582,7 @@ span.ReferralButton__cta___2Yxt0:hover {
   color: rgb(49, 105, 124) !important;
 }
 
-.FlightSearchWidget__searchWidget___1yYnU {
+.FlightSearchWidget__searchWidget___1yYnU, .bpk-button.bpk-button--secondary.MultiCityBlock__addFlightButton___XFoP2 {
   font-family: "Lexend Peta" !important;
   font-size: 17px;
   text-transform: lowercase;
@@ -590,19 +591,22 @@ span.ReferralButton__cta___2Yxt0:hover {
 
 .bpk-link:visited {
   color: rgb(49, 105, 124) !important;
-  background: 2px 3px 4px rgb(251, 255, 5);
+  background: 2px 3px 4px rgba(251, 255, 5, 0.308);
+  text-align:center;
 }
 .bpk-link:hover {
   text-decoration: none;
-  background: rgb(251, 255, 5);
+  background: rgb(251, 255, 5, 0.308);
+  text-align:center;
 }
 a.bpk-link {
-  border: 1px solid rgb(251, 255, 5);
-  background: rgb(251, 255, 5);
+  border: 1px solid rgb(251, 255, 5, 0.308);
+  background: rgb(251, 255, 5, 0.308);
   padding-top: 5px;
   padding-left: 17px;
   padding-right: 17px;
   padding-bottom: 7px;
+  text-align:center;
 }
 a.bpk-link:hover {
   text-shadow: 2px 3px 4px rgb(49, 105, 124);
@@ -619,13 +623,16 @@ a.bpk-link:hover {
   .ReferralButton__cta___2Yxt0,
   a.bpk-link,
   select.bpk-select {
-    font-size: 12px;
+    font-size: 9px;
+  }
+  a.bpk-link{
+    padding-left:8px;
+    padding-right:8px;
   }
   a.bpk-button {
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-left: 9px;
-    padding-right: 9px;
+
   }
   .ReferralButton__buttonContainer___3X6Dk {
     margin-top: 30px !important;
