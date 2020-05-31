@@ -658,35 +658,19 @@ function initMap() {
 
 		});
 		//check content
-		// if (props.content) {
-		// 	let infoWindow = new google.maps.InfoWindow({
-		// 		content: props.content
-		// 	});
-		// 	marker.addListener('click', function () {
-        //         infoWindow.open(map, marker);
+		if (props.content) {
+			let infoWindow = new google.maps.InfoWindow({
+				content: props.content
+			});
+			marker.addListener('click', function () {
+                infoWindow.open(map, marker);
                 
                 
 
-        //     });
+            });
             
             
-        // }
-
-
-        google.maps.event.addListener(marker, 'click', function() {
-    if(!marker.open){
-        infoWindow.open(map,marker);
-        marker.open = true;
-    }
-    else{
-        infoWindow.close();
-        marker.open = false;
-    }
-    google.maps.event.addListener(map, 'click', function() {
-        infoWindow.close();
-        marker.open = false;
-    });
-});
+        }
 
     }
     
