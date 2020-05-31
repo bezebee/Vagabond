@@ -18,11 +18,16 @@ function initMap() {
         lat: 25.122318,
         lng: 55.132433,
       },
-      content: `<h6>Palm Jumeirah in Dubai</h6><div class="card" style="width: 18rem;">
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Palm Jumeirah in Dubai</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },

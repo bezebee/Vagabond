@@ -513,6 +513,26 @@ a.kindle {
   background-color: rgb(49, 105, 124);
 }
 /*--------------------------------Places------------------------*/
+
+p.card-title.places{
+font-size: 12px!important;
+}
+div.row.places{
+    display:inline-block;
+    padding-top:2px; 
+}
+
+a.btn.btn-outline-info{
+    font-family:'Montserrat';
+    font-size:13.5px;
+    text-transform: lowercase;
+}
+
+/*-----------------Info window styling--------------*/
+
+div.gm-style.gm-style-iw-c {
+    box-shadow: 0 2px 7px 1px rgba(0,0,0,0.2);}
+
 .ImageResult {
   padding-left: 0;
   padding-right: 0;

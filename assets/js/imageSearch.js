@@ -4,7 +4,7 @@ const API_MYID = 'kZ9sSryGBssi-2T5OUPjVLye-DzTy5ksc6rEMov7fW0'
 const form = document.querySelector('form');
 const input = document.querySelector('input');
 const imageSection = document.querySelector('.images');
-const API_URL = `https://api.unsplash.com/search/photos?page=1&per_page=20&client_id=${API_MYID}`
+const API_URL = `https://api.unsplash.com/search/photos?page=1&per_page=3&client_id=${API_MYID}`
 
 form.addEventListener('submit', formSubmitted);
 
@@ -21,13 +21,14 @@ function searchStart() {
   imageSection.innerHTML = '';
 }
 
-function search(searchTerm) {
+async function search(searchTerm) {
   let url = `${API_URL}&query=${searchTerm}`;
-  return fetch(url)
-    .then(response => response.json())
-    .then(result => {
-      return result.results;
-    });
+  const response = await fetch(url);
+    const result = await response.json();
+    return result.results;
+
+    
+
 }
 
 function displayImages(images) {
@@ -40,5 +41,6 @@ function displayImages(images) {
     imageSection.appendChild(imageContainer);
 
   });
+
 }
 
