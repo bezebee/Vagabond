@@ -1,10 +1,12 @@
 //Adapted from equk blog//
 
-const API_MYID = 'kZ9sSryGBssi-2T5OUPjVLye-DzTy5ksc6rEMov7fW0'
+var API_MYID = config.UNSPLASH_API;
+
+
 const form = document.querySelector('form');
 const input = document.querySelector('input');
 const imageSection = document.querySelector('.images');
-const API_URL = `https://api.unsplash.com/search/photos?page=1&per_page=3&client_id=${API_MYID}`
+const API_URL = `https://api.unsplash.com/search/photos?page=1&per_page=20&client_id=${API_MYID}`
 
 form.addEventListener('submit', formSubmitted);
 
