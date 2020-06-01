@@ -135,11 +135,11 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">The Bahamas</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Pigs.jpg" class="img-fluid" style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    <a href="https://www.atlasobscura.com/things-to-do/the-bahamas" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/en/bahamas/bahamas-sailing-adventure-125008" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
     </div>
     </div>
   </div>
@@ -148,13 +148,13 @@ function initMap() {
 
     {
       coords: {
-        lat: 70.492972,
-        lng: -156.232523,
-      },//Alaska North Slopes
+        lat: 58.4409564,
+        lng: -134.554618,
+      },//Mendenhall Ice Caves
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <p class="card-title places">Alaska North Slopes</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <p class="card-title places">Mendenhall Ice Caves</p>
+    <img src="assets/BucketImg/Alaska.jpg" class="img-fluid" style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -165,43 +165,7 @@ function initMap() {
 </div>`,
     },
 
-    {
-      coords: {
-        lat: -32.023812,
-        lng: 135.370051,
-      },//Acraman Lake, Australia
-      content:`<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
-    <p class="card-title places">Acraman Lake, Australia</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
-    <div class="container d-inline ">
-    <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
-    </div>
-    </div>
-  </div>
-</div>`,
-    },
-
-    {
-      coords: {
-        lat: 27.3638,
-        lng: 37.9497,
-      },//Kiritimati
-      content:`<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
-    <p class="card-title places">Kiritimati</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
-    <div class="container d-inline ">
-    <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
-    </div>
-    </div>
-  </div>
-</div>`,
-    },
+    
 
     {
       coords: {
@@ -211,11 +175,11 @@ function initMap() {
       content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Lake Louise (North Lakeside）</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/LakeLouise.jpg" class="img-fluid" style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    <a href="https://www.atlasobscura.com/places/yoho-national-park" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/en/search?keyword=lake+louise&page=1&sort=relevance" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
     </div>
     </div>
   </div>
@@ -697,24 +661,7 @@ function initMap() {
 </div>`,
     },
 
-    {
-      coords: {
-        lat: 36.8825,
-        lng: -111.4118,
-      },//Antelope Canyon, USA
-      content:`<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
-    <p class="card-title places">Antelope Canyon, USA</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
-    <div class="container d-inline ">
-    <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
-    </div>
-    </div>
-  </div>
-</div>`,
-    },
+   
 
     {
       coords: {
