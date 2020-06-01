@@ -1,7 +1,7 @@
+
 //Adapted from equk blog//
 
-var API_MYID = config.UNSPLASH_API;
-
+const API_MYID = 'kZ9sSryGBssi-2T5OUPjVLye-DzTy5ksc6rEMov7fW0';
 
 const form = document.querySelector('form');
 const input = document.querySelector('input');

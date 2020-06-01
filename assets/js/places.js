@@ -19,7 +19,7 @@ function initMap() {
         lng: 55.132433,
       },
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Palm Jumeirah in Dubai</p>
     <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -38,7 +38,7 @@ function initMap() {
         lng: -112.460353,
       }, //Grand Canyon
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Grand Canyon Colorado</p>
     <img src="assets/BucketImg/Canyon.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -57,7 +57,7 @@ function initMap() {
         lng: 145.804226,
       }, //Great Barrier Reef
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Great Barrier Reef</p>
     <img src="assets/BucketImg/Barrier.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -76,7 +76,7 @@ function initMap() {
         lng: 15.381623,
       }, //The Lovers Island
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Galesnjak - The Lover's Island</p>
     <img src="assets/BucketImg/Galesnjak.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -95,7 +95,7 @@ function initMap() {
         lng: -79.076075,
       }, //Niagara Falls
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Niagara Falls</p>
     <img src="assets/BucketImg/Niagara.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -114,7 +114,7 @@ function initMap() {
         lng: 86.276308,
       }, //Mount Everest
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Mount Everest</p>
     <img src="assets/BucketImg/Everest.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -133,7 +133,7 @@ function initMap() {
         lng: -77.759123,
       }, //The Bahamas
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">The Bahamas</p>
     <img src="assets/BucketImg/Pigs.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -152,7 +152,7 @@ function initMap() {
         lng: -134.554618,
       }, //Mendenhall Ice Caves
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Mendenhall Ice Caves</p>
     <img src="assets/BucketImg/Alaska.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -171,7 +171,7 @@ function initMap() {
         lng: -116.2259,
       }, //Lake Louise (North Lakeside）
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Lake Louise (North Lakeside）</p>
     <img src="assets/BucketImg/LakeLouise.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -190,7 +190,7 @@ function initMap() {
         lng: 78.0399535,
       }, //Taj Mahal, India
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Taj Mahal, India</p>
     <img src="assets/BucketImg/TajMahal.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -209,7 +209,7 @@ function initMap() {
         lng: 138.7186,
       }, //Mount Fuji, Japan
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Mount Fuji, Japan</p>
     <img src="assets/BucketImg/Fuji.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -228,7 +228,7 @@ function initMap() {
         lng: 15.1851,
       }, //Namib-Naukluft National Park, Namibia
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Namib-Naukluft National Park, Namibia</p>
     <img src="assets/BucketImg/Namibia.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -247,7 +247,7 @@ function initMap() {
         lng: -67.8721,
       }, //Salar de Uyuni Salt Flats, Bolivia
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Salar de Uyuni Salt Flats, Bolivia</p>
     <img src="assets/BucketImg/Bolivia.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -266,7 +266,7 @@ function initMap() {
         lng: 94.8544,
       }, //Bagan, Myanmar
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Bagan, Myanmar</p>
     <img src="assets/BucketImg/Myanmar.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -285,7 +285,7 @@ function initMap() {
         lng: 13.0851,
       }, //Reine, Norway
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Reine, Norway</p>
     <img src="assets/BucketImg/Reine.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -304,7 +304,7 @@ function initMap() {
         lng: 107.0795,
       }, //Ha Long Bay, Vietnam
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Ha Long Bay, Vietnam</p>
     <img src="assets/BucketImg/HaLongBay.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -323,7 +323,7 @@ function initMap() {
         lng: 18.3736,
       }, //Camps Bay, South Africa
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Camps Bay, South Africa</p>
     <img src="assets/BucketImg/CampsBay.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -342,7 +342,7 @@ function initMap() {
         lng: 167.7842,
       }, //Milford Sound, New Zealand
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Milford Sound, New Zealand</p>
     <img src="assets/BucketImg/Milford.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -361,7 +361,7 @@ function initMap() {
         lng: 34.8311,
       }, //Serengeti National Park, Tanzania
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Serengeti National Park, Tanzania</p>
     <img src="assets/BucketImg/Serengeti.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -380,7 +380,7 @@ function initMap() {
         lng: -5.2884,
       }, //Chefchaouen, Morocco
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Chefchaouen, Morocco</p>
     <img src="assets/BucketImg/Chefchaouen.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -399,7 +399,7 @@ function initMap() {
         lng: 143.1029,
       }, //Twelve Apostles, Australia
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Twelve Apostles, Australia</p>
     <img src="assets/BucketImg/Apostles.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -418,7 +418,7 @@ function initMap() {
         lng: 10.74761,
       }, //Neuschwanstein Castle, Germany
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Neuschwanstein Castle, Germany</p>
     <img src="assets/BucketImg/Castle.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -437,7 +437,7 @@ function initMap() {
         lng: 102.6968,
       }, //Rice Terraces (Yuanyuang), China
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Rice Terraces (Yuanyuang), China</p>
     <img src="assets/BucketImg/RiceTerraces.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -456,7 +456,7 @@ function initMap() {
         lng: -110.8403,
       }, //Grand Prismatic Spring, USA
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Grand Prismatic Spring, USA</p>
     <img src="assets/BucketImg/GrandPrismatic.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -475,7 +475,7 @@ function initMap() {
         lng: -72.5471,
       }, //Machu Picchu, Peru
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Machu Picchu, Peru</p>
     <img src="assets/BucketImg/MachuPicchu.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -494,7 +494,7 @@ function initMap() {
         lng: 103.7994,
       }, //Sa Pa, Vietnam
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Sa Pa, Vietnam</p>
     <img src="assets/BucketImg/Sapa.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -513,7 +513,7 @@ function initMap() {
         lng: 130.8001,
       }, //Palau, Palau
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Palau</p>
     <img src="assets/BucketImg/Palau.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -532,7 +532,7 @@ function initMap() {
         lng: 15.57982,
       }, //Plitvice Lakes National Park, Croatia
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Plitvice Lakes National Park, Croatia</p>
     <img src="assets/BucketImg/Plitvice.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -551,7 +551,7 @@ function initMap() {
         lng: -19.99069,
       }, //Seljalandsfoss, Iceland
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Seljalandsfoss, Iceland</p>
     <img src="assets/BucketImg/Seljalandsfoss.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -570,7 +570,7 @@ function initMap() {
         lng: 170.4555,
       }, //Lake Tekapo, New Zealand
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Lake Tekapo, New Zealand</p>
     <img src="assets/BucketImg/Tekapo.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -589,7 +589,7 @@ function initMap() {
         lng: 6.04124,
       }, //Plateau de Valensole, Alpes de Haute-Provence, France
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Plateau de Valensole, Alpes de Haute-Provence, France</p>
     <img src="assets/BucketImg/Lavender.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -608,7 +608,7 @@ function initMap() {
         lng: 123.194,
       }, //Lake Hillier, Australia
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Lake Hillier, Australia</p>
     <img src="assets/BucketImg/Pink.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -627,7 +627,7 @@ function initMap() {
         lng: 14.4945,
       }, //Aurora Sky Station, Sweden
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Aurora Sky Station, Sweden</p>
     <img src="assets/BucketImg/Aurora.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -646,7 +646,7 @@ function initMap() {
         lng: 135.6645,
       }, //Arashiyama Bamboo Forest, Japan
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Arashiyama Bamboo Forest, Japan</p>
     <img src="assets/BucketImg/Bamboo.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -665,7 +665,7 @@ function initMap() {
         lng: 100.3312,
       }, //Rainbow Mountains of Zhangye Danxia, China
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Rainbow Mountains of Zhangye Danxia, China</p>
     <img src="assets/BucketImg/Rainbow.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -684,7 +684,7 @@ function initMap() {
         lng: -7.514715,
       }, //Faroe Islands, Denmark
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Faroe Islands, Denmark</p>
     <img src="assets/BucketImg/Faroe.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -703,7 +703,7 @@ function initMap() {
         lng: -159.68022,
       }, //Kauai, Hawaii
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Kauai, Hawaii</p>
     <img src="assets/BucketImg/Kauai.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -722,7 +722,7 @@ function initMap() {
         lng: 9.908,
       }, //Tuscan Countryside, Italy
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Tuscan Countryside, Italy</p>
     <img src="assets/BucketImg/Tuscany.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -741,7 +741,7 @@ function initMap() {
         lng: -17.25183,
       }, //Vatnajökull Ice Cave in Skaftafell National Park, Iceland
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Vatnajökull Ice Cave in Skaftafell National Park, Iceland</p>
     <img src="assets/BucketImg/IceCave.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -760,7 +760,7 @@ function initMap() {
         lng: 25.3505,
       }, //Santorini, Greece
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Santorini, Greece</p>
     <img src="assets/BucketImg/Santorini.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
@@ -779,7 +779,7 @@ function initMap() {
         lng: 175.1013,
       }, //Waitomo Glowworm Cave, New Zealand
       content: `<div class="card" style="max-width: 18rem;">
-  <div class="card-body">
+  <div class="card-body places">
     <p class="card-title places">Waitomo Glowworm Cave, New Zealand</p>
     <img src="assets/BucketImg/Glowworm.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">

@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Lexend Peta";
   font-size: 20px;
 }
 
@@ -300,11 +300,32 @@ a.kindle {
 
 /*----For ipad pro----*/
 @media only screen and (min-width: 1000px) {
-  p.card-text {
-    font-size: 15px;
+  p.card-text.reads {
+    font-size: 10px;
+    padding-top:25px;
   }
   h5.card-title {
     font-size: 18px;
+  }
+  .review {
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .kindle img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  p.card-text.reads {
+    font-size: 12px;
+    padding-top:25px;
+  }
+  h5.card-title.reads {
+    font-size: 20px!important;
+    padding-top:20px;
   }
   .review {
     font-size: 15px;
@@ -538,13 +559,15 @@ div.gm-style.gm-style-iw-c {
     box-shadow: 0 2px 7px 1px rgba(0,0,0,0.2);}
 
 /*-----------------Info window mobile setup--------*/
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 420px) {
 .row.places{
-    width:140px;
+    width:180px;
 }
 
 p.card-title.places{
-    font-size:10px!important;
+    font-size:13px!important;
+    padding-bottom:3px;
 }
 div.gm-style-iw.gm-style-iw-c{
     padding-left:0;
@@ -552,19 +575,18 @@ div.gm-style-iw.gm-style-iw-c{
 }
 
 .btn.btn-outline-info{
-    width:141px;
+    width:175px;
+}   
+div.card-body.places{
+    width:215px!important;
+}
 }
 
-   
-div.card-body{
-    width:180px!important;
-}
-
-
-}
 
 
 /*-------------Image search grid styling--------*/
+
+img{
   padding-right: 0;
   margin-left: auto;
   margin-right: auto;
