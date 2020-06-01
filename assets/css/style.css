@@ -514,6 +514,7 @@ a.kindle {
 }
 /*--------------------------------Places------------------------*/
 
+
 p.card-title.places{
 font-size: 12px!important;
 }
@@ -523,8 +524,8 @@ div.row.places{
 }
 
 a.btn.btn-outline-info{
-    font-family:'Montserrat';
-    font-size:13.5px;
+    font-family:"Lexend Peta"!important;
+    font-size:9px;
     text-transform: lowercase;
 }
 
