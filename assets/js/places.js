@@ -116,7 +116,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Mount Everest</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Everest.jpg" class="img-fluid" style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="http://www.everest3d.de/" target="_blank" class="btn btn-outline-info">Everest 3D</a>
