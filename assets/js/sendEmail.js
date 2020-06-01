@@ -8,16 +8,12 @@ function sendMail(contactForm) {
     .then(
       function (response) {
         console.log("SUCCESS", response);
-        alert("We received your message!")
-        
+        alert("We received your message!");
       },
       function (error) {
         console.log("FAILED", error);
       }
     );
-    
-    
-  return false; // To block from loading a new page
 
+  return false; // To block from loading a new page
 }
-  
