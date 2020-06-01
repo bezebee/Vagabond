@@ -636,8 +636,8 @@ function initMap() {
     <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    <a href="https://www.auroraskystation.com/en/live/" target="_blank" class="btn btn-outline-info">Aurora Sky Station</a>
+    <a href="https://www.tripadvisor.ie/Attraction_Review-g774912-d645638-Reviews-Aurora_Sky_Station-Abisko_Norrbotten_County.html" target="_blank" class="btn btn-outline-info">Trip Advisor</a>
     </div>
     </div>
   </div>
@@ -654,11 +654,11 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Arashiyama Bamboo Forest, Japan</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Bamboo.jpg" class="img-fluid" style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    <a href="https://www.atlasobscura.com/places/sagano-bamboo-forest" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/en/japan/cycle-japan-124417" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
     </div>
     </div>
   </div>
@@ -673,11 +673,11 @@ function initMap() {
       content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Rainbow Mountains of Zhangye Danxia, China</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Rainbow.jpg" class="img-fluid" style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    <a href="https://www.atlasobscura.com/places/zhangye-national-geopark" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/en/search?keyword=Zhangye+Danxia&page=1&sort=relevance" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
     </div>
     </div>
   </div>
@@ -692,11 +692,11 @@ function initMap() {
       content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Faroe Islands, Denmark</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Faroe.jpg" class="img-fluid" style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    <a href="https://www.atlasobscura.com/things-to-do/faroe-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/en/search?keyword=Faroe&page=1&sort=relevance" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
     </div>
     </div>
   </div>
@@ -711,11 +711,11 @@ function initMap() {
       content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Kauai, Hawaii</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Kauai.jpg" class="img-fluid" style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    <a href="https://www.atlasobscura.com/things-to-do/faroe-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/en/search?keyword=Faroe&page=1&sort=relevance" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
     </div>
     </div>
   </div>
@@ -730,11 +730,11 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Tuscan Countryside, Italy</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Tuscany.jpg" class="img-fluid" style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
-    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
-    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    <a href="https://travelpassionate.com/45-things-to-do-in-tuscany/" target="_blank" class="btn btn-outline-info">Travel Passionate</a>
+    <a href="https://www.intrepidtravel.com/en/search?keyword=tuscany&page=1&sort=relevance" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
     </div>
     </div>
   </div>
