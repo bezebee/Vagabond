@@ -21,7 +21,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Palm Jumeirah in Dubai</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -40,7 +40,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Grand Canyon Colorado</p>
-    <img src="assets/BucketImg/Canyon.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Canyon.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/things-to-do/arizona" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -59,7 +59,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Great Barrier Reef</p>
-    <img src="assets/BucketImg/Barrier.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Barrier.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.nomadicmatt.com/travel-blogs/diving-the-great-barrier-reef/" target="_blank" class="btn btn-outline-info">Nomadic Matt</a>
@@ -78,7 +78,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Galesnjak - The Lover's Island</p>
-    <img src="assets/BucketImg/Galesnjak.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Galesnjak.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/galesnjak-island" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -97,7 +97,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Niagara Falls</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Niagara.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.earthtrekkers.com/48-hours-niagara-falls/" target="_blank" class="btn btn-outline-info">Earth Trekkers</a>
@@ -116,7 +116,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Mount Everest</p>
-    <img src="assets/BucketImg/Everest.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Everest.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="http://www.everest3d.de/" target="_blank" class="btn btn-outline-info">Everest 3D</a>
@@ -135,7 +135,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">The Bahamas</p>
-    <img src="assets/BucketImg/Pigs.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Pigs.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/things-to-do/the-bahamas" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -154,7 +154,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Mendenhall Ice Caves</p>
-    <img src="assets/BucketImg/Alaska.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Alaska.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -173,7 +173,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Lake Louise (North Lakeside）</p>
-    <img src="assets/BucketImg/LakeLouise.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/LakeLouise.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/yoho-national-park" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -192,7 +192,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Taj Mahal, India</p>
-    <img src="assets/BucketImg/TajMahal.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/TajMahal.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.britannica.com/topic/Taj-Mahal" target="_blank" class="btn btn-outline-info">Britannica</a>
@@ -211,7 +211,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Mount Fuji, Japan</p>
-    <img src="assets/BucketImg/Fuji.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Fuji.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.japan-guide.com/e/e2172.html" target="_blank" class="btn btn-outline-info">Japan Guide</a>
@@ -230,7 +230,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Namib-Naukluft National Park, Namibia</p>
-    <img src="assets/BucketImg/Namibia.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Namibia.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/things-to-do/namibia" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -249,7 +249,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Salar de Uyuni Salt Flats, Bolivia</p>
-    <img src="assets/BucketImg/Bolivia.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Bolivia.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/salar-de-uyuni-bolivian-salt-flat" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -268,7 +268,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Bagan, Myanmar</p>
-    <img src="assets/BucketImg/Myanmar.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Myanmar.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/bagan" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -287,7 +287,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Reine, Norway</p>
-    <img src="assets/BucketImg/Reine.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Reine.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/lofoten-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -300,13 +300,13 @@ function initMap() {
 
     {
       coords: {
-        lat: -28.2277,
+        lat: 20.87276,
         lng: 107.0795,
       }, //Ha Long Bay, Vietnam
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Ha Long Bay, Vietnam</p>
-    <img src="assets/BucketImg/HaLongBay.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/HaLongBay.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.visithalongbay.com/" target="_blank" class="btn btn-outline-info">Visit Halong Bay</a>
@@ -325,7 +325,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Camps Bay, South Africa</p>
-    <img src="assets/BucketImg/CampsBay.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/CampsBay.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.mansionglobal.com/articles/cape-towns-camps-bay-is-all-about-the-ocean-views-and-the-beach-lifestyle-205279" target="_blank" class="btn btn-outline-info">Mansion Global</a>
@@ -344,7 +344,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Milford Sound, New Zealand</p>
-    <img src="assets/BucketImg/Milford.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Milford.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/milford-sound" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -363,7 +363,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Serengeti National Park, Tanzania</p>
-    <img src="assets/BucketImg/Serengeti.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Serengeti.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -382,7 +382,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Chefchaouen, Morocco</p>
-    <img src="assets/BucketImg/Chefchaouen.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Chefchaouen.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/chefchaouen" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -401,7 +401,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Twelve Apostles, Australia</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Apostles.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/loch-ard-gorge" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -420,7 +420,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Neuschwanstein Castle, Germany</p>
-    <img src="assets/BucketImg/Castle.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Castle.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/neuschwanstein-castle" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -439,7 +439,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Rice Terraces (Yuanyuang), China</p>
-    <img src="assets/BucketImg/RiceTerraces.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/RiceTerraces.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/honghe-hani-rice-terraces" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -458,7 +458,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Grand Prismatic Spring, USA</p>
-    <img src="assets/BucketImg/GrandPrismatic.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/GrandPrismatic.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/grand-prismatic-spring" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -477,7 +477,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Machu Picchu, Peru</p>
-    <img src="assets/BucketImg/MachuPicchu.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/MachuPicchu.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/stonework-machu-picchu" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -496,7 +496,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Sa Pa, Vietnam</p>
-    <img src="assets/BucketImg/Sapa.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Sapa.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.thecrazytourist.com/25-best-things-to-do-in-sapa-vietnam/" target="_blank" class="btn btn-outline-info">The Crazy Tourist</a>
@@ -514,8 +514,8 @@ function initMap() {
       }, //Palau, Palau
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <p class="card-title places">Palau, Palau</p>
-    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <p class="card-title places">Palau</p>
+    <img src="assets/BucketImg/Palau.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -534,7 +534,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Plitvice Lakes National Park, Croatia</p>
-    <img src="assets/BucketImg/Plitvice.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Plitvice.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.visit-croatia.co.uk/croatia-destinations/plitvice-lakes/" target="_blank" class="btn btn-outline-info">Visit Croatia</a>
@@ -553,7 +553,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Seljalandsfoss, Iceland</p>
-    <img src="assets/BucketImg/Seljalandsfoss.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Seljalandsfoss.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -572,7 +572,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Lake Tekapo, New Zealand</p>
-    <img src="assets/BucketImg/Tekapo.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Tekapo.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/lake-tekapo-south-island-new-zealand" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -591,7 +591,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Plateau de Valensole, Alpes de Haute-Provence, France</p>
-    <img src="assets/BucketImg/Lavender.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Lavender.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.farmstayplanet.com/farm-stay-rural-travel-guides/france/lavender-provence/" target="_blank" class="btn btn-outline-info">Farm Stay Planet</a>
@@ -610,7 +610,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Lake Hillier, Australia</p>
-    <img src="assets/BucketImg/Pink.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Pink.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/lake-hillier" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -629,7 +629,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Aurora Sky Station, Sweden</p>
-    <img src="assets/BucketImg/Aurora.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Aurora.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.auroraskystation.com/en/live/" target="_blank" class="btn btn-outline-info">Aurora Sky Station</a>
@@ -648,7 +648,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Arashiyama Bamboo Forest, Japan</p>
-    <img src="assets/BucketImg/Bamboo.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Bamboo.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/sagano-bamboo-forest" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -667,7 +667,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Rainbow Mountains of Zhangye Danxia, China</p>
-    <img src="assets/BucketImg/Rainbow.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Rainbow.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/zhangye-national-geopark" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -686,7 +686,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Faroe Islands, Denmark</p>
-    <img src="assets/BucketImg/Faroe.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Faroe.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/things-to-do/faroe-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -705,7 +705,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Kauai, Hawaii</p>
-    <img src="assets/BucketImg/Kauai.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Kauai.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/things-to-do/faroe-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -724,7 +724,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Tuscan Countryside, Italy</p>
-    <img src="assets/BucketImg/Tuscany.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Tuscany.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://travelpassionate.com/45-things-to-do-in-tuscany/" target="_blank" class="btn btn-outline-info">Travel Passionate</a>
@@ -743,7 +743,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Vatnajökull Ice Cave in Skaftafell National Park, Iceland</p>
-    <img src="assets/BucketImg/IceCave.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/IceCave.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.icelandontheweb.com/articles-on-iceland/nature/glaciers/vatnajokull">Iceland on the Web</a>
@@ -762,7 +762,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Santorini, Greece</p>
-    <img src="assets/BucketImg/Santorini.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Santorini.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/things-to-do/santorini-greece" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
@@ -781,7 +781,7 @@ function initMap() {
       content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
     <p class="card-title places">Waitomo Glowworm Cave, New Zealand</p>
-    <img src="assets/BucketImg/Glowworm.jpg" class="img-fluid" style="max-width:100%">
+    <img src="assets/BucketImg/Glowworm.jpg" class="img-fluid places " style="max-width:100%">
     <div class="container d-inline ">
     <div class="row places">
     <a href="https://www.atlasobscura.com/places/waitomo-glowworm-caves" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>

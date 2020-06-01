@@ -61,6 +61,8 @@ section.container-fluid {
   letter-spacing: 7px;
   margin-bottom: 3px;
   color: rgb(49, 105, 124);
+text-shadow: 2px 3px 4px rgb(49, 105, 124, .3); 
+  
 }
 
 hr.medium-line {
@@ -168,6 +170,7 @@ a:hover {
     text-transform: lowercase;
     letter-spacing: 7px;
     font-size: 130%;
+   
   }
 
   .medium-line {
@@ -534,8 +537,34 @@ a.btn.btn-outline-info{
 div.gm-style.gm-style-iw-c {
     box-shadow: 0 2px 7px 1px rgba(0,0,0,0.2);}
 
-.ImageResult {
-  padding-left: 0;
+/*-----------------Info window mobile setup--------*/
+@media only screen and (max-width: 600px) {
+.row.places{
+    width:140px;
+}
+
+p.card-title.places{
+    font-size:10px!important;
+}
+div.gm-style-iw.gm-style-iw-c{
+    padding-left:0;
+    padding-top:0;
+}
+
+.btn.btn-outline-info{
+    width:141px;
+}
+
+   
+div.card-body{
+    width:180px!important;
+}
+
+
+}
+
+
+/*-------------Image search grid styling--------*/
   padding-right: 0;
   margin-left: auto;
   margin-right: auto;
