@@ -5,11 +5,17 @@
     .then(
       function (response) {
         console.log("SUCCESS", response);
-        alert("subscribed")
+       
       },
       function (error) {
         console.log("FAILED", error);
-      }
+      },
+     
     );
+   
   return false; // To block from loading a new page
+
+  
 }
+ 
+

@@ -36,12 +36,17 @@ function initMap() {
       coords: {
         lat: 36.176333,
         lng: -112.460353,
-      },
-      content: `<h6>Grand Canyon</h6><div class="card" style="width: 18rem;">
+      },//Grand Canyon
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Grand Canyon Colorado</p>
+    <img src="assets/BucketImg/Canyon.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/things-to-do/arizona" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/search?keyword=grand+canyon+national+park&page=1&sort=relevance" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -50,12 +55,17 @@ function initMap() {
       coords: {
         lat: -16.356378,
         lng: 145.804226,
-      },
-      content: `<h6>Great Barrier Reef</h6><div class="card" style="width: 18rem;">
+      },//Great Barrier Reef
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Great Barrier Reef</p>
+    <img src="assets/BucketImg/Barrier.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.nomadicmatt.com/travel-blogs/diving-the-great-barrier-reef/" target="_blank" class="btn btn-outline-info">Nomadic Matt</a>
+    <a href="https://www.intrepidtravel.com/ie/search?keyword=Great+Barrier+Reef&page=1&sort=relevance" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -64,12 +74,17 @@ function initMap() {
       coords: {
         lat: 43.979102,
         lng: 15.381623,
-      },
-      content: `<h6>The Lovers Island</h6><div class="card" style="width: 18rem;">
+      },//The Lovers Island
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Galesnjak - The Lover's Island</p>
+    <img src="assets/BucketImg/Galesnjak.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/galesnjak-island" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/search?keyword=Croatia&page=1&sort=relevance" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -78,12 +93,17 @@ function initMap() {
       coords: {
         lat: 43.077769,
         lng: -79.076075,
-      },
-      content: `<h6>Niagara Falls</h6><div class="card" style="width: 18rem;">
+      },//Niagara Falls
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Niagara Falls</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.earthtrekkers.com/48-hours-niagara-falls/" target="_blank" class="btn btn-outline-info">Earth Trekkers</a>
+    <a href="https://www.intrepidtravel.com/ie/search?keyword=Niagara&page=1&sort=relevance" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -92,12 +112,17 @@ function initMap() {
       coords: {
         lat: 28.044935,
         lng: 86.276308,
-      },
-      content: `<h6>Mount Everest</h6><div class="card" style="width: 18rem;">
+      },//Mount Everest
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Mount Everest</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="http://www.everest3d.de/" target="_blank" class="btn btn-outline-info">Everest 3D</a>
+    <a href="https://www.intrepidtravel.com/ie/search?keyword=Mount+Everest&page=1&sort=relevance" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -106,12 +131,17 @@ function initMap() {
       coords: {
         lat: 23.993574,
         lng: -77.759123,
-      },
-      content: `<h6>The Bahamas</h6><div class="card" style="width: 18rem;">
+      },//The Bahamas
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">The Bahamas</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -120,12 +150,17 @@ function initMap() {
       coords: {
         lat: 70.492972,
         lng: -156.232523,
-      },
-      content: `<h6>Alaska North Slopes</h6><div class="card" style="width: 18rem;">
+      },//Alaska North Slopes
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Alaska North Slopes</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -134,12 +169,17 @@ function initMap() {
       coords: {
         lat: -32.023812,
         lng: 135.370051,
-      },
-      content: `<h6>Acraman Lake, Australia</h6><div class="card" style="width: 18rem;">
+      },//Acraman Lake, Australia
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Acraman Lake, Australia</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -148,12 +188,17 @@ function initMap() {
       coords: {
         lat: 27.3638,
         lng: 37.9497,
-      },
-      content: `<h6>Kiritimati</h6><div class="card" style="width: 18rem;">
+      },//Kiritimati
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Kiritimati</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -162,12 +207,17 @@ function initMap() {
       coords: {
         lat: 51.42,
         lng: -116.2259,
-      },
-      content: `<h6>Lake Louise (North Lakeside）</h6><div class="card" style="width: 18rem;">
+      },//Lake Louise (North Lakeside）
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Lake Louise (North Lakeside）</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -176,12 +226,17 @@ function initMap() {
       coords: {
         lat: 27.1751496,
         lng: 78.0399535,
-      },
-      content: `<h6>Taj Mahal, India</h6><div class="card" style="width: 18rem;">
+      },//Taj Mahal, India
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Taj Mahal, India</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -190,12 +245,17 @@ function initMap() {
       coords: {
         lat: 35.3606,
         lng: 138.7186,
-      },
-      content: `<h6>Mount Fuji, Japan</h6><div class="card" style="width: 18rem;">
+      },//Mount Fuji, Japan
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Mount Fuji, Japan</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -204,12 +264,17 @@ function initMap() {
       coords: {
         lat: -23.6473,
         lng: 15.1851,
-      },
-      content: `<h6>Namib-Naukluft National Park, Namibia</h6><div class="card" style="width: 18rem;">
+      },//Namib-Naukluft National Park, Namibia
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Namib-Naukluft National Park, Namibia</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -218,12 +283,17 @@ function initMap() {
       coords: {
         lat: -20.20866,
         lng: -67.8721,
-      },
-      content: `<h6>Salar de Uyuni Salt Flats, Bolivia</h6><div class="card" style="width: 18rem;">
+      },//Salar de Uyuni Salt Flats, Bolivia
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Salar de Uyuni Salt Flats, Bolivia</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -232,12 +302,17 @@ function initMap() {
       coords: {
         lat: 21.1722,
         lng: 94.8544,
-      },
-      content: `<h6>Bagan, Myanmar</h6><div class="card" style="width: 18rem;">
+      },//Bagan, Myanmar
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Bagan, Myanmar</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -246,12 +321,17 @@ function initMap() {
       coords: {
         lat: 67.9307,
         lng: 13.0851,
-      },
-      content: `<h6>Reine, Norway</h6><div class="card" style="width: 18rem;">
+      },//Reine, Norway
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Reine, Norway</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -260,12 +340,17 @@ function initMap() {
       coords: {
         lat: -28.2277,
         lng: 107.0795,
-      },
-      content: `<h6>Ha Long Bay, Vietnam</h6><div class="card" style="width: 18rem;">
+      },//Ha Long Bay, Vietnam
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Ha Long Bay, Vietnam</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -274,12 +359,17 @@ function initMap() {
       coords: {
         lat: -33.952,
         lng: 18.3736,
-      },
-      content: `<h6>Camps Bay, South Africa</h6><div class="card" style="width: 18rem;">
+      },//Camps Bay, South Africa
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Camps Bay, South Africa</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -288,12 +378,17 @@ function initMap() {
       coords: {
         lat: -44.623,
         lng: 167.7842,
-      },
-      content: `<h6>Milford Sound, New Zealand</h6><div class="card" style="width: 18rem;">
+      },//Milford Sound, New Zealand
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Milford Sound, New Zealand</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -302,12 +397,17 @@ function initMap() {
       coords: {
         lat: -2.3333,
         lng: 34.8311,
-      },
-      content: `<h6>Serengeti National Park, Tanzania</h6><div class="card" style="width: 18rem;">
+      },//Serengeti National Park, Tanzania
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Serengeti National Park, Tanzania</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -316,12 +416,17 @@ function initMap() {
       coords: {
         lat: 35.171,
         lng: -5.2884,
-      },
-      content: `<h6>Chefchaouen, Morocco</h6><div class="card" style="width: 18rem;">
+      },//Chefchaouen, Morocco
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Chefchaouen, Morocco</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -330,12 +435,17 @@ function initMap() {
       coords: {
         lat: -38.66209,
         lng: 143.1029,
-      },
-      content: `<h6>Twelve Apostles, Australia</h6><div class="card" style="width: 18rem;">
+      },//Twelve Apostles, Australia
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Twelve Apostles, Australia</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -344,12 +454,17 @@ function initMap() {
       coords: {
         lat: 47.5575,
         lng: 10.74761,
-      },
-      content: `<h6>Neuschwanstein Castle, Germany</h6><div class="card" style="width: 18rem;">
+      },//Neuschwanstein Castle, Germany
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Neuschwanstein Castle, Germany</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -358,12 +473,17 @@ function initMap() {
       coords: {
         lat: 23.0664,
         lng: 102.6968,
-      },
-      content: `<h6>Rice Terraces (Yuanyuang), China</h6><div class="card" style="width: 18rem;">
+      },//Rice Terraces (Yuanyuang), China
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Rice Terraces (Yuanyuang), China</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -372,12 +492,17 @@ function initMap() {
       coords: {
         lat: 44.5251,
         lng: -110.8403,
-      },
-      content: `<h6>Grand Prismatic Spring, USA</h6><div class="card" style="width: 18rem;">
+      },//Grand Prismatic Spring, USA
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Grand Prismatic Spring, USA</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -386,12 +511,17 @@ function initMap() {
       coords: {
         lat: -13.16313,
         lng: -72.5471,
-      },
-      content: `<h6>Machu Picchu, Peru</h6><div class="card" style="width: 18rem;">
+      },//Machu Picchu, Peru
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Machu Picchu, Peru</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -400,12 +530,17 @@ function initMap() {
       coords: {
         lat: 22.3476,
         lng: 103.7994,
-      },
-      content: `<h6>Sa Pa, Vietnam</h6><div class="card" style="width: 18rem;">
+      },//Sa Pa, Vietnam
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Sa Pa, Vietnam</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -414,12 +549,17 @@ function initMap() {
       coords: {
         lat: 5.44036,
         lng: 130.8001,
-      },
-      content: `<h6>Palau, Palau</h6><div class="card" style="width: 18rem;">
+      },//Palau, Palau
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Palau, Palau</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -428,12 +568,17 @@ function initMap() {
       coords: {
         lat: 44.8654,
         lng: 15.57982,
-      },
-      content: `<h6>Plitvice Lakes National Park, Croatia</h6><div class="card" style="width: 18rem;">
+      },//Plitvice Lakes National Park, Croatia
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Plitvice Lakes National Park, Croatia</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -442,12 +587,17 @@ function initMap() {
       coords: {
         lat: 63.6156,
         lng: -19.99069,
-      },
-      content: `<h6>Seljalandsfoss, Iceland</h6><div class="card" style="width: 18rem;">
+      },//Seljalandsfoss, Iceland
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Seljalandsfoss, Iceland</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -456,12 +606,17 @@ function initMap() {
       coords: {
         lat: -16.5979,
         lng: 143.6004,
-      },
-      content: `<h6>Great Barrier Reef, Australia</h6><div class="card" style="width: 18rem;">
+      },//Great Barrier Reef, Australia
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Great Barrier Reef, Australia</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -470,12 +625,17 @@ function initMap() {
       coords: {
         lat: -44.0084,
         lng: 170.4555,
-      },
-      content: `<h6>Lake Tekapo, New Zealand</h6><div class="card" style="width: 18rem;">
+      },//Lake Tekapo, New Zealand
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Lake Tekapo, New Zealand</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -484,12 +644,17 @@ function initMap() {
       coords: {
         lat: 43.80001,
         lng: 6.04124,
-      },
-      content: `<h6>Plateau de Valensole, Alpes de Haute-Provence, France</h6><div class="card" style="width: 18rem;">
+      },//Plateau de Valensole, Alpes de Haute-Provence, France
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Plateau de Valensole, Alpes de Haute-Provence, France</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -498,12 +663,17 @@ function initMap() {
       coords: {
         lat: -34.0949,
         lng: 123.194,
-      },
-      content: `<h6>Lake Hillier, Australia</h6><div class="card" style="width: 18rem;">
+      },//Lake Hillier, Australia
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Lake Hillier, Australia</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -512,20 +682,36 @@ function initMap() {
       coords: {
         lat: 66.3407,
         lng: 14.4945,
-      },
-      content: `<h6>Aurora Sky Station, Sweden</h6><button type="submit" id="Sweden"></button>`,
+      },//Aurora Sky Station, Sweden
+      content: `<div class="card" style="max-width: 18rem;">
+  <div class="card-body">
+    <p class="card-title places">Aurora Sky Station, Sweden</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
+  </div>
+</div>`,
     },
 
     {
       coords: {
         lat: 36.8825,
         lng: -111.4118,
-      },
-      content: `<h6>Antelope Canyon, USA</h6><div class="card" style="width: 18rem;">
+      },//Antelope Canyon, USA
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Antelope Canyon, USA</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -534,12 +720,17 @@ function initMap() {
       coords: {
         lat: 35.0094,
         lng: 135.6645,
-      },
-      content: `<h6>Arashiyama Bamboo Forest, Japan</h6><div class="card" style="width: 18rem;">
+      },//Arashiyama Bamboo Forest, Japan
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Arashiyama Bamboo Forest, Japan</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -548,12 +739,17 @@ function initMap() {
       coords: {
         lat: 38.918,
         lng: 100.3312,
-      },
-      content: `<h6>Rainbow Mountains of Zhangye Danxia, China</h6><div class="card" style="width: 18rem;">
+      },//Rainbow Mountains of Zhangye Danxia, China
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Rainbow Mountains of Zhangye Danxia, China</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -562,12 +758,17 @@ function initMap() {
       coords: {
         lat: 61.8989,
         lng: -7.514715,
-      },
-      content: `<h6>Faroe Islands, Denmark</h6><div class="card" style="width: 18rem;">
+      },//Faroe Islands, Denmark
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Faroe Islands, Denmark</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -576,12 +777,17 @@ function initMap() {
       coords: {
         lat: 22.05209,
         lng: -159.68022,
-      },
-      content: `<h6>Kauai, Hawaii</h6><div class="card" style="width: 18rem;">
+      },//Kauai, Hawaii
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Kauai, Hawaii</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -590,12 +796,17 @@ function initMap() {
       coords: {
         lat: 43.351702,
         lng: 9.908,
-      },
-      content: `<h6>Tuscan Countryside, Italy</h6><div class="card" style="width: 18rem;">
+      },//Tuscan Countryside, Italy
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Tuscan Countryside, Italy</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -604,12 +815,17 @@ function initMap() {
       coords: {
         lat: 64.3816,
         lng: -17.25183,
-      },
-      content: `<h6>Vatnajökull Ice Cave in Skaftafell National Park, Iceland</h6><div class="card" style="width: 18rem;">
+      },//Vatnajökull Ice Cave in Skaftafell National Park, Iceland
+      content:`<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Vatnajökull Ice Cave in Skaftafell National Park, Iceland</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -618,12 +834,17 @@ function initMap() {
       coords: {
         lat: 36.4072,
         lng: 25.3505,
-      },
-      content: `<h6>Santorini, Greece</h6><div class="card" style="width: 18rem;">
+      },//Santorini, Greece
+      content: `<div class="card" style="max-width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-title places">Santorini, Greece</p>
+    <img src="assets/BucketImg/Palm-Jumeirah.jpg" class="img-fluid" style="max-width:100%">
+    <div class="container d-inline ">
+    <div class="row places">
+    <a href="https://www.atlasobscura.com/places/world-islands" target="_blank" class="btn btn-outline-info">Atlas Obscura</a>
+    <a href="https://www.intrepidtravel.com/ie/united-arab-emirates/dubai-discovery-127174" target="_blank" class="btn btn-outline-info">Intrepid Travel</a>
+    </div>
+    </div>
   </div>
 </div>`,
     },
@@ -632,7 +853,7 @@ function initMap() {
       coords: {
         lat: -38.2608,
         lng: 175.1013,
-      },
+      },//Waitomo Glowworm Cave, New Zealand
       content: `<h6>Waitomo Glowworm Cave, New Zealand</h6><div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Special title treatment</h5>
