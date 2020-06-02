@@ -78,11 +78,15 @@ hr.medium-line {
   flex-direction: row;
 }
 
-.card-title.home{
+div.card-deck.home{
+    text-align: center;
 
 }
+.card.home{
+    display: inline-block;
+}
 p.card-text.home{
-    font-size:17px;
+    font-size:14px;
     text-align: justify;
     text-justify: auto;
 }
@@ -690,6 +694,9 @@ a.view_link.col-12:hover {
   font-family: "Beth Ellen";
 }
 
+p.p-privacy{
+    font-size:15px;
+}
 /*--------------Go!/Taken from Skyscanner and adapted to the color scheme of the Vagabond website-------------*/
 .PoweredBySkyscanner__logo___2attf {
   margin-right: 20px;
