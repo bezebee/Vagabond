@@ -22,6 +22,8 @@ li {
 
 /*Navigation styling*/
 
+
+
 ul li,
 .card-title {
   font-family: "Lexend Peta";
@@ -30,23 +32,6 @@ ul li,
   color: rgb(49, 105, 124);
 }
 
-/*Registration button styling*/
-
-.sign-in,
-.btn-newsletter {
-  font-family: "Lexend Peta";
-  font-size: 15px;
-  text-transform: lowercase;
-
-  border: 1px solid rgb(49, 105, 124);
-  color: rgb(49, 105, 124);
-}
-
-.sign-in:hover,
-.btn-newsletter:hover {
-  background-color: rgb(49, 105, 124);
-  color: rgb(174, 205, 210);
-}
 
 /*Wanderlust Jumbotron*/
 
@@ -85,21 +70,21 @@ hr.medium-line {
 /*vagabond cards styling*/
 
 .container.intro {
-  display: flex;
+  
   justify-content: center;
   flex-direction: row;
 }
 /*cards mobile and ipad styling*/
 
-@media (min-width: 700px) {
-  #slideX,
-  #slide4,
-  #slide5,
-  #slide6 {
-    min-width: 25%;
-    height: auto;
-  }
+@media (max-width: 1025px){
+
+    .card-deck.home, .card.home{
+        flex:30%;
+    }
+    
 }
+
+
 
 /*Footer*/
 
@@ -130,6 +115,24 @@ hr.medium-line {
   }
 }
 
+
+/*Main button styling*/
+
+.sign-in,
+.btn-newsletter {
+  font-family: "Lexend Peta";
+  font-size: 15px;
+  text-transform: lowercase;
+
+  border: 1px solid rgb(49, 105, 124);
+  color: rgb(49, 105, 124);
+}
+
+.sign-in:hover,
+.btn-newsletter:hover {
+  background-color: rgb(49, 105, 124);
+  color: rgb(174, 205, 210);
+}
 /*Social media share links*/
 .socials {
   padding-left: 0;
@@ -281,16 +284,18 @@ a.kindle {
 
 /*-------Media for the Reads page----*/
 /*----For smaller ipads---*/
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   p.card-text {
     font-size: 15px;
     text-align: justify;
     text-justify: inter-word;
   }
   h5.card-title {
-    font-size: 12px;
+    font-size: 15px;
     padding-top: 20px;
   }
+
+  
 
   .kindle img {
     width: 50px;
