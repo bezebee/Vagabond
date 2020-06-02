@@ -6,6 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  border:0!important;
 }
 
 body {
@@ -22,7 +23,9 @@ li {
 
 /*Navigation styling*/
 
-
+.navbar-toggler{
+border: 0 !important;
+}
 
 ul li,
 .card-title {
@@ -653,7 +656,7 @@ input#exampleInputEmail1.form-control {
 p#dreamDest.newsletter.form-text,
 .searchBox {
   font-family: "Lexend Peta";
-  font-size: 13.6px;
+  font-size: 12px;
   text-transform: lowercase;
   color: rgba(91, 98, 100, 0.87);
   margin-top: 0;
