@@ -74,12 +74,25 @@ hr.medium-line {
   justify-content: center;
   flex-direction: row;
 }
+
+.card-title.home{
+
+}
+p.card-text.home{
+    font-size:17px;
+    text-align: justify;
+    text-justify: auto;
+}
 /*cards mobile and ipad styling*/
 
 @media (max-width: 1025px){
 
     .card-deck.home, .card.home{
         flex:30%;
+    }
+    p.card-text.home{
+        font-size:13px;
+    
     }
     
 }
@@ -104,6 +117,18 @@ hr.medium-line {
   width: 80%;
   margin: auto;
 }
+
+section.newsletter{
+     box-shadow: 
+    8px 8px 12px 0 rgba(0, 0, 0, 0.5),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.1);
+    padding-bottom:10px;
+    padding-top:5px;
+    margin-top:20px;
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
 /*Newsletter mobile and ipad view*/
 
 @media (max-width: 600px) {
@@ -112,6 +137,9 @@ hr.medium-line {
   }
   .Newsletter {
     width: 80%;
+  }
+  small#emailHelp{
+      font-size:10px;
   }
 }
 
@@ -232,7 +260,7 @@ a:hover {
   bottom: 0;
 }
 
-.card-title {
+.card-title.reads {
   padding-top: 15px;
 }
 
@@ -309,8 +337,9 @@ a.kindle {
     font-size: 10px;
     padding-top:25px;
   }
-  h5.card-title {
+  h5.card-title.reads, .card-title.home {
     font-size: 18px;
+    padding-top:15px;
   }
   .review {
     font-size: 15px;
@@ -328,7 +357,7 @@ a.kindle {
     font-size: 12px;
     padding-top:25px;
   }
-  h5.card-title.reads {
+  h5.card-title.reads, .card-title.home {
     font-size: 20px!important;
     padding-top:20px;
   }
@@ -390,6 +419,9 @@ a.kindle {
   visibility: visible;
 }
 
+.lp.tooltiptext:active{
+    outline:none;
+}
 /*------------------------Tunes-----------------*/
 
 .card-container {
