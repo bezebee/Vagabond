@@ -84,11 +84,20 @@ div.card-deck.home{
 }
 .card.home{
     display: inline-block;
+    border:0;
 }
 p.card-text.home{
     font-size:14px;
     text-align: justify;
     text-justify: auto;
+}
+
+#rectangle{
+      
+      width: 325px;
+      height: 213px;
+      background: black;
+    
 }
 /*cards mobile and ipad styling*/
 
