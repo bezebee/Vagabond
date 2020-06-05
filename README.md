@@ -1,3 +1,6 @@
+![](wireframes/responsive.PNG)
+
+
 # Vagabonds
 A wanderers' website<br>
 #### Live website <i>https://bezebee.github.io/Vagabond/</i>
@@ -7,17 +10,22 @@ A wanderers' website<br>
 # ABOUT
 ##### Vagabonds process of creation was always about one thing, love of art and travelling and how both can be source of inspiration. This website will appeal to users who often choose a book before they plan their holidays. They will then bring this book with them and continue onto getting to know the country they are reading about. It is inspired by a friend of mine whom I travelled Iceland with. She brought a book with her and told me stories about places we were just visiting. I thought it was such an amazing way of experiencing the book.
  
-# UX
-### General
+# UI/UX
 
+#### The theme of the page is travel, ideally user should be looking at it as a shelf full of inspiration. The color scheme and typography was selected to be fun, friendly and inviting. Ideally this page is addressed at a wide demographic of age, assuming users are also travel lovers.
 
 ### Typography
 
+#### The main font is Lexend Peta with some decorative parts being styled in Beth Ellen.
 
 ### Colors
 
+#### Initially I was going to go with two shades of pink for this project, you will notice on my wireframes that the pink design appeared light and happy. And this would be the reason for the initial color choice. When the project was almost completed, I asked for few opinions from potential users and after some deliberation I decided that the color choice may narrow the user demographic a bit. I decided to go for a teal blue instead, as it appears more gender universal.
+##### Dark Teal : rgb (49, 105, 124)
+##### Light Teal : rgb (174, 205, 210)
 
 ### User Stories
+
 
  
 ### Wireframes
