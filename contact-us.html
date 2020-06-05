@@ -9,75 +9,52 @@
        
       })();
 	</script>
-
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=false, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
 	<link rel="stylesheet" href="https://use.typekit.net/dmg2glr.css" />
-
 	<link rel="icon" href="globe.png" />
 	<link rel="stylesheet" href="assets/css/style.css" />
-
 	<title>Vagabonds</title>
 </head>
 
 <body style="margin-top:48px">
 	<!------------------------------------------Navigation-------------------------------------->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<a
-			href="about.html#video"><button class= "btn btn-sm btn-outline-info video"><i class="far fa-play-circle fa-"></i> Watch Video</button></a>
-		<button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+		<a href="about.html#video">
+			<button class="btn btn-sm btn-outline-info video"><i class="far fa-play-circle fa-"></i> Watch Video</button>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
-
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				<li class="nav-item active">	<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="reads.html">Reads</a>
+				<li class="nav-item">	<a class="nav-link" href="reads.html">Reads</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="tunes.html">Tunes</a>
+				<li class="nav-item">	<a class="nav-link" href="tunes.html">Tunes</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="places.html">Places</a>
+				<li class="nav-item">	<a class="nav-link" href="places.html">Places</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="go.html">Go!</a>
+				<li class="nav-item">	<a class="nav-link" href="go.html">Go!</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
-
 	<!---------------------------------------- Motto---------------------------->
-
 	<section class="container-fluid" style="max-width: 100%;">
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container-fluid">
 				<h1 class="display-4 text-center">
 					Vagabonds
 				</h1>
-
 				<p class="lead">read, hear, experience your Journey</p>
 			</div>
 		</div>
 	</section>
-
 	<!--------------------------------------Contact us------------------------>
-
 	<div class="container">
 		<div class="box">
 			<div class="row">
@@ -89,64 +66,41 @@
 						<div class="row">
 							<div class="form-group col-lg-4">
 								<label for="name">Name</label>
-								<input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="Enter your name here"
-                    name="name"
-                    required
-                  />
-                </div>
-								<div class="form-group col-lg-4">
-									<label for="email">Email Address</label>
-									<input
-                    type="text"
-                    class="form-control"
-                    id="email"
-                    placeholder="Enter your email"
-                    name="email_address"
-                    required
-                  />
-                </div>
-									<div class="form-group col-lg-4">
-										<label for="phone">Phone Number</label>
-										<input
-                    type="text"
-                    class="form-control"
-                    id="phone"
-                    placeholder="Enter phone number"
-                    name="phone_number"
-                    required
-                  />
-                </div>
-
-										<div class="form-group col-lg-12">
-											<label style="padding-top: 4%;">Message</label>
-											<textarea
-                    class="form-control"
-                    rows="7"
-                    placeholder="How can we help?"
-                    name="message"
-                    required
-                  ></textarea>
-										</div>
-										<div class="form-group col-lg-12">
-											<button
-                    type="submit"
-                    id="myBtn"
-                    class="btn btn-success btn-sm">
-                    Submit
-                  </button>
-											<button
-                    type="reset"
-                    id="myResetBtn"
-                    class="btn btn-warning btn-sm">
-                    Reset form
-                  </button>
-										</div>
-
+								<input type="text" class="form-control" id="name" placeholder="Enter your name here" name="name" required />
+							</div>
+							<div class="form-group col-lg-4">
+								<label for="email">Email Address</label>
+								<input type="text" class="form-control" id="email" placeholder="Enter your email" name="email_address" required />
+							</div>
+							<div class="form-group col-lg-4">
+								<label for="phone">Phone Number</label>
+								<input type="text" class="form-control" id="phone" placeholder="Enter phone number" name="phone_number" required />
+							</div>
+							<div class="form-group col-lg-12">
+								<label style="padding-top: 4%;">Message</label>
+								<textarea class="form-control" rows="7" placeholder="How can we help?" name="message" required></textarea>
+							</div>
+							<div class="form-group col-lg-12">
+								<button type="submit" id="myBtn" class="btn btn-success btn-sm">Submit</button>
+								<button type="reset" id="myResetBtn" class="btn btn-warning btn-sm">Reset form</button>
+							</div>
+						</div>
+						<div class="modal fade" id="subscriptionModal" tabindex="-1" role="dialog" aria-labelledby="subscriptionModalLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="subscriptionModalLabel">Message from the
+														Vagabonds</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+										</button>
 									</div>
+									<div class="modal-body">We received your message</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-newsletter" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</form>
 					<div class="box">
 						<div class="row">
@@ -158,14 +112,11 @@
 							<div class="col-md-8">
 								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152515.25333588192!2d
 -6.385785668716212!3d53.32444313798125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A
-0xa00c7a9973171a0!2sDublin!5e0!3m2!1sen!2sie!4v1585498091461!5m2!1sen!2sie" width="100%" height="400" frameborder="0"
-									style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+0xa00c7a9973171a0!2sDublin!5e0!3m2!1sen!2sie!4v1585498091461!5m2!1sen!2sie" width="100%" height="400" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 							</div>
 							<div class="col-md-4 text-center text-md-left p-2">
 								<p>Phone: (+353) 87123456</p>
-								<p>
-									Email:
-									<a href="mailto:beeing.about@gmail.com">beeing.about@gmail.com</a>
+								<p>Email:	<a href="mailto:beeing.about@gmail.com">beeing.about@gmail.com</a>
 								</p>
 								<p>Address: Dublin, Ireland</p>
 							</div>
@@ -175,39 +126,26 @@
 			</div>
 		</div>
 	</div>
-
 	<!-----------------------------Share us with your friends------------------------------>
 	<section class="for-sharing">
 		<h4 class="share">Sharing is caring</h4>
-
 		<div class="box-right text-center">
 			<ul class="socials">
 				<li>
-					<a target="_blank"
-						href="https://www.facebook.com/sharer/sharer.php?u=https%3A//bezebee.github.io/Vagabond/">
-						<i class="fab fa-facebook-square fa-3x" style="color: #AECDD2;"></i></a>
+					<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//bezebee.github.io/Vagabond/">	<i class="fab fa-facebook-square fa-3x" style="color: #AECDD2;"></i>
+					</a>
 				</li>
-				<li>
-					<a target="_blank"
-						href="https://twitter.com/intent/tweet?text=https%3A//bezebee.github.io/Vagabond/"><i class="fab fa-twitter fa-3x" style="color: #AECDD2;"></i></a>
+				<li>	<a target="_blank" href="https://twitter.com/intent/tweet?text=https%3A//bezebee.github.io/Vagabond/"><i class="fab fa-twitter fa-3x" style="color: #AECDD2;"></i></a>
 				</li>
-
-				<li>
-					<a target="_blank"
-						href="http://reddit.com/submit?url=bezebee.github.io%2FVagabond"><i class="fab fa-reddit-alien fa-3x" style="color: #AECDD2;"></i></a>
+				<li>	<a target="_blank" href="http://reddit.com/submit?url=bezebee.github.io%2FVagabond"><i class="fab fa-reddit-alien fa-3x" style="color: #AECDD2;"></i></a>
 				</li>
-				<li>
-					<a target="_blank"
-						href="http://www.stumbleupon.com/submit?url=bezebee.github.io%2FVagabond"><i class="fab fa-stumbleupon fa-3x" style="color: #AECDD2;"></i></a>
+				<li>	<a target="_blank" href="http://www.stumbleupon.com/submit?url=bezebee.github.io%2FVagabond"><i class="fab fa-stumbleupon fa-3x" style="color: #AECDD2;"></i></a>
 				</li>
-				<li>
-					<a target="_blank"
-						href="https://pinterest.com/pin/create/bookmarklet/?url=bezebee.github.io%2FVagabond"><i class="fab fa-pinterest fa-3x" style="color: #AECDD2;"></i></a>
+				<li>	<a target="_blank" href="https://pinterest.com/pin/create/bookmarklet/?url=bezebee.github.io%2FVagabond"><i class="fab fa-pinterest fa-3x" style="color: #AECDD2;"></i></a>
 				</li>
 			</ul>
 		</div>
 	</section>
-
 	<!---------------------------------------------------------------Footer----------------------------->
 	<footer>
 		<div class="container">
@@ -215,7 +153,6 @@
 				<div class="col-sm col-4"><a href="about.html">
 						Video</a>
 				</div>
-
 				<div class="vl"></div>
 				<div class="col-sm col-4"><a href="privacy.html">
 						Privacy</a>
@@ -228,14 +165,12 @@
 		</div>
 		<section>
 			<div class="col">
-				<p class="copyright text-center">
-					<a href="https://bezebee.github.io/Beeing-About/" target="_blank">Beeing About &copy; 2020</a>
+				<p class="copyright text-center">	<a href="https://bezebee.github.io/Beeing-About/" target="_blank">Beeing About &copy; 2020</a>
 				</p>
 			</div>
 		</section>
 	</footer>
 	<script src="assets/js/sendEmail.js"></script>
-
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
