@@ -105,22 +105,22 @@ This website offers multiple inspirations all in one place. Books, music and ima
 ##### As a user I expect the site to be intuitive, with easy access to the next stage of the page
 User automatically knows where to go next, whether they decide to click on the card on Home page or on the Navigation Bar, they get to the next page without issues. The tabs are named so the user knows intuitively
 ##### As a user I appreciate if every click serves a useful information
+Throughout the page there is an abundance of information offered to the visitor, to fullfil the taks of providing the inspiration. Should the user choose to click on the Reads, they are welcomed with a selection of books. They might have not heard about some of the books, the sample of review may give them a glimpse of whether the book may spark their interest or not. If it sparked their interest, users are immediately offered opportunity to purchase the book for Kindle, which means an immediate ownership of that book. Similar of the page with tunes or with places, multiple opportunities to read about the artist or access information about interesting activities in the area are offered.
 ##### When I click on the books, I would like to see on the map where is the action taking place
-##### As a music lover, once I discovered new music, I expect this site to tell me more about the band and provide samples of tunes
+In case they might be interested in travelling to the country in which the action of the book takes place, a modal with map location also offers article about that country. User is surrounded with this information, in case it is the first time they hear about certain country. We all know what happened when Eurovision went ot Azerbaijan. 
 ##### Whether I am a seasoned traveller or a newbie to wandering the world, this site should suggest few places I might want to visit, even without me having to read a book or listen to the tune
+When clicked on Places, the visitor has opportunity to create their own bucket list from selection of places suggested on that page. If the user is an aspiring photographer, they are offered an inspiration search, in case they would like to follow a certain image and take one of their own.
 ##### As a regular user I would like to be able to subscribe to any news this site has to offer
+On each page there is an opportunity offered to subscribe to news.
 ##### Once inspired by all of the ideas, as a user, I'd like to be able to check out some flights and perhaps even book some
-
+The last of the main tabs, Go!, is designed to give an inspired user opportunity to immediately book their flights.
 
 ### Browsers testing
-##### Chrome 
-
-##### Mozilla Firefox 
-
-### Mobile testing
+Throughout the process of Vagabond design and development I have extensively utilised the Chrome Dev Tools, this allowed an instant feedback on any changes tested. Through the Dev Tools I also tested the responsiveness of the website. The feedback was good on all available screensizes
 
 ### Features testing
-
+##### Home
+- Cards links - go to Home page, click on each Card links and check if opens, does it lead to the correct page?
 
 
 
