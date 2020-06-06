@@ -6,6 +6,7 @@ function sendMail(Newsletter) {
     .then(
       function (response) {
         console.log("SUCCESS", response);
+        alert("You have subscribed!");
       },
       function (error) {
         console.log("FAILED", error);
