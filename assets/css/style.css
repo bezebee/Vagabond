@@ -580,15 +580,27 @@ a.kindle {
 }
 /*---------------------------Contact Us-----------------------*/
 
-.modal-content {
-  background-color: rgb(255, 255, 255);
-  border: solid 1px rgb(49, 105, 124);
-  border-radius: 4%;
+h2.heading.text-center.contact{
+    font-family:"Lexend Peta"!important;
+    font-size:25px;
+    text-transform: lowercase;
+    color:rgb(49, 105, 124);
 }
 
-.modalBtn {
-  color: rgb(174, 205, 210);
-  background-color: rgb(49, 105, 124);
+div.form-group.col-lg-4.contact,
+div.form-group.col-lg-12.contact{
+    font-family:"Lexend Peta"!important;
+    font-size:15px;
+    text-transform: lowercase;
+    color:rgb(49, 105, 124);
+}
+
+div.col-md-4.text-center.text-md-left.p-2{
+
+font-family:"Lexend Peta"!important;
+    font-size:15px;
+    text-transform: lowercase;
+    color:rgb(49, 105, 124);
 }
 /*--------------------------------Places------------------------*/
 
