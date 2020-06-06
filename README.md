@@ -19,8 +19,8 @@ The main font is Lexend Peta with some decorative parts being styled in Beth Ell
 
 ### Colors
 
-Initially I was going to go with two shades of pink for this project, you will notice on my wireframes that the pink design appeared light and happy. And this would be the reason for the initial color choice. When the project was almost completed, I asked for few opinions from potential users and after some deliberation I decided that the color choice may narrow the user demographic a bit. I decided to go for a teal blue instead, as it appears more gender universal.
-Dark Teal : rgb (49, 105, 124)
+Initially I was going to go with two shades of pink for this project, you will notice on my wireframes that the pink design appeared light and happy. And this would be the reason for the initial color choice. When the project was almost completed, I asked for few opinions from potential users and after some deliberation I decided that the color choice may narrow the user demographic a bit. I decided to go for a teal blue instead, as it appears more gender universal.<br><br>
+Dark Teal : rgb (49, 105, 124)<br>
 Light Teal : rgb (174, 205, 210)
 
 ### User Stories
@@ -180,9 +180,10 @@ My Mentor Precious Ijege for his timely and honest guidance, this would be entir
 
 ## Resources used in the process of Vagabond design and build:
 
-[Share Link Generator](http://www.sharelinkgenerator.com/)
-[Web Dev Simplified "Build a Clock With JavaScript](https://www.youtube.com/watch?v=Ki0XXrlKlHY)
-[Traversy Media "Google Maps JavaScript API Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1446s)
+[Share Link Generator](http://www.sharelinkgenerator.com/)<br>
+[Web Dev Simplified "Build a Clock With JavaScript](https://www.youtube.com/watch?v=Ki0XXrlKlHY)<br>
+[Traversy Media "Google Maps JavaScript API Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1446s)<br>
+[Equk Unsplash API tutorial](https://github.com/equk/unsplash-js-search)<br>
 
 
 
