@@ -6,7 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  border:0!important;
+  border: 0 !important;
 }
 
 body {
@@ -23,8 +23,14 @@ li {
 
 /*Navigation styling*/
 
-.navbar-toggler{
-border: 0 !important;
+.btn.btn-sm.btn-outline-info.video {
+  font-family: "Lexend Peta";
+  font-size: 17px;
+  text-transform: lowercase;
+}
+
+.navbar-toggler {
+  border: 0 !important;
 }
 
 ul li,
@@ -34,7 +40,6 @@ ul li,
   text-transform: lowercase;
   color: rgb(49, 105, 124);
 }
-
 
 /*Wanderlust Jumbotron*/
 
@@ -49,8 +54,7 @@ section.container-fluid {
   letter-spacing: 7px;
   margin-bottom: 3px;
   color: rgb(49, 105, 124);
-text-shadow: 2px 3px 4px rgb(49, 105, 124, .3); 
-  
+  text-shadow: 2px 3px 4px rgb(49, 105, 124, 0.3);
 }
 
 hr.medium-line {
@@ -73,48 +77,40 @@ hr.medium-line {
 /*vagabond cards styling*/
 
 .container.intro {
-  
   justify-content: center;
   flex-direction: row;
 }
 
-div.card-deck.home{
-    text-align: center;
+div.card-deck.home {
+  text-align: center;
+}
+.card.home {
+  display: inline-block;
+  border: 0;
+}
+p.card-text.home {
+  font-size: 14px;
+  text-align: justify;
+  text-justify: auto;
+}
 
-}
-.card.home{
-    display: inline-block;
-    border:0;
-}
-p.card-text.home{
-    font-size:14px;
-    text-align: justify;
-    text-justify: auto;
-}
-
-#rectangle{
-      
-width: 325px;
-height: 213px;
-background: black;
-min-width:100%;
-   
+#rectangle {
+  width: 325px;
+  height: 213px;
+  background: black;
+  min-width: 100%;
 }
 /*cards mobile and ipad styling*/
 
-@media (max-width: 1025px){
-
-    .card-deck.home, .card.home{
-        flex:30%;
-    }
-    p.card-text.home{
-        font-size:13px;
-    
-    }
-    
+@media (max-width: 1025px) {
+  .card-deck.home,
+  .card.home {
+    flex: 30%;
+  }
+  p.card-text.home {
+    font-size: 13px;
+  }
 }
-
-
 
 /*Footer*/
 
@@ -135,16 +131,15 @@ min-width:100%;
   margin: auto;
 }
 
-section.newsletter{
-     box-shadow: 
-    8px 8px 12px 0 rgba(0, 0, 0, 0.5),
+section.newsletter {
+  box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.5),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.1);
-    padding-bottom:10px;
-    padding-top:5px;
-    margin-top:20px;
-    max-width:1000px;
-    margin-left:auto;
-    margin-right:auto;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-top: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*Newsletter mobile and ipad view*/
 
@@ -155,11 +150,10 @@ section.newsletter{
   .Newsletter {
     width: 80%;
   }
-  small#emailHelp{
-      font-size:10px;
+  small#emailHelp {
+    font-size: 10px;
   }
 }
-
 
 /*Main button styling*/
 
@@ -218,7 +212,6 @@ a:hover {
     text-transform: lowercase;
     letter-spacing: 7px;
     font-size: 130%;
-   
   }
 
   .medium-line {
@@ -340,8 +333,6 @@ a.kindle {
     padding-top: 20px;
   }
 
-  
-
   .kindle img {
     width: 50px;
     height: 50px;
@@ -352,11 +343,12 @@ a.kindle {
 @media only screen and (min-width: 1000px) {
   p.card-text.reads {
     font-size: 10px;
-    padding-top:25px;
+    padding-top: 25px;
   }
-  h5.card-title.reads, .card-title.home {
+  h5.card-title.reads,
+  .card-title.home {
     font-size: 18px;
-    padding-top:15px;
+    padding-top: 15px;
   }
   .review {
     font-size: 15px;
@@ -372,11 +364,12 @@ a.kindle {
 @media only screen and (max-width: 800px) {
   p.card-text.reads {
     font-size: 12px;
-    padding-top:25px;
+    padding-top: 25px;
   }
-  h5.card-title.reads, .card-title.home {
-    font-size: 20px!important;
-    padding-top:20px;
+  h5.card-title.reads,
+  .card-title.home {
+    font-size: 20px !important;
+    padding-top: 20px;
   }
   .review {
     font-size: 15px;
@@ -436,8 +429,8 @@ a.kindle {
   visibility: visible;
 }
 
-.lp.tooltiptext:active{
-    outline:none;
+.lp.tooltiptext:active {
+  outline: none;
 }
 /*------------------------Tunes-----------------*/
 
@@ -488,8 +481,9 @@ a.kindle {
   perspective: 700px;
 }
 
-.front, .back{
-    border:0;
+.front,
+.back {
+  border: 0;
 }
 
 /*front and back same size*/
@@ -580,79 +574,76 @@ a.kindle {
 }
 /*---------------------------Contact Us-----------------------*/
 
-h2.heading.text-center.contact{
-    font-family:"Lexend Peta"!important;
-    font-size:25px;
-    text-transform: lowercase;
-    color:rgb(49, 105, 124);
+h2.heading.text-center.contact {
+  font-family: "Lexend Peta" !important;
+  font-size: 25px;
+  text-transform: lowercase;
+  color: rgb(49, 105, 124);
 }
 
 div.form-group.col-lg-4.contact,
-div.form-group.col-lg-12.contact{
-    font-family:"Lexend Peta"!important;
-    font-size:15px;
-    text-transform: lowercase;
-    color:rgb(49, 105, 124);
+div.form-group.col-lg-12.contact {
+  font-family: "Lexend Peta" !important;
+  font-size: 15px;
+  text-transform: lowercase;
+  color: rgb(49, 105, 124);
 }
 
-div.col-md-4.text-center.text-md-left.p-2{
-
-font-family:"Lexend Peta"!important;
-    font-size:15px;
-    text-transform: lowercase;
-    color:rgb(49, 105, 124);
+div.col-md-4.text-center.text-md-left.p-2 {
+  font-family: "Lexend Peta" !important;
+  font-size: 15px;
+  text-transform: lowercase;
+  color: rgb(49, 105, 124);
 }
 /*--------------------------------Places------------------------*/
 
-
-p.card-title.places{
-font-size: 12px!important;
+p.card-title.places {
+  font-size: 12px !important;
 }
-div.row.places{
-    display:inline-block;
-    padding-top:2px; 
+div.row.places {
+  display: inline-block;
+  padding-top: 2px;
 }
 
-a.btn.btn-outline-info{
-    font-family:"Lexend Peta"!important;
-    font-size:9px;
-    text-transform: lowercase;
+a.btn.btn-outline-info {
+  font-family: "Lexend Peta" !important;
+  font-size: 9px;
+  text-transform: lowercase;
 }
 
 /*-----------------Info window styling--------------*/
 
 div.gm-style.gm-style-iw-c {
-    box-shadow: 0 2px 7px 1px rgba(0,0,0,0.2);}
+  box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+}
 
 /*-----------------Info window mobile setup--------*/
 
 @media only screen and (max-width: 420px) {
-.row.places{
-    width:180px;
-}
+  .row.places {
+    width: 180px;
+  }
 
-p.card-title.places{
-    font-size:13px!important;
-    padding-bottom:3px;
-}
-div.gm-style-iw.gm-style-iw-c{
-    padding-left:0;
-    padding-top:0;
-}
+  p.card-title.places {
+    font-size: 13px !important;
+    padding-bottom: 3px;
+  }
+  div.gm-style-iw.gm-style-iw-c {
+    padding-left: 0;
+    padding-top: 0;
+  }
 
-.btn.btn-outline-info{
-    width:175px;
-}   
-div.card-body.places{
-    width:215px!important;
+  .btn.btn-outline-info {
+    width: 175px;
+  }
+  div.card-body.places {
+    width: 215px !important;
+  }
 }
-}
-
-
 
 /*-------------Image search grid styling--------*/
 
-img{
+img {
   padding-right: 0;
   margin-left: auto;
   margin-right: auto;
@@ -716,8 +707,8 @@ a.view_link.col-12:hover {
   font-family: "Beth Ellen";
 }
 
-p.p-privacy{
-    font-size:15px;
+p.p-privacy {
+  font-size: 15px;
 }
 /*--------------Go!/Taken from Skyscanner and adapted to the color scheme of the Vagabond website-------------*/
 .PoweredBySkyscanner__logo___2attf {
@@ -742,7 +733,8 @@ span.ReferralButton__cta___2Yxt0:hover {
   color: rgb(49, 105, 124) !important;
 }
 
-.FlightSearchWidget__searchWidget___1yYnU, .bpk-button.bpk-button--secondary.MultiCityBlock__addFlightButton___XFoP2 {
+.FlightSearchWidget__searchWidget___1yYnU,
+.bpk-button.bpk-button--secondary.MultiCityBlock__addFlightButton___XFoP2 {
   font-family: "Lexend Peta" !important;
   font-size: 17px;
   text-transform: lowercase;
@@ -752,12 +744,12 @@ span.ReferralButton__cta___2Yxt0:hover {
 .bpk-link:visited {
   color: rgb(49, 105, 124) !important;
   background: 2px 3px 4px rgba(251, 255, 5, 0.308);
-  text-align:center;
+  text-align: center;
 }
 .bpk-link:hover {
   text-decoration: none;
   background: rgb(251, 255, 5, 0.308);
-  text-align:center;
+  text-align: center;
 }
 a.bpk-link {
   border: 1px solid rgb(251, 255, 5, 0.308);
@@ -766,7 +758,7 @@ a.bpk-link {
   padding-left: 17px;
   padding-right: 17px;
   padding-bottom: 7px;
-  text-align:center;
+  text-align: center;
 }
 a.bpk-link:hover {
   text-shadow: 2px 3px 4px rgb(49, 105, 124);
@@ -785,14 +777,13 @@ a.bpk-link:hover {
   select.bpk-select {
     font-size: 9px;
   }
-  a.bpk-link{
-    padding-left:8px;
-    padding-right:8px;
+  a.bpk-link {
+    padding-left: 8px;
+    padding-right: 8px;
   }
   a.bpk-button {
     padding-top: 3px;
     padding-bottom: 3px;
-
   }
   .ReferralButton__buttonContainer___3X6Dk {
     margin-top: 30px !important;
@@ -805,10 +796,9 @@ a.bpk-link:hover {
   height: 300px;
   background-color: rgba(190, 219, 219, 0.589);
   border-radius: 50%;
-  
+
   position: relative;
-  box-shadow: 
-    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
 
@@ -819,7 +809,6 @@ a.bpk-link:hover {
   height: 100%;
   text-align: center;
   transform: rotate(var(--rotation));
-  
 }
 
 .clock .number1 {
@@ -863,13 +852,12 @@ a.bpk-link:hover {
   left: 50%;
 
   background-color: black;
-  
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transform-origin: bottom;
   z-index: 10;
   transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
-
 }
 
 .clock::after {
@@ -883,7 +871,6 @@ a.bpk-link:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
- 
 }
 
 .clock .hand.second {
