@@ -100,12 +100,7 @@ p.card-text.home {
   text-justify: auto;
 }
 
-#rectangle {
-  width: 325px;
-  height: 213px;
-  background: black;
-  min-width: 100%;
-}
+
 /*cards mobile and ipad styling*/
 
 @media (max-width: 1025px) {
