@@ -1,9 +1,8 @@
 ![](wireframes/responsive.PNG)
 
+# [Vagabonds](https://bezebee.github.io/Vagabond/)
 
-# Vagabonds
 A wanderers' website<br>
-#### Live website <i>https://bezebee.github.io/Vagabond/</i>
 
 
 
@@ -81,19 +80,20 @@ The basis for this project, HTML is the standard markup language for documents d
 ### CSS
 Cascading Style Sheets are an example of a style sheet language used for describing the presentation of a document written in a HTML.
 ### Javascript
-
+Used for coding in the maps markers, the clocks, the subscription forms, the contact forms, the search box
 ### Gitpod
 An Integrated Development Environment (IDE) designed to provide platform for software development and website design
 ### Google Fonts
 Very resource rich service offered by Google
-### Adobe Fonts
-Resource used for the logo font
-### Minify Code
-http://minifycode.com/html-beautifier/
+### Adobe Premiere Pro
+Video editing software for the promo
+### [Minify Code](http://minifycode.com/html-beautifier/)
 Used for beautifying HTML code
-### FreeFormatter.com 
-https://www.freeformatter.com/css-beautifier.html
+### [FreeFormatter.com](https://www.freeformatter.com/css-beautifier.html)
 Used for beautifying CSS code
+### [Unsplash](https://unsplash.com/documentation)
+Used for image search on Places page
+
 
 # TESTING
 
@@ -121,12 +121,32 @@ Throughout the process of Vagabond design and development I have extensively uti
 ### Features testing
 ##### Home
 - Cards links - go to Home page, click on each Card links and check if opens, does it lead to the correct page?
-
-
-
+- Sharing links - on each page click on each of the five links, do they open in a separate tab? 
+- Subscribe to Newsletter - on each page enter email to the subscription form, does it return a confirmation when the subscribtion is completed. Try submitting empty form, does it return an error?
+- Footer links - click on the Video, Privacy and Contact Us links, do they open the correct page?
+- Contact Us form - Fill out the form and submit. Does it return a confirmation when sent? Submit incomplete form, does it return an error? Click on button resetting form, does it clear the content?
+- Reads:
+  - hover over the globe icon next to the country name on the book card, does it display a tooltip with information?
+  - click on the globe icon - does the map display with a marker? When clicked on, does the marker display the name of the country?
+  - hover over the Lonely Planet button, does the tooltip appears with the information?
+  - click on the Lonely Planet button, does the link with article on Lonely Planet open in a separate tab?
+  - click on the close button, does the modal close?
+  - click on the button with a newspaper name - it should open a full review of which fragment you are reading above
+  - click on the Kindle icon, it should open Amazon page where the book can be purchased
+- Tunes
+  - hover over the tile, does it flip?
+  - click on the YouTube video, does it play?
+  - click on each of the icons above the video, does the selected page open in a separate tab?
+- Places
+  - click on a marker on the map - does the info window with a card open?
+  - click on the button within the card, does the left button lead to an article about that location? Does it open in a separate tab?
+  - click on the button on the right, does it offer a selection of trips in a separate tab?
+  - tap on the map next to the info-window, does it close the modal?
+  - enter a location of choice onto the search box under the map, does it bring up a selection of images from that place?
+- Go!
+  - fill in the details of your dream destination, does the 'Search Flights' button open a separate Skyskanner page with the results of your search?
+  
 # DEPLOYMENT
-
-# Deployment
 
 ## Using Github Pages
 
@@ -152,6 +172,17 @@ In the GitHub Repository from the project https://github.com/bezebee/Vagabond/
 # CREDITS
 ### Media
 
+The video snaps used in the promo on Video and Home page were downloaded from Pexels and edited by me.
+
+
 ### Acknowledgements
 My Mentor Precious Ijege for his timely and honest guidance, this would be entirely different project if not for his advise on tweaking the direction a little bit. 
+
+## Resources used in the process of Vagabond design and build:
+
+[Share Link Generator](http://www.sharelinkgenerator.com/)
+[Web Dev Simplified "Build a Clock With JavaScript](https://www.youtube.com/watch?v=Ki0XXrlKlHY)
+[Traversy Media "Google Maps JavaScript API Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1446s)
+
+
 
