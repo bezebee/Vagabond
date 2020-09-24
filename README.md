@@ -7,7 +7,7 @@ A wanderers' website<br>
 
 
 # ABOUT
-Vagabonds process of creation was always about one thing, love of art and travelling and how both can be source of inspiration. This website will appeal to users who often choose a book before they plan their holidays. They will then bring this book with them and continue onto getting to know the country they are reading about. It is inspired by a friend of mine whom I travelled Iceland with. She brought a book with her and told me stories about places we were just visiting. I thought it was such an amazing way of experiencing the book.
+Vagabonds process of creation was always about one thing, love of books and travelling and how both can be source of inspiration. This website will appeal to users who often choose a book before they plan their holidays. They will then bring this book with them and continue onto getting to know the country they are reading about. It is inspired by a friend of mine whom I travelled Iceland with. She brought a book with her and told me stories about places we were just visiting. I thought it was such an amazing way of experiencing the book.
  
 # UI/UX
 
